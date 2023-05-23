@@ -19,11 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Infrastructure", "SM.Infrastructure", "{7063D3AD-3DEE-49C1-A6C1-E8CC63C1F7AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Infra.EfCore", "ShopManagement.Infra.EfCore\ShopManagement.Infra.EfCore.csproj", "{0ADC813C-75FF-4881-A0E3-AE35BB6667E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Infra.EfCore", "ShopManagement.Infra.EfCore\ShopManagement.Infra.EfCore.csproj", "{0ADC813C-75FF-4881-A0E3-AE35BB6667E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Infra.Configuration", "ShopManagement.Infra.Configuration\ShopManagement.Infra.Configuration.csproj", "{553BE33B-8692-495E-BA9F-31C21E06C99C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Infra.Configuration", "ShopManagement.Infra.Configuration\ShopManagement.Infra.Configuration.csproj", "{553BE33B-8692-495E-BA9F-31C21E06C99C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lampshade.WebApp", "Lampshade.WebApp\Lampshade.WebApp.csproj", "{ABB6B660-080E-4D12-8E73-07608F024509}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lampshade.WebApp", "Lampshade.WebApp\Lampshade.WebApp.csproj", "{ABB6B660-080E-4D12-8E73-07608F024509}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
