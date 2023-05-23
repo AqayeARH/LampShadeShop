@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Infra.EfCore.Mapping;
 
@@ -14,6 +15,7 @@ namespace ShopManagement.Infra.EfCore
         #region Db Sets
 
         public DbSet<ProductCategory> ProductCategories { get; set; }
+        public DbSet<Product> Products { get; set; }
 
         #endregion
 

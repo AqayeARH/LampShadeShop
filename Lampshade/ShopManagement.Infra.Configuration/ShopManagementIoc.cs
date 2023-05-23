@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;
+using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductCategory;
+using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Infra.EfCore;
 using ShopManagement.Infra.EfCore.Repositories;
@@ -16,6 +18,13 @@ namespace ShopManagement.Infra.Configuration
 
             service.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
             service.AddTransient<IProductCategoryApplication, ProductCategoryApplication>();
+
+            #endregion
+
+            #region Product
+
+            service.AddTransient<IProductRepository, ProductRepository>();
+            service.AddTransient<IProductApplication,ProductApplication>();
 
             #endregion
 

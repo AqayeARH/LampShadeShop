@@ -1,4 +1,5 @@
 ﻿using _0.Framework.Domain;
+using ShopManagement.Domain.ProductAgg;
 
 namespace ShopManagement.Domain.ProductCategoryAgg
 {
@@ -12,6 +13,13 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         public string KeyWords { get; private set; }
         public string MetaDescription { get; private set; }
         public string Slug { get; private set; }
+        public List<Product> Products { get; private set; }
+
+        //Empty constructor
+        protected ProductCategory()
+        {
+            Products = new List<Product>();
+        }
 
         //The constructor is called when creating a new instance
         public ProductCategory(string name, string description, string picture, string pictureAlt, string pictureTitle, string keyWords, string metaDescription, string slug)

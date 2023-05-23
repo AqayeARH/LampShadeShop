@@ -6,6 +6,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
     public interface IProductCategoryRepository : IGenericRepository<long, ProductCategory>
     {
         EditProductCategoryCommand GetDetailForEdit(long id);
-        List<ProductCategoryVewModel> GetByFilter(ProductCategorySearchModel searchModel);
+        List<ProductCategoryViewModel> GetByFilter(ProductCategorySearchModel searchModel);
+        List<ProductCategoryViewModel> GetProductCategories();
     }
 }

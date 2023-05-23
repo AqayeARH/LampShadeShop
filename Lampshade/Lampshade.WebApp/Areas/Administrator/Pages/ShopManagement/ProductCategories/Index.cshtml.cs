@@ -16,7 +16,7 @@ namespace Lampshade.WebApp.Areas.Administrator.Pages.ShopManagement.ProductCateg
 
         #endregion
 
-        public List<ProductCategoryVewModel> ProductCategories { get; set; }
+        public List<ProductCategoryViewModel> ProductCategories { get; set; }
         public ProductCategorySearchModel SearchModel { get; set; }
         public void OnGet(ProductCategorySearchModel searchModel)
         {

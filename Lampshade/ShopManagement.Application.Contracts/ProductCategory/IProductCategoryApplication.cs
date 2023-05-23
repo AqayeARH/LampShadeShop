@@ -7,6 +7,7 @@ namespace ShopManagement.Application.Contracts.ProductCategory
         OperationResult Create(CreateProductCategoryCommand command);
         EditProductCategoryCommand GetForEdit(long id);
         OperationResult Edit(EditProductCategoryCommand command);
-        List<ProductCategoryVewModel> GetList(ProductCategorySearchModel searchModel);
+        List<ProductCategoryViewModel> GetList(ProductCategorySearchModel searchModel);
+        List<ProductCategoryViewModel> GetProductCategories();
     }
 }

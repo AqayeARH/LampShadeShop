@@ -34,10 +34,10 @@ namespace ShopManagement.Infra.EfCore.Repositories
                 }).FirstOrDefault(x => x.Id == id);
         }
 
-        public List<ProductCategoryVewModel> GetByFilter(ProductCategorySearchModel searchModel)
+        public List<ProductCategoryViewModel> GetByFilter(ProductCategorySearchModel searchModel)
         {
             var query = _context.ProductCategories
-                .Select(x => new ProductCategoryVewModel
+                .Select(x => new ProductCategoryViewModel
                 {
                     Id = x.Id,
                     Name = x.Name,
@@ -52,6 +52,15 @@ namespace ShopManagement.Infra.EfCore.Repositories
             }
 
             return query.OrderByDescending(x => x.Id).ToList();
+        }
+
+        public List<ProductCategoryViewModel> GetProductCategories()
+        {
+            return _context.ProductCategories.Select(x => new ProductCategoryViewModel()
+            {
+                Name = x.Name,
+                Id = x.Id
+            }).ToList();
         }
     }
 }

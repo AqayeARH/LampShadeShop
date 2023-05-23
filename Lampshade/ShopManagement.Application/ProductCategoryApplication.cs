@@ -66,9 +66,14 @@ namespace ShopManagement.Application
             return operation.Success();
         }
 
-        public List<ProductCategoryVewModel> GetList(ProductCategorySearchModel searchModel)
+        public List<ProductCategoryViewModel> GetList(ProductCategorySearchModel searchModel)
         {
             return _productCategoryRepository.GetByFilter(searchModel);
+        }
+
+        public List<ProductCategoryViewModel> GetProductCategories()
+        {
+            return _productCategoryRepository.GetProductCategories();
         }
     }
 }
