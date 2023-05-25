@@ -26,7 +26,7 @@ namespace ShopManagement.Infra.EfCore.Repositories
                     Name = x.Name,
                     Code = x.Code,
                     Id = x.Id,
-                    UnitPrice = x.UnitPrice,
+                    UnitPrice = x.UnitPrice.ToString("#,0"),
                     CategoryName = x.Category.Name,
                     Picture = x.Picture,
                     CategoryId = x.CategoryId,
@@ -52,6 +52,16 @@ namespace ShopManagement.Infra.EfCore.Repositories
             #endregion
 
             return query.OrderByDescending(x => x.Id).ToList();
+        }
+
+        public List<ProductViewModel> GetProducts()
+        {
+            return _context.Products
+                .Select(x => new ProductViewModel()
+                {
+                    Id = x.Id,
+                    Name = x.Name
+                }).ToList();
         }
 
         public EditProductCommand GetDetailForEdit(long id)

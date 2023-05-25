@@ -6,6 +6,7 @@ namespace ShopManagement.Domain.ProductAgg
     public interface IProductRepository : IGenericRepository<long, Product>
     {
         List<ProductViewModel> GetByFilter(ProductSearchModel searchModel);
+        List<ProductViewModel> GetProducts();
         EditProductCommand GetDetailForEdit(long id);
     }
 }

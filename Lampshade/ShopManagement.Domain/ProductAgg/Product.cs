@@ -1,5 +1,6 @@
 ﻿using _0.Framework.Domain;
 using ShopManagement.Domain.ProductCategoryAgg;
+using ShopManagement.Domain.ProductPictureAgg;
 
 namespace ShopManagement.Domain.ProductAgg
 {
@@ -20,7 +21,15 @@ namespace ShopManagement.Domain.ProductAgg
         public string KayWords { get; private set; }
         public string MetaDescription { get; private set; }
 
+        public List<ProductPicture> ProductPictures { get; private set; }
+
         //The constructor is called when creating a new instance
+
+        protected Product()
+        {
+            ProductPictures = new List<ProductPicture>();
+        }
+
         public Product(string name, long categoryId, double unitPrice, string code, string shortDescription,
             string description, string picture, string pictureAlt, string pictureTitle, string slug, 
             string kayWords, string metaDescription)

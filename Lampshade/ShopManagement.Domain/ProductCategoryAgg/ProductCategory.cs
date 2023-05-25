@@ -15,7 +15,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         public string Slug { get; private set; }
         public List<Product> Products { get; private set; }
 
-        //Empty constructor
+        //Empty constructor for ef core relations
         protected ProductCategory()
         {
             Products = new List<Product>();

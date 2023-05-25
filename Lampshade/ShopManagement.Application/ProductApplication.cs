@@ -96,5 +96,10 @@ namespace ShopManagement.Application
             _productRepository.Save();
             return operation.Success();
         }
+
+        public List<ProductViewModel> GetProducts()
+        {
+            return _productRepository.GetProducts();
+        }
     }
 }
