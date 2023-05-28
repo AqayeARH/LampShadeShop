@@ -1,4 +1,5 @@
-﻿using _0.Framework.Infrastructure;
+﻿using _0.Framework.Application;
+using _0.Framework.Infrastructure;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
 
@@ -42,7 +43,7 @@ namespace ShopManagement.Infra.EfCore.Repositories
                     Id = x.Id,
                     Name = x.Name,
                     Picture = x.Picture,
-                    CreationDate = x.CreationDate.ToShortDateString(),
+                    CreationDate = x.CreationDate.ToFarsi(),
                     ProductsCount = 12
                 }).AsQueryable();
 

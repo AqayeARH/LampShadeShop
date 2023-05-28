@@ -751,6 +751,19 @@
           "bin/placeholder/0.Framework.dll": {}
         }
       },
+      "Lampshade.Query/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ShopManagement.Infra.EfCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Lampshade.Query.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lampshade.Query.dll": {}
+        }
+      },
       "ShopManagement.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1978,6 +1991,11 @@
       "path": "../0.Framework/0.Framework.csproj",
       "msbuildProject": "../0.Framework/0.Framework.csproj"
     },
+    "Lampshade.Query/1.0.0": {
+      "type": "project",
+      "path": "../Lampshade.Query/Lampshade.Query.csproj",
+      "msbuildProject": "../Lampshade.Query/Lampshade.Query.csproj"
+    },
     "ShopManagement.Application/1.0.0": {
       "type": "project",
       "path": "../ShopManagement.Application/ShopManagement.Application.csproj",
@@ -2001,6 +2019,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Lampshade.Query >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0",
       "ShopManagement.Application >= 1.0.0",
       "ShopManagement.Application.Contracts >= 1.0.0",
@@ -2041,6 +2060,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.Query\\Lampshade.Query.csproj": {
+              "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.Query\\Lampshade.Query.csproj"
+            },
             "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
               "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
             },

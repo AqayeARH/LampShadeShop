@@ -1,3 +1,4 @@
+using DiscountManagement.Infra.Configuration;
 using ShopManagement.Infra.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +8,7 @@ var service = builder.Services;
 var connectionString = builder.Configuration.GetConnectionString("LampshadeConnection");
 
 ShopManagementIoc.Configure(service, connectionString);
+DiscountManagementIoc.Configure(service,connectionString);
 
 
 service.AddRazorPages();

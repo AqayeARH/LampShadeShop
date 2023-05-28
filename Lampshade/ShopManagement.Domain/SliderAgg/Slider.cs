@@ -11,10 +11,11 @@ namespace ShopManagement.Domain.SliderAgg
         public string Title { get; private set; }
         public string Text { get; private set; }
         public string BtnText { get; private set; }
+        public string Link { get; private set; }
         public bool IsRemoved { get; private set; }
 
         //The constructor is called when creating a new instance
-        public Slider(string picture, string pictureAlt, string pictureTitle, string heading, string title, string text, string btnText)
+        public Slider(string picture, string pictureAlt, string pictureTitle, string heading, string title, string text, string btnText, string link)
         {
             Picture = picture;
             PictureAlt = pictureAlt;
@@ -23,11 +24,12 @@ namespace ShopManagement.Domain.SliderAgg
             Title = title;
             Text = text;
             BtnText = btnText;
+            Link = link;
             IsRemoved = false;
         }
 
         //The edit method is called when an entity is changed
-        public void Edit(string picture, string pictureAlt, string pictureTitle, string heading, string title, string text, string btnText)
+        public void Edit(string picture, string pictureAlt, string pictureTitle, string heading, string title, string text, string btnText, string link)
         {
             Picture = picture;
             PictureAlt = pictureAlt;
@@ -36,6 +38,7 @@ namespace ShopManagement.Domain.SliderAgg
             Title = title;
             Text = text;
             BtnText = btnText;
+            Link = link;
         }
 
         public void Remove()

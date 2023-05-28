@@ -1,0 +1,43 @@
+﻿@* Show Product Categories In Index View *@
+@model List<Lampshade.Query.Contracts.ProductCategory.ProductCategoryQueryModel>
+@{
+    Layout = null;
+}
+
+<!--====================  category area ====================-->
+<div class="category-area section-space">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!--=======  category wrapper  =======-->
+                <div class="category-wrapper">
+                    <div class="row row-10 masonry-category-layout">
+
+                        @foreach (var item in Model)
+                        {
+                            <div class="col-lg-4 col-sm-6 grid-item">
+                                <!--=======  single category item  =======-->
+                                <div class="single-category-item">
+                                    <div class="single-category-item__image">
+                                        <a asp-page="ProductCategory" asp-route-Id="@item.Slug" title="@item.Name">
+                                            <img src="@item.Picture" title="@item.PictureTitle" class="img-fluid" alt="@item.PictureAlt">
+                                        </a>
+                                    </div>
+                                    <div class="single-category-item__content">
+                                        <h3 class="title">@item.Name</h3>
+                                        <a asp-page="/ProductCategory" asp-route-Id="@item.Slug"title="@item.Name">
+                                            <i class="ion-android-arrow-dropleft-circle"></i> الان بخر
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--=======  End of single category item  =======-->
+                            </div>
+                        }
+                    </div>
+                </div>
+                <!--=======  End of category wrapper  =======-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--====================  End of category area  ====================-->

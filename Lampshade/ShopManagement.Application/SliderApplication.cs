@@ -22,7 +22,7 @@ namespace ShopManagement.Application
             var operation = new OperationResult();
 
             var slider = new Slider(command.Picture, command.PictureAlt, command.PictureTitle, command.Heading,
-                command.Title, command.Text, command.BtnText);
+                command.Title, command.Text, command.BtnText,command.Link);
 
             _sliderRepository.Create(slider);
             _sliderRepository.Save();
@@ -40,7 +40,7 @@ namespace ShopManagement.Application
             }
 
             slider.Edit(command.Picture, command.PictureAlt, command.PictureTitle, command.Heading, command.Title,
-                command.Text, command.BtnText);
+                command.Text, command.BtnText,command.Link);
             _sliderRepository.Save();
             return operation.Success();
         }
@@ -85,7 +85,7 @@ namespace ShopManagement.Application
             return _sliderRepository.GetAll()
                 .Select(x => new SliderViewModel()
                 {
-                    CreationDate = x.CreationDate.ToShortDateString(),
+                    CreationDate = x.CreationDate.ToFarsi(),
                     Heading = x.Heading,
                     Id = x.Id,
                     Picture = x.Picture,

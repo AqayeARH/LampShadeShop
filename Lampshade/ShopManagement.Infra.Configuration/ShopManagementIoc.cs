@@ -1,4 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Lampshade.Query.Contracts.ProductCategory;
+using Lampshade.Query.Contracts.Slider;
+using Lampshade.Query.Queries;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;
 using ShopManagement.Application.Contracts.Product;
@@ -43,6 +46,13 @@ namespace ShopManagement.Infra.Configuration
 
             service.AddTransient<ISliderRepository, SliderRepository>();
             service.AddTransient<ISliderApplication, SliderApplication>();
+
+            #endregion
+
+            #region Query
+
+            service.AddTransient<ISliderQuery, SliderQuery>();
+            service.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
 
             #endregion
 
