@@ -14,11 +14,6 @@ namespace ShopManagement.Application.Contracts.Product
         [Range(1, 100000, ErrorMessage = "گروه محصول را انتخاب کنید")]
         public long CategoryId { get; set; }
 
-        [Display(Name = "قیمت")]
-        [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
-        [Range(10, double.MaxValue , ErrorMessage = "یک قیمت برای محصول در نظر بگیرید")]
-        public double UnitPrice { get; set; }
-
         [Display(Name = "کد محصول")]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
         [MaxLength(15, ErrorMessage = "{0} نمیتواند بیشتر از {1} کراکتر باشد")]
@@ -61,6 +56,11 @@ namespace ShopManagement.Application.Contracts.Product
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
         [MaxLength(350, ErrorMessage = "{0} نمیتواند بیشتر از {1} کراکتر باشد")]
         public string MetaDescription { get; set; }
+
+        //[Display(Name = "قیمت")]
+        //[Required(ErrorMessage = "لطفا {0} را وارد کنید")]
+        //[Range(10, double.MaxValue , ErrorMessage = "یک قیمت برای محصول در نظر بگیرید")]
+        //public double UnitPrice { get; set; }
 
         public List<ProductCategoryViewModel> ProductCategories { get; set; }
     }

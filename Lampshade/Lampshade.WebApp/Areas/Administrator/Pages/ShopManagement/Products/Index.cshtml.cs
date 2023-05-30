@@ -58,17 +58,5 @@ namespace Lampshade.WebApp.Areas.Administrator.Pages.ShopManagement.Products
             var result = _productApplication.Edit(command);
             return new JsonResult(result);
         }
-
-        public IActionResult OnGetNotInStock(long id)
-        {
-            _productApplication.NotInStock(id);
-            return RedirectToPage("Index");
-        }
-
-        public IActionResult OnGetIsInStock(long id)
-        {
-            _productApplication.InStock(id);
-            return RedirectToPage("Index");
-        }
     }
 }

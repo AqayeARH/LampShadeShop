@@ -26,7 +26,7 @@ namespace ShopManagement.Application
 
             var slug = command.Slug.FixSlug();
 
-            var product = new Product(command.Name, command.CategoryId, command.UnitPrice, command.Code,
+            var product = new Product(command.Name, command.CategoryId/*, command.UnitPrice*/, command.Code,
                 command.ShortDescription, command.Description, command.Picture, command.PictureAlt,
                 command.PictureTitle, slug, command.KayWords, command.MetaDescription);
 
@@ -53,7 +53,7 @@ namespace ShopManagement.Application
 
             var slug = command.Slug.FixSlug();
 
-            product.Edit(command.Name, command.CategoryId, command.UnitPrice, command.Code, command.ShortDescription,
+            product.Edit(command.Name, command.CategoryId/*, command.UnitPrice*/, command.Code, command.ShortDescription,
                 command.Description, command.Picture, command.PictureAlt, command.PictureTitle, slug,
                 command.KayWords, command.MetaDescription);
 
@@ -71,6 +71,12 @@ namespace ShopManagement.Application
             return _productRepository.GetByFilter(searchModel);
         }
 
+        public List<ProductViewModel> GetProducts()
+        {
+            return _productRepository.GetProducts();
+        }
+
+        /*
         public OperationResult InStock(long id)
         {
             var operation = new OperationResult();
@@ -96,10 +102,6 @@ namespace ShopManagement.Application
             _productRepository.Save();
             return operation.Success();
         }
-
-        public List<ProductViewModel> GetProducts()
-        {
-            return _productRepository.GetProducts();
-        }
+        */
     }
 }

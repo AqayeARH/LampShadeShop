@@ -1,0 +1,17 @@
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\bin\Debug\net6.0\DiscountManagement.Application.Contracts.deps.json
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\bin\Debug\net6.0\0.Framework.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\bin\Debug\net6.0\0.Framework.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.csproj.AssemblyReference.cache
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.AssemblyInfoInputs.cache
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.AssemblyInfo.cs
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.csproj.CopyComplete
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\refint\DiscountManagement.Application.Contracts.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\ref\DiscountManagement.Application.Contracts.dll

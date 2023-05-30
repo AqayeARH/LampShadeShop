@@ -27,12 +27,12 @@ namespace ShopManagement.Infra.EfCore.Repositories
                     Name = x.Name,
                     Code = x.Code,
                     Id = x.Id,
-                    UnitPrice = x.UnitPrice.ToString("#,0"),
                     CategoryName = x.Category.Name,
                     Picture = x.Picture,
                     CategoryId = x.CategoryId,
                     CreationDate = x.CreationDate.ToFarsi(),
-                    IsInStock = x.IsInStock
+                    //UnitPrice = x.UnitPrice.ToString("#,0"),
+                    //IsInStock = x.IsInStock
                 }).AsQueryable();
 
             #region Filtering
@@ -72,7 +72,6 @@ namespace ShopManagement.Infra.EfCore.Repositories
                 {
                     Name = x.Name,
                     CategoryId = x.CategoryId,
-                    UnitPrice = x.UnitPrice,
                     Code = x.Code,
                     ShortDescription = x.ShortDescription,
                     Description = x.Description,
@@ -82,7 +81,8 @@ namespace ShopManagement.Infra.EfCore.Repositories
                     Slug = x.Slug,
                     KayWords = x.KayWords,
                     MetaDescription = x.MetaDescription,
-                    Id = x.Id
+                    Id = x.Id,
+                    //UnitPrice = x.UnitPrice,
                 }).FirstOrDefault(x => x.Id == id);
         }
     }

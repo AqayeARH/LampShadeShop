@@ -14,6 +14,10 @@ public class InventoryOperation
 
     public Inventory Inventory { get; private set; }
 
+    protected InventoryOperation()
+    {
+        
+    }
 
     //The constructor is called when creating a new instance
     public InventoryOperation(long inventoryId, bool operation, long count, long operatorId, long currentCount, string description, long orderId)

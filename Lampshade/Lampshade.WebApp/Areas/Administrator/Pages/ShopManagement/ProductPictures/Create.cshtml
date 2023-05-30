@@ -46,10 +46,10 @@
                 <div class="form-group">
                     <label asp-for="ProductId" class="control-label">انتخاب محصول</label>
                     @{
-                        var categoryItems = new SelectList(Model.Products, "Id", "Name");
+                        var products = new SelectList(Model.Products, "Id", "Name");
                     }
                     <select class="form-control" asp-for="ProductId"
-                            asp-items="categoryItems">
+                            asp-items="products">
                         <option value="0">انتخاب محصول</option>
                     </select>
                     <span asp-validation-for="ProductId" class="error"></span>

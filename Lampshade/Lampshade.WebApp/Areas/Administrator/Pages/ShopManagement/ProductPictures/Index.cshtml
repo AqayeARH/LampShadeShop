@@ -74,20 +74,20 @@
                                             }
                                         </td>
                                         <td>
-                                            <a class="btn btn-warning btn-sm pull-right m-rl-5"
+                                            <a class="btn btn-warning btn-xs"
                                            href="#showmodal=@Url.Page("Index", "Edit", new { id = item.Id })">
                                                 <i class="fa fa-edit"></i>ویرایش
                                             </a>
                                             @if (item.IsRemoved)
                                             {
-                                                <a class="btn btn-success btn-sm pull-right m-rl-5"
+                                                <a class="btn btn-success btn-xs"
                                            asp-page="Index" asp-page-handler="Restore" asp-route-id="@item.Id">
                                                     <i class="fa fa-check"></i>فعال کردن
                                                 </a>
                                             }
                                             else
                                             {
-                                                <a class="btn btn-danger btn-sm pull-right m-rl-5"
+                                                <a class="btn btn-danger btn-xs"
                                            asp-page="Index" asp-page-handler="Remove" asp-route-id="@item.Id">
                                                     <i class="fa fa-remove"></i>غیرفعال
                                                 </a>

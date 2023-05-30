@@ -8,5 +8,6 @@ namespace InventoryManagement.Domain.InventoryAgg
         EditInventoryCommand GetDetailForEdit(long id);
         List<InventoryViewModel> GetByFilter(InventorySearchModel searchModel);
         Inventory GetByProductId(long productId);
+        List<InventoryOperationViewModel> GetInventoryOperations(long inventoryId);
     }
 }

@@ -1,0 +1,1785 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\bootstrap-inputmask\\bootstrap-inputmask.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\bootstrap-inputmask\\bootstrap-inputmask.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\bootstrap-wysihtml5\\bootstrap-wysihtml5.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\bootstrap-wysihtml5\\bootstrap-wysihtml5.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\bootstrap-wysihtml5\\bootstrap-wysihtml5.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\bootstrap-wysihtml5\\bootstrap-wysihtml5.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\bootstrap-wysihtml5\\wysihtml5-0.3.0.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\bootstrap-wysihtml5\\wysihtml5-0.3.0.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\bootstrap-wysihtml5\\wysiwyg-color.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\bootstrap-wysihtml5\\wysiwyg-color.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\bootstrap3-editable\\bootstrap-editable.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\bootstrap3-editable\\bootstrap-editable.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\bootstrap3-editable\\bootstrap-editable.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\bootstrap3-editable\\bootstrap-editable.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\bootstrap3-editable\\clear.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\bootstrap3-editable\\clear.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\bootstrap3-editable\\demo-xeditable.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\bootstrap3-editable\\demo-xeditable.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\bootstrap3-editable\\loading.gif",
+      "PackagePath": "staticwebassets\\admin\\assets\\bootstrap3-editable\\loading.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\bootstrap3-editable\\moment.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\bootstrap3-editable\\moment.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\chartjs\\chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\chartjs\\chart.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\chartjs\\chartjs.init.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\chartjs\\chartjs.init.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\chat\\moment-2.2.1.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\chat\\moment-2.2.1.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\codemirror\\ambiance.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\codemirror\\ambiance.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\codemirror\\codemirror.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\codemirror\\codemirror.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\codemirror\\codemirror.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\codemirror\\codemirror.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\codemirror\\custom.codemirror.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\codemirror\\custom.codemirror.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\codemirror\\formatting.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\codemirror\\formatting.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\codemirror\\javascript.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\codemirror\\javascript.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\codemirror\\xml.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\codemirror\\xml.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\colorpicker\\bootstrap-colorpicker.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\colorpicker\\bootstrap-colorpicker.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\colorpicker\\colorpicker.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\colorpicker\\colorpicker.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\colorpicker\\img\\alpha.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\colorpicker\\img\\alpha.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\colorpicker\\img\\hue.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\colorpicker\\img\\hue.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\colorpicker\\img\\saturation.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\colorpicker\\img\\saturation.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\comingsoon\\jquery.countdown.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\comingsoon\\jquery.countdown.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\comingsoon\\jquery.simple-text-rotator.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\comingsoon\\jquery.simple-text-rotator.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\comingsoon\\simpletextrotator.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\comingsoon\\simpletextrotator.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\counterup\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\counterup\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\counterup\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\counterup\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\css\\helper.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\helper.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\css\\persian-datepicker.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\persian-datepicker.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\css\\style-responsive.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\style-responsive.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\css\\waves-effect.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\waves-effect.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\datatables\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\datatables\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\datatables\\datatables.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\datatables\\datatables.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\datatables\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\datatables\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\datatables\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\datatables\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\datatables\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\datatables\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\dropzone\\dropzone.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\dropzone\\dropzone.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\dropzone\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\dropzone\\dropzone.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\dropzone\\spritemap.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\dropzone\\spritemap.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\dropzone\\spritemap@2x.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\dropzone\\spritemap@2x.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\easypie-chart\\easypiechart.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\easypie-chart\\easypiechart.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\easypie-chart\\example.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\easypie-chart\\example.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\easypie-chart\\jquery.easypiechart.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\easypie-chart\\jquery.easypiechart.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fastclick\\fastclick.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\fastclick\\fastclick.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\flot-chart\\jquery.flot.crosshair.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\flot-chart\\jquery.flot.crosshair.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\flot-chart\\jquery.flot.init.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\flot-chart\\jquery.flot.init.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\flot-chart\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\flot-chart\\jquery.flot.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\flot-chart\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\flot-chart\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\flot-chart\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\flot-chart\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\flot-chart\\jquery.flot.selection.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\flot-chart\\jquery.flot.selection.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\flot-chart\\jquery.flot.stack.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\flot-chart\\jquery.flot.stack.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\flot-chart\\jquery.flot.time.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\flot-chart\\jquery.flot.time.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\flot-chart\\jquery.flot.tooltip.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\flot-chart\\jquery.flot.tooltip.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\less\\animated.less",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\less\\animated.less"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\less\\core.less",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\less\\core.less"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\less\\fixed-width.less"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\less\\font-awesome.less"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\less\\icons.less",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\less\\icons.less"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\less\\larger.less",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\less\\larger.less"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\less\\list.less",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\less\\list.less"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\less\\mixins.less"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\less\\path.less",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\less\\path.less"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\less\\spinning.less",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\less\\spinning.less"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\less\\stacked.less"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\less\\variables.less",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\less\\variables.less"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\scss\\_animated.scss"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\scss\\_icons.scss"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\scss\\_larger.scss"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\scss\\_list.scss"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\scss\\_path.scss"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\scss\\_spinning.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\scss\\_spinning.scss"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\font-awesome\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\font-awesome\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\form-wizard\\bootstrap-validator.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\form-wizard\\bootstrap-validator.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\form-wizard\\jquery.steps.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\form-wizard\\jquery.steps.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\form-wizard\\jquery.steps.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\form-wizard\\jquery.steps.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\form-wizard\\wizard-init.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\form-wizard\\wizard-init.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fullcalendar\\bootstrap-fullcalendar.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\fullcalendar\\bootstrap-fullcalendar.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fullcalendar\\dragging-calendar-event-init.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\fullcalendar\\dragging-calendar-event-init.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fullcalendar\\external-dragging-calendar.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\fullcalendar\\external-dragging-calendar.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fullcalendar\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\fullcalendar\\fullcalendar.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fullcalendar\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\fullcalendar\\fullcalendar.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fullcalendar\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\fullcalendar\\fullcalendar.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\fullcalendar\\moment.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\fullcalendar\\moment.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\gallery\\isotope.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\gallery\\isotope.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\gmaps\\gmaps-plugin.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\gmaps\\gmaps-plugin.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\gmaps\\gmaps.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\gmaps\\gmaps.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\avatar-1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\big\\Thumbs.db",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\big\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\big\\bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\big\\bg.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\big\\img1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\big\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\favicon_1.ico",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\favicon_1.ico"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\gallery\\1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\gallery\\1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\gallery\\10.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\gallery\\10.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\gallery\\11.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\gallery\\11.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\gallery\\12.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\gallery\\12.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\gallery\\2.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\gallery\\2.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\gallery\\3.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\gallery\\3.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\gallery\\4.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\gallery\\4.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\gallery\\5.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\gallery\\5.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\gallery\\6.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\gallery\\6.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\gallery\\7.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\gallery\\7.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\gallery\\8.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\gallery\\8.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\gallery\\9.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\gallery\\9.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\logo_dark.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\logo_dark.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\small\\Thumbs.db",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\small\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\small\\bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\small\\bg.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\small\\bg1.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\small\\bg1.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\small\\img1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\small\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\small\\img2.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\small\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\small\\img3.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\small\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\sort_asc.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\sort_both.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\users\\Thumbs.db",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\users\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\users\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\users\\avatar-1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\users\\avatar-10.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\users\\avatar-10.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\users\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\users\\avatar-2.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\users\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\users\\avatar-3.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\users\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\users\\avatar-4.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\users\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\users\\avatar-5.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\users\\avatar-6.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\users\\avatar-6.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\users\\avatar-7.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\users\\avatar-7.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\users\\avatar-8.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\users\\avatar-8.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\images\\users\\avatar-9.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\users\\avatar-9.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\ion-rangeslider\\ion.rangeSlider.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\ion-rangeslider\\ion.rangeSlider.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\ion-rangeslider\\ion.rangeSlider.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\ion-rangeslider\\ion.rangeSlider.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\ion-rangeslider\\ion.rangeSlider.skinFlat.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\ion-rangeslider\\ion.rangeSlider.skinFlat.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\ion-rangeslider\\sprite-skin-flat.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\ion-rangeslider\\sprite-skin-flat.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\ion-rangeslider\\ui-sliders.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\ion-rangeslider\\ui-sliders.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\ionicon\\css\\ionicons.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\ionicon\\css\\ionicons.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\ionicon\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\ionicon\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\ionicon\\fonts\\ionicons.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\ionicon\\fonts\\ionicons.eot"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\ionicon\\fonts\\ionicons.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\ionicon\\fonts\\ionicons.svg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\ionicon\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\ionicon\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\ionicon\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\ionicon\\fonts\\ionicons.woff"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery-blockui\\jquery.blockUI.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery-blockui\\jquery.blockUI.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery-datatables-editable\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery-datatables-editable\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery-datatables-editable\\datatables.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery-datatables-editable\\datatables.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery-datatables-editable\\datatables.editable.init.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery-datatables-editable\\datatables.editable.init.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery-datatables-editable\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery-datatables-editable\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery-detectmobile\\detect.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery-detectmobile\\detect.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery-knob\\excanvas.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery-knob\\excanvas.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery-knob\\jquery.knob.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery-knob\\jquery.knob.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery-multi-select\\img\\switch.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery-multi-select\\img\\switch.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery-multi-select\\jquery.multi-select.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery-multi-select\\jquery.multi-select.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery-multi-select\\jquery.quicksearch.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery-multi-select\\jquery.quicksearch.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery-multi-select\\multi-select.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery-multi-select\\multi-select.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery-slimscroll\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery-slimscroll\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery-slimscroll\\jquery.slimscroll.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery-slimscroll\\jquery.slimscroll.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery-sparkline\\charts-sparkline.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery-sparkline\\charts-sparkline.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery-sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery-sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery.validate\\form-validation-init.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery.validate\\form-validation-init.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jquery.validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jquery.validate\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\jquery-ui-1.10.1.custom.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery-ui-1.10.1.custom.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\jquery.app.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.app.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\jquery.chat.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.chat.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\jquery.dashboard.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.dashboard.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\jquery.nicescroll.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.nicescroll.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\jquery.scrollTo.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.scrollTo.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\jquery.todo.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.todo.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\modal.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\modal.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\modernizr.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\modernizr.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\npm.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\npm.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\persian-date.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\persian-date.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\persian-datepicker.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\persian-datepicker.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\site.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\skycons.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\skycons.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\waves.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\waves.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jvectormap\\gdp-data.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jvectormap\\gdp-data.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jvectormap\\jquery-jvectormap-2.0.2.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\jvectormap\\jquery-jvectormap-2.0.2.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jvectormap\\jquery-jvectormap-2.0.2.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jvectormap\\jquery-jvectormap-2.0.2.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jvectormap\\jquery-jvectormap-europe-mill-en.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jvectormap\\jquery-jvectormap-europe-mill-en.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jvectormap\\jquery-jvectormap-uk-mill-en.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jvectormap\\jquery-jvectormap-uk-mill-en.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jvectormap\\jquery-jvectormap-us-aea-en.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jvectormap\\jquery-jvectormap-us-aea-en.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jvectormap\\jquery-jvectormap-us-il-chicago-mill-en.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jvectormap\\jquery-jvectormap-us-il-chicago-mill-en.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jvectormap\\jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jvectormap\\jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\jvectormap\\jvectormap.init.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\jvectormap\\jvectormap.init.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\magnific-popup\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\magnific-popup\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\magnific-popup\\magnific-popup.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\magnific-popup\\magnific-popup.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\modal-effect\\css\\component.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\modal-effect\\css\\component.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\modal-effect\\js\\classie.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\modal-effect\\js\\classie.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\modal-effect\\js\\modalEffects.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\modal-effect\\js\\modalEffects.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\morris\\morris.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\morris\\morris.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\morris\\morris.init.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\morris\\morris.init.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\morris\\morris.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\morris\\morris.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\morris\\raphael.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\morris\\raphael.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\nestable\\jquery.nestable.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\nestable\\jquery.nestable.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\nestable\\jquery.nestable.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\nestable\\jquery.nestable.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\nestable\\nestable.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\nestable\\nestable.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\notifications\\notification.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\notifications\\notification.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\notifications\\notifications.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\notifications\\notifications.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\notifications\\notify-metro.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\notifications\\notify-metro.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\notifications\\notify.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\notifications\\notify.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\peity-chart\\jquery.peity.init.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\peity-chart\\jquery.peity.init.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\peity-chart\\jquery.peity.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\peity-chart\\jquery.peity.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\radial\\radial.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\radial\\radial.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\responsive-table\\rwd-table.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\responsive-table\\rwd-table.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\responsive-table\\rwd-table.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\responsive-table\\rwd-table.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\select2\\img\\droparrows.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\select2\\img\\droparrows.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\select2\\img\\select2-spinner.gif",
+      "PackagePath": "staticwebassets\\admin\\assets\\select2\\img\\select2-spinner.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\select2\\img\\select2.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\select2\\img\\select2.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\select2\\img\\select2x2.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\select2\\img\\select2x2.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\select2\\select2.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\select2\\select2.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\spinner\\spinner.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\spinner\\spinner.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\summernote\\summernote.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\summernote\\summernote.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\summernote\\summernote.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\summernote\\summernote.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\sweet-alert\\sweet-alert.init.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\sweet-alert\\sweet-alert.init.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\sweet-alert\\sweet-alert.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\sweet-alert\\sweet-alert.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\sweet-alert\\sweet-alert.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\sweet-alert\\sweet-alert.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\sweet-alert\\thumbs-up.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\sweet-alert\\thumbs-up.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\tagsinput\\jquery.tagsinput.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\tagsinput\\jquery.tagsinput.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\tagsinput\\jquery.tagsinput.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\tagsinput\\jquery.tagsinput.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\timepicker\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\timepicker\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\timepicker\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\timepicker\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\timepicker\\bootstrap-timepicker.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\timepicker\\bootstrap-timepicker.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\timepicker\\bootstrap-timepicker.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\timepicker\\bootstrap-timepicker.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\toggles\\toggles.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\toggles\\toggles.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\toggles\\toggles.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\toggles\\toggles.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\fonts\\IranianSans.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\IranianSans.eot"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\fonts\\IranianSans.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\IranianSans.svg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\fonts\\IranianSans.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\IranianSans.ttf"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\fonts\\IranianSans.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\IranianSans.woff"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\fonts\\IranianSans.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\IranianSans.woff2"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\css\\Custom.css",
+      "PackagePath": "staticwebassets\\site\\assets\\css\\Custom.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\site\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\css\\vendors.css",
+      "PackagePath": "staticwebassets\\site\\assets\\css\\vendors.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\fonts\\IranianSans.eot",
+      "PackagePath": "staticwebassets\\site\\assets\\fonts\\IranianSans.eot"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\fonts\\IranianSans.svg",
+      "PackagePath": "staticwebassets\\site\\assets\\fonts\\IranianSans.svg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\fonts\\IranianSans.ttf",
+      "PackagePath": "staticwebassets\\site\\assets\\fonts\\IranianSans.ttf"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\fonts\\IranianSans.woff",
+      "PackagePath": "staticwebassets\\site\\assets\\fonts\\IranianSans.woff"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\fonts\\IranianSans.woff2",
+      "PackagePath": "staticwebassets\\site\\assets\\fonts\\IranianSans.woff2"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\site\\assets\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\site\\assets\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\site\\assets\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\site\\assets\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\fonts\\fontawesome-webfont3e6e.woff2",
+      "PackagePath": "staticwebassets\\site\\assets\\fonts\\fontawesome-webfont3e6e.woff2"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\site\\assets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\fonts\\ionicons28b5.eot",
+      "PackagePath": "staticwebassets\\site\\assets\\fonts\\ionicons28b5.eot"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\fonts\\ionicons28b5.svg",
+      "PackagePath": "staticwebassets\\site\\assets\\fonts\\ionicons28b5.svg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\fonts\\ionicons28b5.ttf",
+      "PackagePath": "staticwebassets\\site\\assets\\fonts\\ionicons28b5.ttf"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\fonts\\ionicons28b5.woff",
+      "PackagePath": "staticwebassets\\site\\assets\\fonts\\ionicons28b5.woff"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\backgrounds\\bkg_testimonials.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\backgrounds\\bkg_testimonials.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\backgrounds\\category-image-1820x400.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\backgrounds\\category-image-1820x400.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\banners\\banner7.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\banners\\banner7.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\banners\\banner8.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\banners\\banner8.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\banners\\banner9.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\banners\\banner9.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\banners\\img-bottom-menu.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\banners\\img-bottom-menu.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\banners\\img1-middle-eposi1.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\banners\\img1-middle-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\banners\\img1-middle-eposi2.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\banners\\img1-middle-eposi2.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\banners\\img1-middle-eposi3.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\banners\\img1-middle-eposi3.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\banners\\img2-middle-eposi1.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\banners\\img2-middle-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\banners\\img2-middle-eposi2.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\banners\\img2-middle-eposi2.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\banners\\img2-middle-eposi3.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\banners\\img2-middle-eposi3.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\banners\\slider-banner2.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\banners\\slider-banner2.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\blog\\1-1170x743.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\blog\\1-1170x743.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\blog\\2-1170x743.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\blog\\2-1170x743.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\blog\\3-1170x743.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\blog\\3-1170x743.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\blog\\comment-icon.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\blog\\comment-icon.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\blog\\slider\\1-370x235.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\blog\\slider\\1-370x235.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\blog\\slider\\2-370x235.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\blog\\slider\\2-370x235.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\blog\\slider\\3-370x235.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\blog\\slider\\3-370x235.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\blog\\slider\\4-370x235.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\blog\\slider\\4-370x235.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\blog\\slider\\5-370x235.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\blog\\slider\\5-370x235.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\category\\img1-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\category\\img1-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\category\\img2-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\category\\img2-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\category\\img3-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\category\\img3-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\category\\img4-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\category\\img4-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\hero-slider\\slider1-eposi1-1820x785.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\hero-slider\\slider1-eposi1-1820x785.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\hero-slider\\slider2-eposi1-1820x785.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\hero-slider\\slider2-eposi1-1820x785.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\hero-slider\\slider3-eposi1-1820x785.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\hero-slider\\slider3-eposi1-1820x785.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\icons\\de-de.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\icons\\de-de.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\icons\\en-gb.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\icons\\en-gb.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\icons\\free_shipping.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\icons\\free_shipping.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\icons\\grid-3-column-hover.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\icons\\grid-3-column-hover.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\icons\\grid-3-column.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\icons\\grid-3-column.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\icons\\grid-4-column-hover.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\icons\\grid-4-column-hover.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\icons\\grid-4-column.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\icons\\grid-4-column.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\icons\\grid-5-column-hover.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\icons\\grid-5-column-hover.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\icons\\grid-5-column.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\icons\\grid-5-column.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\icons\\icon_testimonials.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\icons\\icon_testimonials.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\icons\\list-hover.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\icons\\list-hover.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\icons\\list.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\icons\\list.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\icons\\money_back.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\icons\\money_back.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\icons\\support247.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\icons\\support247.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\logo-footer-6.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\logo-footer-6.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\1-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\10-100x133.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\10-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\10-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\10-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\10_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\10_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\11-100x133.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\11-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\12-100x133.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\12-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\13-100x133.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\13-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\1_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\1_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\2-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\2-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\2_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\2_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\3-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\3-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\3_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\3_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\4-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\4-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\4_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\4_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\5-100x133.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\5-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\5-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\5-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\5_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\5_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\6-100x133.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\6-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\6-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\6-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\6_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\6_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\7-100x133.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\7-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\7-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\7-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\7_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\7_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\8-100x133.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\8-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\8-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\8-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\8_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\8_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\9-100x133.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\9-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\9-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\9-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\9_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\9_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\big1-1.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\big1-1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\big1-2.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\big1-2.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\big1-3.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\big1-3.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\big1-4.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\big1-4.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\big1-5.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\big1-5.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\product-1-80x106.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\product-1-80x106.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\product-2-80x106.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\product-2-80x106.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\product-3-80x106.jpg",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\product-3-80x106.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\testimonial\\testimor1-72x72.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\testimonial\\testimor1-72x72.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\testimonial\\testimor2-72x72.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\testimonial\\testimor2-72x72.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\testimonial\\testimor3-72x72.png",
+      "PackagePath": "staticwebassets\\site\\assets\\img\\testimonial\\testimor3-72x72.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\js\\active.js",
+      "PackagePath": "staticwebassets\\site\\assets\\js\\active.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\js\\ajax-mail.js",
+      "PackagePath": "staticwebassets\\site\\assets\\js\\ajax-mail.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\js\\vendors.js",
+      "PackagePath": "staticwebassets\\site\\assets\\js\\vendors.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Lampshade.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Lampshade.WebApp.props",
+      "PackagePath": "build\\Lampshade.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Lampshade.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\Lampshade.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Lampshade.WebApp.props",
+      "PackagePath": "buildTransitive\\Lampshade.WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

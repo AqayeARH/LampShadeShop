@@ -6,7 +6,7 @@
         </li>
 
         <li class="has_sub">
-            <a class="waves-effect"><i class="md md-store"></i><span> فروشگاه </span><span class="pull-right"><i class="md md-add"></i></span></a>
+            <a class="waves-effect"><i class="md md-local-grocery-store"></i><span> فروشگاه </span><span class="pull-right"><i class="md md-add"></i></span></a>
             <ul class="list-unstyled">
                 <li><a asp-area="Administrator" asp-page="/ShopManagement/ProductCategories/Index">گروه محصولات</a></li>
                 <li><a asp-area="Administrator" asp-page="/ShopManagement/Products/Index">محصولات</a></li>
@@ -21,6 +21,10 @@
                 <li><a asp-area="Administrator" asp-page="/DiscountsManagement/CustomerDiscounts/Index">تخفیف مشتریان</a></li>
                 <li><a asp-area="Administrator" asp-page="/DiscountsManagement/ColleaguesDiscounts/Index">تخفیف همکاران</a></li>
             </ul>
+        </li>
+        
+        <li>
+            <a asp-area="Administrator" asp-page="/InventoryManagement/Index" class="waves-effect"><i class="md md-store"></i><span> مدیریت انبار </span></a>
         </li>
 
     </ul>

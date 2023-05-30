@@ -9,9 +9,7 @@ namespace ShopManagement.Domain.ProductAgg
         public string Name { get; private set; }
         public long CategoryId { get; private set; }
         public ProductCategory Category { get; private set; }
-        public double UnitPrice { get; private set; }
         public string Code { get; private set; }
-        public bool IsInStock { get; private set; }
         public string ShortDescription { get; private set; }
         public string Description { get; private set; }
         public string Picture { get; private set; }
@@ -20,6 +18,8 @@ namespace ShopManagement.Domain.ProductAgg
         public string Slug { get; private set; }
         public string KayWords { get; private set; }
         public string MetaDescription { get; private set; }
+        //public double UnitPrice { get; private set; }
+        //public bool IsInStock { get; private set; }
 
         public List<ProductPicture> ProductPictures { get; private set; }
 
@@ -30,33 +30,33 @@ namespace ShopManagement.Domain.ProductAgg
             ProductPictures = new List<ProductPicture>();
         }
 
-        public Product(string name, long categoryId, double unitPrice, string code, string shortDescription,
-            string description, string picture, string pictureAlt, string pictureTitle, string slug, 
-            string kayWords, string metaDescription)
-        {
-            Name = name;
-            CategoryId = categoryId;
-            UnitPrice = unitPrice;
-            Code = code;
-            ShortDescription = shortDescription;
-            Description = description;
-            Picture = picture;
-            PictureAlt = pictureAlt;
-            PictureTitle = pictureTitle;
-            Slug = slug;
-            KayWords = kayWords;
-            MetaDescription = metaDescription;
-            IsInStock = true;
-        }
-
-        //The edit method is called when an entity is changed
-        public void Edit(string name, long categoryId, double unitPrice, string code, string shortDescription,
+        public Product(string name, long categoryId/*, double unitPrice*/, string code, string shortDescription,
             string description, string picture, string pictureAlt, string pictureTitle, string slug,
             string kayWords, string metaDescription)
         {
             Name = name;
             CategoryId = categoryId;
-            UnitPrice = unitPrice;
+            //UnitPrice = unitPrice;
+            Code = code;
+            ShortDescription = shortDescription;
+            Description = description;
+            Picture = picture;
+            PictureAlt = pictureAlt;
+            PictureTitle = pictureTitle;
+            Slug = slug;
+            KayWords = kayWords;
+            MetaDescription = metaDescription;
+            //IsInStock = true;
+        }
+
+        //The edit method is called when an entity is changed
+        public void Edit(string name, long categoryId/*, double unitPrice*/, string code, string shortDescription,
+            string description, string picture, string pictureAlt, string pictureTitle, string slug,
+            string kayWords, string metaDescription)
+        {
+            Name = name;
+            CategoryId = categoryId;
+            //UnitPrice = unitPrice;
             Code = code;
             ShortDescription = shortDescription;
             Description = description;
@@ -68,6 +68,7 @@ namespace ShopManagement.Domain.ProductAgg
             MetaDescription = metaDescription;
         }
 
+        /*
         public void InStock()
         {
             IsInStock = true;
@@ -77,5 +78,6 @@ namespace ShopManagement.Domain.ProductAgg
         {
             IsInStock = false;
         }
+        */
     }
 }

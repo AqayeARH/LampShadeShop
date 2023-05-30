@@ -13,6 +13,11 @@ namespace InventoryManagement.Domain.InventoryAgg
 
         public List<InventoryOperation> InventoryOperations { get; private set; }
 
+        protected Inventory()
+        {
+            InventoryOperations = new List<InventoryOperation>();
+        }
+
         //The constructor is called when creating a new instance
         public Inventory(long productId, double unitPrice)
         {
@@ -21,7 +26,13 @@ namespace InventoryManagement.Domain.InventoryAgg
             InStock = false;
         }
 
-        private long CalculateCurrentCountInStock()
+        public void Edit(long productId, double unitPrice)
+        {
+            ProductId = productId;
+            UnitPrice = unitPrice;
+        }
+
+        public long CalculateCurrentCountInStock()
         {
             var plus = InventoryOperations.Where(x => x.Operation == true)
                 .Sum(x => x.Count);      //Calculation of inputs

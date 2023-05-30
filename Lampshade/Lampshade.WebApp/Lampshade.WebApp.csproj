@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DiscountManagement.Infra.Configuration\DiscountManagement.Infra.Configuration.csproj" />
+    <ProjectReference Include="..\InventoryManagement.Infra.Configuration\InventoryManagement.Infra.Configuration.csproj" />
     <ProjectReference Include="..\ShopManagement.Infra.Configuration\ShopManagement.Infra.Configuration.csproj" />
   </ItemGroup>
 

@@ -1,0 +1,12 @@
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\0.Framework\bin\Debug\net6.0\0.Framework.deps.json
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\0.Framework\bin\Debug\net6.0\0.Framework.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\0.Framework\bin\Debug\net6.0\0.Framework.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\0.Framework\obj\Debug\net6.0\0.Framework.csproj.AssemblyReference.cache
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\0.Framework\obj\Debug\net6.0\0.Framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\0.Framework\obj\Debug\net6.0\0.Framework.AssemblyInfoInputs.cache
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\0.Framework\obj\Debug\net6.0\0.Framework.AssemblyInfo.cs
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\0.Framework\obj\Debug\net6.0\0.Framework.csproj.CoreCompileInputs.cache
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\0.Framework\obj\Debug\net6.0\0.Framework.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\0.Framework\obj\Debug\net6.0\refint\0.Framework.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\0.Framework\obj\Debug\net6.0\0.Framework.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\0.Framework\obj\Debug\net6.0\ref\0.Framework.dll

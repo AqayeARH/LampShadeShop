@@ -59,7 +59,6 @@
                                     <th>عکس</th>
                                     <th>نام</th>
                                     <th>کد</th>
-                                    <th>قیمت</th>
                                     <th>دسته بندی</th>
                                     <th>تاریخ تولید</th>
                                     <th>عملیات</th>
@@ -75,29 +74,13 @@
                                         </td>
                                         <td>@item.Name</td>
                                         <td>@item.Code</td>
-                                        <td>@item.UnitPrice</td>
                                         <td>@item.CategoryName</td>
                                         <td>@item.CreationDate</td>
                                         <td>
-                                            <a class="btn btn-warning btn-sm pull-right m-rl-5"
+                                            <a class="btn btn-warning btn-xs"
                                                href="#showmodal=@Url.Page("Index", "Edit", new { id = item.Id })">
                                                 <i class="fa fa-edit"></i>ویرایش
                                             </a>
-                                            @* Inventory *@
-                                            @if (item.IsInStock)
-                                            {
-                                                <a class="btn btn-danger btn-sm pull-right m-rl-5"
-                                                   asp-page="Index" asp-page-handler="NotInStock" asp-route-id="@item.Id">
-                                                    <i class="fa fa-remove"></i>اتمام موجودی
-                                                </a>
-                                            }
-                                            else
-                                            {
-                                                <a class="btn btn-success btn-sm pull-right m-rl-5"
-                                                   asp-page="Index" asp-page-handler="IsInStock" asp-route-id="@item.Id">
-                                                    <i class="fa fa-check"></i>موجود در انبار
-                                                </a>
-                                            }
                                         </td>
                                     </tr>
                                 }

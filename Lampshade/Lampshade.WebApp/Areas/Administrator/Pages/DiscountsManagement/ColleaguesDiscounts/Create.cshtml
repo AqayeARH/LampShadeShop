@@ -19,11 +19,11 @@
             <div class="col-md-12">
                 <div class="form-group">
                     @{
-                        var categoryItems = new SelectList(Model.Products, "Id", "Name");
+                        var products = new SelectList(Model.Products, "Id", "Name");
                     }
                     <label asp-for="ProductId" class="control-label">انتخاب محصول</label>
                     <select class="form-control" asp-for="ProductId"
-                            asp-items="categoryItems">
+                            asp-items="products">
                         <option value="0">انتخاب محصول</option>
                     </select>
                     <span asp-validation-for="ProductId" class="error"></span>
