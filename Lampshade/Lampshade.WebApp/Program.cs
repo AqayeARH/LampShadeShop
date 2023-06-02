@@ -1,5 +1,7 @@
+using _0.Framework.Application;
 using DiscountManagement.Infra.Configuration;
 using InventoryManagement.Infra.Configuration;
+using Lampshade.WebApp;
 using ShopManagement.Infra.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +14,7 @@ ShopManagementIoc.Configure(service, connectionString);
 DiscountManagementIoc.Configure(service,connectionString);
 InventoryManagementIoc.Configure(service,connectionString);
 
+service.AddTransient<IFileUploader, FileUploader>();
 
 service.AddRazorPages();
 #endregion

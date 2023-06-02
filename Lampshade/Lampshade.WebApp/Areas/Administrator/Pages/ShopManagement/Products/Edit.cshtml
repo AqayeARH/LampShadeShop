@@ -20,7 +20,7 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <label asp-for="Name" class="control-label">نام</label>
-                    <input class="form-control" asp-for="Name" onchange="makeSlug('Name', 'Slug')">
+                    <input type="file" class="form-control" asp-for="Name" onchange="makeSlug('Name', 'Slug')">
                     <span asp-validation-for="Name" class="error"></span>
                 </div>
             </div>

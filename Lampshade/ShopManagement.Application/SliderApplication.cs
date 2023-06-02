@@ -1,7 +1,6 @@
 ﻿using _0.Framework.Application;
 using ShopManagement.Application.Contracts.Slider;
 using ShopManagement.Domain.SliderAgg;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace ShopManagement.Application
 {
@@ -10,10 +9,12 @@ namespace ShopManagement.Application
         #region Constractor Injection
 
         private readonly ISliderRepository _sliderRepository;
+        private readonly IFileUploader _fileUploader;
 
-        public SliderApplication(ISliderRepository sliderRepository)
+        public SliderApplication(ISliderRepository sliderRepository, IFileUploader fileUploader)
         {
             _sliderRepository = sliderRepository;
+            _fileUploader = fileUploader;
         }
 
         #endregion
@@ -21,7 +22,9 @@ namespace ShopManagement.Application
         {
             var operation = new OperationResult();
 
-            var slider = new Slider(command.Picture, command.PictureAlt, command.PictureTitle, command.Heading,
+            var picture = _fileUploader.Upload(command.Picture, "sliders");
+
+            var slider = new Slider(picture, command.PictureAlt, command.PictureTitle, command.Heading,
                 command.Title, command.Text, command.BtnText,command.Link);
 
             _sliderRepository.Create(slider);
@@ -39,7 +42,9 @@ namespace ShopManagement.Application
                 return operation.Error("اسلایدری با مشخصات ارسالی یافت نشد");
             }
 
-            slider.Edit(command.Picture, command.PictureAlt, command.PictureTitle, command.Heading, command.Title,
+            var picture = _fileUploader.Upload(command.Picture, "sliders");
+
+            slider.Edit(picture, command.PictureAlt, command.PictureTitle, command.Heading, command.Title,
                 command.Text, command.BtnText,command.Link);
             _sliderRepository.Save();
             return operation.Success();

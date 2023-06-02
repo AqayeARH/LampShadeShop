@@ -31,7 +31,10 @@ namespace ShopManagement.Domain.SliderAgg
         //The edit method is called when an entity is changed
         public void Edit(string picture, string pictureAlt, string pictureTitle, string heading, string title, string text, string btnText, string link)
         {
-            Picture = picture;
+            if (!string.IsNullOrEmpty(picture))
+            {
+                Picture = picture;
+            }
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;
             Heading = heading;

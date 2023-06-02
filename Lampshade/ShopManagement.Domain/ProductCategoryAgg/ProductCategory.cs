@@ -39,7 +39,10 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         {
             Name = name;
             Description = description;
-            Picture = picture;
+            if (!string.IsNullOrEmpty(picture))
+            {
+                Picture = picture;
+            }
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;
             KeyWords = keyWords;

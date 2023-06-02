@@ -75,13 +75,13 @@ namespace ShopManagement.Infra.EfCore.Repositories
                     Code = x.Code,
                     ShortDescription = x.ShortDescription,
                     Description = x.Description,
-                    Picture = x.Picture,
                     PictureAlt = x.PictureAlt,
                     PictureTitle = x.PictureTitle,
                     Slug = x.Slug,
                     KayWords = x.KayWords,
                     MetaDescription = x.MetaDescription,
                     Id = x.Id,
+                    //Picture = x.Picture,
                     //UnitPrice = x.UnitPrice,
                 }).FirstOrDefault(x => x.Id == id);
         }

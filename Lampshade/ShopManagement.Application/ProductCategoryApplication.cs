@@ -9,9 +9,11 @@ namespace ShopManagement.Application
         #region Constractor Injection
 
         private readonly IProductCategoryRepository _productCategoryRepository;
-        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository)
+        private readonly IFileUploader _fileUploader;
+        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository, IFileUploader fileUploader)
         {
             _productCategoryRepository = productCategoryRepository;
+            _fileUploader = fileUploader;
         }
 
         #endregion
@@ -25,8 +27,9 @@ namespace ShopManagement.Application
             }
 
             var slug = command.Slug.FixSlug();
+            var picture = _fileUploader.Upload(command.Picture, "categories");
 
-            var productCategory = new ProductCategory(command.Name, command.Description, command.Picture,
+            var productCategory = new ProductCategory(command.Name, command.Description, picture,
                 command.PictureAlt, command.PictureTitle, command.KeyWords, command.MetaDescription, slug);
 
             _productCategoryRepository.Create(productCategory);
@@ -57,8 +60,9 @@ namespace ShopManagement.Application
             }
 
             var slug = command.Slug.FixSlug();
+            var picture = _fileUploader.Upload(command.Picture, "categories");
 
-            productCategory.Edit(command.Name,command.Description,command.Picture,command.PictureAlt,
+            productCategory.Edit(command.Name,command.Description, picture, command.PictureAlt,
                 command.PictureTitle,command.KeyWords,command.MetaDescription,slug);
 
             _productCategoryRepository.Save();

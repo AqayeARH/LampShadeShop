@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using _0.Framework.Application;
+using Microsoft.AspNetCore.Http;
 using ShopManagement.Application.Contracts.ProductCategory;
 
 namespace ShopManagement.Application.Contracts.Product
@@ -30,7 +32,9 @@ namespace ShopManagement.Application.Contracts.Product
         public string Description { get; set; }
 
         [Display(Name = "تصویر محصول")]
-        public string Picture { get; set; }
+        [MaxFileSize(5 * 1024 * 1024, ErrorMessage = "نمیتوانید فایل بیشتر از 5 مگابایت آپلود کنید")]
+        [FileExtensionLimitation(new string[] { ".jpg", ".png" },ErrorMessage = "فقط فایل های jpg و png مجاز هستند")]
+        public IFormFile Picture { get; set; }
 
         [Display(Name = "Picture Alt")]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]

@@ -1337,6 +1337,110 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\categories\\img1-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\pictures\\categories\\img1-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\categories\\img2-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\pictures\\categories\\img2-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\categories\\img3-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\pictures\\categories\\img3-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\categories\\img4-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\pictures\\categories\\img4-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\categories\\img5-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\pictures\\categories\\img5-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-banner\\10_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-banner\\10_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-banner\\1_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-banner\\1_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-banner\\2-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-banner\\2-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-banner\\3-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-banner\\3-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-banner\\4_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-banner\\4_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-banner\\7-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-banner\\7-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-banner\\9-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-banner\\9-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-banner\\mag3_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-banner\\mag3_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-pictures\\133301946079461602-2_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-pictures\\133301946079461602-2_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-pictures\\133301947140283925-2-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-pictures\\133301947140283925-2-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-pictures\\133301947763857456-3_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-pictures\\133301947763857456-3_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-pictures\\133301948238709101-1_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-pictures\\133301948238709101-1_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-pictures\\133301948525049672-1-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-pictures\\133301948525049672-1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-pictures\\133301949084576837-8_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-pictures\\133301949084576837-8_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-pictures\\133301949304463362-7_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-pictures\\133301949304463362-7_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-pictures\\133301949628311562-8-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-pictures\\133301949628311562-8-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-pictures\\133301950052188151-10-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-pictures\\133301950052188151-10-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-pictures\\133301951062947638-9_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\pictures\\products-pictures\\133301951062947638-9_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\sliders\\slider1-eposi1-1820x785.jpg",
+      "PackagePath": "staticwebassets\\pictures\\sliders\\slider1-eposi1-1820x785.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\sliders\\slider2-eposi1-1820x785.jpg",
+      "PackagePath": "staticwebassets\\pictures\\sliders\\slider2-eposi1-1820x785.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\sliders\\slider3-eposi1-1820x785.jpg",
+      "PackagePath": "staticwebassets\\pictures\\sliders\\slider3-eposi1-1820x785.jpg"
+    },
+    {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\css\\Custom.css",
       "PackagePath": "staticwebassets\\site\\assets\\css\\Custom.css"
     },
@@ -1497,36 +1601,8 @@
       "PackagePath": "staticwebassets\\site\\assets\\img\\blog\\slider\\5-370x235.jpg"
     },
     {
-      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\category\\img1-top-eposi1.jpg",
-      "PackagePath": "staticwebassets\\site\\assets\\img\\category\\img1-top-eposi1.jpg"
-    },
-    {
-      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\category\\img2-top-eposi1.jpg",
-      "PackagePath": "staticwebassets\\site\\assets\\img\\category\\img2-top-eposi1.jpg"
-    },
-    {
-      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\category\\img3-top-eposi1.jpg",
-      "PackagePath": "staticwebassets\\site\\assets\\img\\category\\img3-top-eposi1.jpg"
-    },
-    {
-      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\category\\img4-top-eposi1.jpg",
-      "PackagePath": "staticwebassets\\site\\assets\\img\\category\\img4-top-eposi1.jpg"
-    },
-    {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\favicon.ico",
       "PackagePath": "staticwebassets\\site\\assets\\img\\favicon.ico"
-    },
-    {
-      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\hero-slider\\slider1-eposi1-1820x785.jpg",
-      "PackagePath": "staticwebassets\\site\\assets\\img\\hero-slider\\slider1-eposi1-1820x785.jpg"
-    },
-    {
-      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\hero-slider\\slider2-eposi1-1820x785.jpg",
-      "PackagePath": "staticwebassets\\site\\assets\\img\\hero-slider\\slider2-eposi1-1820x785.jpg"
-    },
-    {
-      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\hero-slider\\slider3-eposi1-1820x785.jpg",
-      "PackagePath": "staticwebassets\\site\\assets\\img\\hero-slider\\slider3-eposi1-1820x785.jpg"
     },
     {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\icons\\de-de.png",
@@ -1621,10 +1697,6 @@
       "PackagePath": "staticwebassets\\site\\assets\\img\\products\\13-100x133.jpg"
     },
     {
-      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\1_1-600x800.jpg",
-      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\1_1-600x800.jpg"
-    },
-    {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\2-600x800.jpg",
       "PackagePath": "staticwebassets\\site\\assets\\img\\products\\2-600x800.jpg"
     },
@@ -1633,20 +1705,12 @@
       "PackagePath": "staticwebassets\\site\\assets\\img\\products\\2_1-600x800.jpg"
     },
     {
-      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\3-600x800.jpg",
-      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\3-600x800.jpg"
-    },
-    {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\3_1-600x800.jpg",
       "PackagePath": "staticwebassets\\site\\assets\\img\\products\\3_1-600x800.jpg"
     },
     {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\4-600x800.jpg",
       "PackagePath": "staticwebassets\\site\\assets\\img\\products\\4-600x800.jpg"
-    },
-    {
-      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\4_1-600x800.jpg",
-      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\4_1-600x800.jpg"
     },
     {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\5-100x133.jpg",
@@ -1677,10 +1741,6 @@
       "PackagePath": "staticwebassets\\site\\assets\\img\\products\\7-100x133.jpg"
     },
     {
-      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\7-600x800.jpg",
-      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\7-600x800.jpg"
-    },
-    {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\7_1-600x800.jpg",
       "PackagePath": "staticwebassets\\site\\assets\\img\\products\\7_1-600x800.jpg"
     },
@@ -1699,10 +1759,6 @@
     {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\9-100x133.jpg",
       "PackagePath": "staticwebassets\\site\\assets\\img\\products\\9-100x133.jpg"
-    },
-    {
-      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\9-600x800.jpg",
-      "PackagePath": "staticwebassets\\site\\assets\\img\\products\\9-600x800.jpg"
     },
     {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\img\\products\\9_1-600x800.jpg",

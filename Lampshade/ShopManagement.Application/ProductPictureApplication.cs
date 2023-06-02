@@ -9,21 +9,25 @@ namespace ShopManagement.Application
         #region Constractor Injection
 
         private readonly IProductPictureRepository _productPictureRepository;
-        public ProductPictureApplication(IProductPictureRepository productPictureRepository)
+        private readonly IFileUploader _fileUploader;
+        public ProductPictureApplication(IProductPictureRepository productPictureRepository, IFileUploader fileUploader)
         {
             _productPictureRepository = productPictureRepository;
+            _fileUploader = fileUploader;
         }
 
         #endregion
         public OperationResult Create(CreateProductPictureCommand command)
         {
             var operation = new OperationResult();
-            if (_productPictureRepository.IsExist(x => x.Picture == command.Picture))
-            {
-                return operation.Error("نام عکس انتخاب شده تکراری است لطفا نام را تغییر دهید");
-            }
+            //if (_productPictureRepository.IsExist(x => x.Picture == command.Picture))
+            //{
+            //    return operation.Error("نام عکس انتخاب شده تکراری است لطفا نام را تغییر دهید");
+            //}
 
-            var productPicture = new ProductPicture(command.ProductId, command.Picture, command.PictureAlt,
+            var picture = _fileUploader.Upload(command.Picture, "products-pictures");
+
+            var productPicture = new ProductPicture(command.ProductId, picture, command.PictureAlt,
                 command.PictureTitle);
             _productPictureRepository.Create(productPicture);
             _productPictureRepository.Save();
@@ -42,12 +46,14 @@ namespace ShopManagement.Application
                 return operation.Error("عکسی با اطلاعات ارسالی یافت نشد");
             }
 
-            if (_productPictureRepository.IsExist(x => x.Picture == command.Picture && x.Id != command.Id))
-            {
-                return operation.Error("نام عکس انتخاب شده تکراری است لطفا نام را تغییر دهید");
-            }
+            //if (_productPictureRepository.IsExist(x => x.Picture == command.Picture && x.Id != command.Id))
+            //{
+            //    return operation.Error("نام عکس انتخاب شده تکراری است لطفا نام را تغییر دهید");
+            //}
 
-            productPicture.Edit(command.ProductId, command.Picture, command.PictureAlt, command.PictureTitle);
+            var picture = _fileUploader.Upload(command.Picture, "products-pictures");
+
+            productPicture.Edit(command.ProductId, picture, command.PictureAlt, command.PictureTitle);
             _productPictureRepository.Save();
             return operation.Success();
         }

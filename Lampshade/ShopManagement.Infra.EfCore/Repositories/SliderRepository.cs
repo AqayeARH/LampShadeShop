@@ -20,7 +20,7 @@ namespace ShopManagement.Infra.EfCore.Repositories
         {
             return _context.Sliders.Select(x => new EditSliderCommand
             {
-                Picture = x.Picture,
+                //Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 Heading = x.Heading,
