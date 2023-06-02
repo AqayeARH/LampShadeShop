@@ -1,7 +1,9 @@
-﻿using Lampshade.Query.Contracts.ProductCategory;
+﻿using Lampshade.Query.Contracts.Product;
+using Lampshade.Query.Contracts.ProductCategory;
 using Lampshade.Query.Contracts.Slider;
 using Lampshade.Query.Queries;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;
 using ShopManagement.Application.Contracts.Product;
@@ -53,12 +55,17 @@ namespace ShopManagement.Infra.Configuration
 
             service.AddTransient<ISliderQuery, SliderQuery>();
             service.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
+            service.AddTransient<IProductQuery, ProductQuery>();
 
             #endregion
 
             service.AddDbContext<ShopContext>(options =>
             {
                 options.UseSqlServer(connectionString);
+
+                //Use it in ef core 6
+                options.ConfigureWarnings(warnings =>
+                    warnings.Ignore(CoreEventId.NavigationBaseIncludeIgnored));
             });
         }
     }

@@ -1,0 +1,106 @@
+﻿@* Show Latest Products In Index Page *@
+@model List<Lampshade.Query.Contracts.Product.ProductQueryModel>
+@{
+    Layout = null;
+}
+
+<!--====================  single row slider ====================-->
+<div class="single-row-slider-area section-space">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!--=======  section title  =======-->
+                <div class="section-title-wrapper text-center section-space--half">
+                    <h2 class="section-title">آخرین محصولات ما</h2>
+                    <p class="section-subtitle">
+                        --------------------------------
+                    </p>
+                </div>
+                <!--=======  End of section title  =======-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <!--=======  single row slider wrapper  =======-->
+                <div class="single-row-slider-wrapper">
+                    <div class="ht-slick-slider" data-slick-setting='{
+                        "slidesToShow": 4,
+                        "slidesToScroll": 1,
+                        "arrows": true,
+                        "autoplay": false,
+                        "autoplaySpeed": 5000,
+                        "speed": 1000,
+                        "infinite": false,
+                        "rtl": true,
+                        "prevArrow": {"buttonClass": "slick-prev", "iconClass": "ion-chevron-left" },
+                        "nextArrow": {"buttonClass": "slick-next", "iconClass": "ion-chevron-right" }
+                    }' data-slick-responsive='[
+                        {"breakpoint":1501, "settings": {"slidesToShow": 4} },
+                        {"breakpoint":1199, "settings": {"slidesToShow": 4, "arrows": false} },
+                        {"breakpoint":991, "settings": {"slidesToShow": 3, "arrows": false} },
+                        {"breakpoint":767, "settings": {"slidesToShow": 2, "arrows": false} },
+                        {"breakpoint":575, "settings": {"slidesToShow": 2, "arrows": false} },
+                        {"breakpoint":479, "settings": {"slidesToShow": 1, "arrows": false} }
+                    ]'>
+
+                        @foreach (var item in Model)
+                        {
+                            <div class="col">
+                                <!--=======  single grid product  =======-->
+                                <div class="single-grid-product">
+                                    <div class="single-grid-product__image">
+                                        @if (item.HasDiscount)
+                                        {
+                                            <div class="single-grid-product__label">
+                                                <span class="sale">@item.DiscountRate%-</span>
+                                            </div>
+                                        }
+                                        <a href="single-product.html">
+                                            <img src="~/site/assets/img/products/1-600x800.jpg" class="img-fluid" alt="">
+                                            <img src="~/site/assets/img/products/1_1-600x800.jpg" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="single-grid-product__content">
+                                        <div class="single-grid-product__category-rating">
+                                            <span class="category"><a asp-page="ProductsCategory" asp-route-slug="@item.CategorySlug">@item.CategoryName</a></span>
+                                            <span class="rating">
+                                                <i class="ion-android-star active"></i>
+                                                <i class="ion-android-star active"></i>
+                                                <i class="ion-android-star active"></i>
+                                                <i class="ion-android-star active"></i>
+                                                <i class="ion-android-star-outline"></i>
+                                            </span>
+                                        </div>
+
+                                        <h3 class="single-grid-product__title">
+                                            <a href="single-product.html">
+                                                @item.Name
+                                            </a>
+                                        </h3>
+                                        @if (item.HasDiscount)
+                                        {
+                                            <p class="single-grid-product__price">
+                                                <span class="discounted-price">@item.PriceAfterDiscount</span>
+                                                <span class="main-price discounted">@item.Price</span>
+                                            </p>
+                                        }
+                                        else
+                                        {
+                                            <p class="single-grid-product__price">
+                                                <span class="main-price">@item.Price</span>
+                                            </p>
+                                        }
+                                    </div>
+                                </div>
+                                <!--=======  End of single grid product  =======-->
+                            </div>
+                        }
+
+                    </div>
+                </div>
+                <!--=======  End of single row slider wrapper  =======-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--====================  End of single row slider  ====================-->

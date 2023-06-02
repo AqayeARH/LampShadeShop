@@ -4,6 +4,7 @@ using InventoryManagement.Domain.InventoryAgg;
 using InventoryManagement.Infra.EfCore;
 using InventoryManagement.Infra.EfCore.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace InventoryManagement.Infra.Configuration
@@ -18,6 +19,9 @@ namespace InventoryManagement.Infra.Configuration
             service.AddDbContext<InventoryContext>(options =>
             {
                 options.UseSqlServer(connectionString);
+
+                options.ConfigureWarnings(warnings =>
+                    warnings.Ignore(CoreEventId.NavigationBaseIncludeIgnored));
             });
         }
     }

@@ -936,6 +936,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "DiscountManagement.Infra.EfCore": "1.0.0",
+          "InventoryManagement.Infra.EfCore": "1.0.0",
           "ShopManagement.Infra.EfCore": "1.0.0"
         },
         "compile": {

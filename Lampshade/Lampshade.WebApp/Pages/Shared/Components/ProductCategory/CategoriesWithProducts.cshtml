@@ -1,0 +1,138 @@
+﻿@* Show Categories With Products In Index Page *@
+@model List<Lampshade.Query.Contracts.ProductCategory.ProductCategoryQueryModel>
+@{
+    Layout = null;
+}
+
+<!--====================  single row slider tab ====================-->
+<div class="single-row-slider-tab-area section-space">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!--=======  section title  =======-->
+                <div class="section-title-wrapper text-center section-space--half">
+                    <h2 class="section-title">محصولات ما</h2>
+                    <p class="section-subtitle">
+                        لیست محصولات موجود در سایت به تفکیک دسته بندی
+                    </p>
+                </div>
+                <!--=======  End of section title  =======-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <!--=======  tab slider wrapper  =======-->
+
+                <div class="tab-slider-wrapper">
+                    <!--=======  tab product navigation  =======-->
+
+                    <div class="tab-product-navigation">
+                        <div class="nav nav-tabs justify-content-center" id="nav-tab2" role="tablist">
+
+                            @foreach (var item in Model)
+                            {
+                                <a class="nav-item nav-link @(Model.First()==item?"active":"")" id="product-tab-@item.Id" data-toggle="tab"
+                               href="#product-series-@item.Id" role="tab" aria-selected="true">@item.Name</a>
+                            }
+
+                        </div>
+                    </div>
+
+                    <!--=======  End of tab product navigation  =======-->
+                    <!--=======  tab product content  =======-->
+                    <div class="tab-content">
+                        @foreach (var item in Model)
+                        {
+                            <div class="tab-pane fade show @(Model.First()==item?"active":"")" id="product-series-@item.Id" role="tabpanel"
+                             aria-labelledby="product-tab-@item.Id">
+                                <!--=======  single row slider wrapper  =======-->
+                                <div class="single-row-slider-wrapper">
+                                    <div class="ht-slick-slider" data-slick-setting='{
+                                    "slidesToShow": 4,
+                                    "slidesToScroll": 1,
+                                    "arrows": true,
+                                    "autoplay": false,
+                                    "autoplaySpeed": 5000,
+                                    "speed": 1000,
+                                    "infinite": true,
+                                    "rtl": true,
+                                    "prevArrow": {"buttonClass": "slick-prev", "iconClass": "ion-chevron-left" },
+                                    "nextArrow": {"buttonClass": "slick-next", "iconClass": "ion-chevron-right" }
+                                }' data-slick-responsive='[
+                                    {"breakpoint":1501, "settings": {"slidesToShow": 4} },
+                                    {"breakpoint":1199, "settings": {"slidesToShow": 4, "arrows": false} },
+                                    {"breakpoint":991, "settings": {"slidesToShow": 3, "arrows": false} },
+                                    {"breakpoint":767, "settings": {"slidesToShow": 2, "arrows": false} },
+                                    {"breakpoint":575, "settings": {"slidesToShow": 2, "arrows": false} },
+                                    {"breakpoint":479, "settings": {"slidesToShow": 1, "arrows": false} }
+                                ]'>
+                                        @foreach (var product in item.CategoryProducts)
+                                        {
+                                            <div class="col">
+                                                <!--=======  single grid product  =======-->
+                                                <div class="single-grid-product">
+                                                    <div class="single-grid-product__image">
+                                                        @if (product.HasDiscount)
+                                                        {
+                                                            <div class="single-grid-product__label">
+                                                                <span class="sale">@product.DiscountRate%-</span>
+                                                            </div>
+                                                        }
+                                                        <a href="single-product.html">
+                                                            <img src="@product.Picture" class="img-fluid"
+                                                         alt="@product.PictureAlt" title="@product.PictureTitle">
+                                                        </a>
+                                                    </div>
+                                                    <div class="single-grid-product__content">
+                                                        <div class="single-grid-product__category-rating">
+                                                            <span class="category">
+                                                                <a asp-page="ProductsCategory" asp-route-slug="@item.Slug">@product.CategoryName</a>
+                                                            </span>
+                                                            <span class="rating">
+                                                                <i class="ion-android-star active"></i>
+                                                                <i class="ion-android-star active"></i>
+                                                                <i class="ion-android-star active"></i>
+                                                                <i class="ion-android-star active"></i>
+                                                                <i class="ion-android-star-outline"></i>
+                                                            </span>
+                                                        </div>
+
+                                                        <h3 class="single-grid-product__title">
+                                                            <a href="single-product.html">
+                                                                @product.Name
+                                                            </a>
+                                                        </h3>
+                                                        @if (product.HasDiscount)
+                                                        {
+                                                            <p class="single-grid-product__price">
+                                                                <span class="discounted-price">@product.PriceAfterDiscount</span>
+                                                                <span class="main-price discounted">@product.Price</span>
+                                                            </p>
+                                                        }
+                                                        else
+                                                        {
+                                                            <p class="single-grid-product__price">
+                                                                <span class="main-price">@product.Price</span>
+                                                            </p>
+                                                        }
+                                                    </div>
+                                                </div>
+                                                <!--=======  End of single grid product  =======-->
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                                <!--=======  End of single row slider wrapper  =======-->
+                            </div>
+
+                        }
+                    </div>
+                    <!--=======  End of tab product content  =======-->
+                </div>
+
+                <!--=======  End of tab slider wrapper  =======-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--====================  End of single row slider tab  ====================-->

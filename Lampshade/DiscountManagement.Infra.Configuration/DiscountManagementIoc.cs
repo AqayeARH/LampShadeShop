@@ -6,6 +6,7 @@ using DiscountManagement.Domain.CustomerDiscountAgg;
 using DiscountManagement.Infra.EfCore;
 using DiscountManagement.Infra.EfCore.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace DiscountManagement.Infra.Configuration
@@ -31,6 +32,9 @@ namespace DiscountManagement.Infra.Configuration
             service.AddDbContext<DiscountContext>(options =>
             {
                 options.UseSqlServer(connectionString);
+
+                options.ConfigureWarnings(warnings =>
+                    warnings.Ignore(CoreEventId.NavigationBaseIncludeIgnored));
             });
         }
     }
