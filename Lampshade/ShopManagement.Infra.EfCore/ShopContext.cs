@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
+using ShopManagement.Domain.ProductCommentAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Domain.SliderAgg;
 using ShopManagement.Infra.EfCore.Mapping;
@@ -20,6 +21,7 @@ namespace ShopManagement.Infra.EfCore
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductPicture> ProductPictures { get; set; }
         public DbSet<Slider> Sliders { get; set; }
+        public DbSet<ProductComment> ProductComments { get; set; }
 
         #endregion
 

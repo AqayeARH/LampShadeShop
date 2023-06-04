@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D+6iUjuBAuGyyhR4ABFTkhSDJQMI2JDc+lFn5uSDcEo=",
+  "Hash": "dhC67e1NEXu2QhNkYbql7APZFYQAzKTP/vuAzC94yoM=",
   "Source": "Lampshade.WebApp",
   "BasePath": "_content/Lampshade.WebApp",
   "Mode": "Default",
@@ -5814,6 +5814,23 @@
       "OriginalItemSpec": "wwwroot\\pictures\\products-banner\\10_1-600x800.jpg"
     },
     {
+      "Identity": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-banner\\133301991489537526-Untitled-1.jpg",
+      "SourceId": "Lampshade.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\",
+      "BasePath": "_content/Lampshade.WebApp",
+      "RelativePath": "pictures/products-banner/133301991489537526-Untitled-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\products-banner\\133301991489537526-Untitled-1.jpg"
+    },
+    {
       "Identity": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-banner\\2-600x800.jpg",
       "SourceId": "Lampshade.WebApp",
       "SourceType": "Discovered",
@@ -6084,6 +6101,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\pictures\\products-pictures\\133301951062947638-9_1-600x800.jpg"
+    },
+    {
+      "Identity": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\products-pictures\\133301991929543017-pouf-model-2021-17.jpg",
+      "SourceId": "Lampshade.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\",
+      "BasePath": "_content/Lampshade.WebApp",
+      "RelativePath": "pictures/products-pictures/133301991929543017-pouf-model-2021-17.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\products-pictures\\133301991929543017-pouf-model-2021-17.jpg"
     },
     {
       "Identity": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\sliders\\slider1-eposi1-1820x785.jpg",

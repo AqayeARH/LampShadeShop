@@ -1,5 +1,6 @@
 ﻿using _0.Framework.Domain;
 using ShopManagement.Domain.ProductCategoryAgg;
+using ShopManagement.Domain.ProductCommentAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 
 namespace ShopManagement.Domain.ProductAgg
@@ -22,12 +23,14 @@ namespace ShopManagement.Domain.ProductAgg
         //public bool IsInStock { get; private set; }
 
         public List<ProductPicture> ProductPictures { get; private set; }
+        public List<ProductComment> ProductComments { get; private set; }
 
         //The constructor is called when creating a new instance
 
         protected Product()
         {
             ProductPictures = new List<ProductPicture>();
+            ProductComments = new List<ProductComment>();
         }
 
         public Product(string name, long categoryId/*, double unitPrice*/, string code, string shortDescription,

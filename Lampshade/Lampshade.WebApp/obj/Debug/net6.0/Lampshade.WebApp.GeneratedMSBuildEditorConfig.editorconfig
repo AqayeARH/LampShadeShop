@@ -88,6 +88,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xTaG9wTWFuYWdlbWVudFxQcm9kdWN0Q2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Areas/Administrator/Pages/ShopManagement/ProductComment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xTaG9wTWFuYWdlbWVudFxQcm9kdWN0Q29tbWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Areas/Administrator/Pages/ShopManagement/ProductPictures/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xTaG9wTWFuYWdlbWVudFxQcm9kdWN0UGljdHVyZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -142,6 +146,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Pages/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Pages/ProductsCategory.cshtml]

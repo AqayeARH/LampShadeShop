@@ -43,6 +43,10 @@ body {
 
 .single-grid-product__category-rating .rating { float: left; }
 
+.single-grid-product__price {
+    direction: rtl;
+}
+
 .single-grid-product__price .discounted-price {
     margin-right: unset;
     margin-left: 10px;

@@ -3,6 +3,7 @@ using _0.Framework.Application;
 using DiscountManagement.Infra.EfCore;
 using InventoryManagement.Infra.EfCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain.ProductCommentAgg;
 using ShopManagement.Infra.EfCore;
 
 namespace Lampshade.Query.Queries
@@ -79,15 +80,72 @@ namespace Lampshade.Query.Queries
                     DiscountRate = discounts.FirstOrDefault(d => d.ProductId == x.Id) != null ? discounts.FirstOrDefault(d => d.ProductId == x.Id)!.DiscountRate : 0,
                     PriceAfterDiscount = discounts.FirstOrDefault(d => d.ProductId == x.Id) != null ? (inventories.FirstOrDefault(i => i.ProductId == x.Id)!.UnitPrice - Math.Round(inventories.FirstOrDefault(i => i.ProductId == x.Id)!.UnitPrice) * (discounts.FirstOrDefault(d => d.ProductId == x.Id)!.DiscountRate) / 100).ToMoney() + "تومان" : "",
                     CategorySlug = x.Category.Slug,
-                    ExpireDiscountDate = discounts.FirstOrDefault(d => d.ProductId == x.Id)?.EndDate.ToShortDateString()
+                    ExpireDiscountDate = discounts.FirstOrDefault(d => d.ProductId == x.Id)?.EndDate.ToShortDateString(),
+                    Tags = x.KayWords
                 }).AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(value))
             {
-                query = query.Where(x => x.Name.Contains(value));
+                query = query.Where(x => x.Name.Contains(value) || x.Tags.Contains(value));
             }
 
             return query.OrderByDescending(x => x.Id).ToList();
+        }
+
+        public ProductQueryModel GetDetailsBy(string slug)
+        {
+            var inventories = _inventoryContext.Inventories
+                .Select(x => new { x.ProductId, x.UnitPrice, x.InStock }).ToList();
+
+            var discounts = _discountContext.CustomerDiscounts
+                .Where(x => x.StartDate <= DateTime.Now && x.EndDate >= DateTime.Now)
+                .Select(x => new { x.ProductId, x.DiscountRate, x.EndDate }).ToList();
+
+            return _shopContext.Products.Include(x => x.Category)
+                .Include(x => x.ProductPictures)
+                .Include(x=>x.ProductComments)
+                .AsEnumerable()
+                .Select(x => new ProductQueryModel()
+                {
+                    Id = x.Id,
+                    CategoryName = x.Category.Name,
+                    CategorySlug = x.Category.Slug,
+                    DiscountRate = discounts.FirstOrDefault(d => d.ProductId == x.Id) != null ? discounts.FirstOrDefault(d => d.ProductId == x.Id)!.DiscountRate : 0,
+                    ExpireDiscountDate = discounts.FirstOrDefault(d => d.ProductId == x.Id)?.EndDate.ToShortDateString(),
+                    HasDiscount = discounts.FirstOrDefault(d => d.ProductId == x.Id) != null,
+                    Name = x.Name,
+                    Slug = x.Slug,
+                    Picture = x.Picture,
+                    Price = inventories.FirstOrDefault(i => i.ProductId == x.Id) != null ? inventories.FirstOrDefault(i => i.ProductId == x.Id)?.UnitPrice.ToMoney() + "تومان" : "ناموجود در انبار",
+                    PictureAlt = x.PictureAlt,
+                    PictureTitle = x.PictureTitle,
+                    PriceAfterDiscount = discounts.FirstOrDefault(d => d.ProductId == x.Id) != null ? (inventories.FirstOrDefault(i => i.ProductId == x.Id)!.UnitPrice - Math.Round(inventories.FirstOrDefault(i => i.ProductId == x.Id)!.UnitPrice) * (discounts.FirstOrDefault(d => d.ProductId == x.Id)!.DiscountRate) / 100).ToMoney() + "تومان" : "",
+                    Code = x.Code,
+                    ShortDescription = x.ShortDescription,
+                    Description = x.Description,
+                    Tags = x.KayWords,
+                    MetaDescription = x.MetaDescription,
+                    IsInStock = inventories.FirstOrDefault(i => i.ProductId == x.Id) != null && inventories.FirstOrDefault(i => i.ProductId == x.Id)!.InStock,
+                    ProductPictures = x.ProductPictures
+                        .Where(productPicture => productPicture.IsRemoved == false)
+                        .AsEnumerable().Select(productPicture => new ProductPicturesQueryModel()
+                        {
+                            IsRemoved = productPicture.IsRemoved,
+                            Picture = productPicture.Picture,
+                            PictureAlt = productPicture.PictureAlt,
+                            PictureTitle = productPicture.PictureTitle
+                        }).ToList(),
+                    ProductComments = x.ProductComments
+                        .Where(c=>c.Status == ProductCommentStatuses.Confirmed)
+                        .AsEnumerable()
+                        .Select(c=> new ProductCommentQueryModel()
+                        {
+                            CreationDate = c.CreationDate.ToFarsi(),
+                            Name = c.Name,
+                            Text = c.Text,
+                            Id = c.Id
+                        }).OrderByDescending(c=>c.Id).ToList(),
+                }).FirstOrDefault(x => x.Slug == slug);
         }
     }
 }

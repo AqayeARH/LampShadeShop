@@ -8,10 +8,12 @@ using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductCategory;
+using ShopManagement.Application.Contracts.ProductComment;
 using ShopManagement.Application.Contracts.ProductPicture;
 using ShopManagement.Application.Contracts.Slider;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
+using ShopManagement.Domain.ProductCommentAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Domain.SliderAgg;
 using ShopManagement.Infra.EfCore;
@@ -41,6 +43,13 @@ namespace ShopManagement.Infra.Configuration
 
             service.AddTransient<IProductPictureRepository, ProductPictureRepository>();
             service.AddTransient<IProductPictureApplication, ProductPictureApplication>();
+
+            #endregion
+
+            #region Product Comment
+
+            service.AddTransient<IProductCommentRepository, ProductCommentRepository>();
+            service.AddTransient<IProductCommentApplication, ProductCommentApplication>();
 
             #endregion
 
