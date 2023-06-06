@@ -13,9 +13,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BlogManagement.Infra.Configuration\BlogManagement.Infra.Configuration.csproj" />
     <ProjectReference Include="..\DiscountManagement.Infra.Configuration\DiscountManagement.Infra.Configuration.csproj" />
     <ProjectReference Include="..\InventoryManagement.Infra.Configuration\InventoryManagement.Infra.Configuration.csproj" />
     <ProjectReference Include="..\ShopManagement.Infra.Configuration\ShopManagement.Infra.Configuration.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\pictures\articles\" />
   </ItemGroup>
 
 </Project>

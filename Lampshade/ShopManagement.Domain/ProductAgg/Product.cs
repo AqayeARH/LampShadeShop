@@ -25,14 +25,14 @@ namespace ShopManagement.Domain.ProductAgg
         public List<ProductPicture> ProductPictures { get; private set; }
         public List<ProductComment> ProductComments { get; private set; }
 
-        //The constructor is called when creating a new instance
-
+        //Empty constructor for ef core relations
         protected Product()
         {
             ProductPictures = new List<ProductPicture>();
             ProductComments = new List<ProductComment>();
         }
 
+        //The constructor is called when creating a new instance
         public Product(string name, long categoryId/*, double unitPrice*/, string code, string shortDescription,
             string description, string picture, string pictureAlt, string pictureTitle, string slug,
             string kayWords, string metaDescription)
@@ -63,7 +63,7 @@ namespace ShopManagement.Domain.ProductAgg
             Code = code;
             ShortDescription = shortDescription;
             Description = description;
-            if (string.IsNullOrEmpty(picture))
+            if (!string.IsNullOrEmpty(picture))
             {
                 Picture = picture;
             }

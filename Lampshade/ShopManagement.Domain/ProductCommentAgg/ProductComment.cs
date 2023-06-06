@@ -12,6 +12,13 @@ namespace ShopManagement.Domain.ProductCommentAgg
         public string Text { get; private set; }
         public int Status { get; private set; }
 
+        //Empty constructor for ef core relations
+        protected ProductComment()
+        {
+            
+        }
+
+        //The constructor is called when creating a new instance
         public ProductComment(long productId, string name, string email, string text)
         {
             ProductId = productId;

@@ -769,6 +769,10 @@
       "PackagePath": "staticwebassets\\admin\\assets\\jquery.validate\\jquery.validate.min.js"
     },
     {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\CkEditor.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\CkEditor.js"
+    },
+    {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\admin\\assets\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\admin\\assets\\js\\bootstrap.js"
     },
@@ -1105,6 +1109,2118 @@
       "PackagePath": "staticwebassets\\admin\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\CHANGES.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\CHANGES.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\LICENSE.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\README.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\README.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\adapters\\jquery.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\adapters\\jquery.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\build-config.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\build-config.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\ckeditor.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\ckeditor.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\config.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\config.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\contents.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\contents.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\af.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\af.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\ar.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\az.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\az.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\bg.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\bn.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\bn.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\bs.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\bs.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\ca.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\cs.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\cy.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\da.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\da.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\de-ch.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\de-ch.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\de.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\de.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\el.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\el.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\en-au.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\en-ca.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\en-ca.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\en-gb.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\en.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\en.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\eo.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\es-mx.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\es-mx.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\es.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\es.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\et.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\et.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\eu.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\fa.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\fi.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\fo.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\fo.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\fr.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\gl.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\gu.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\gu.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\he.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\he.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\hi.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\hi.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\hr.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\hu.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\id.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\id.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\is.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\is.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\it.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\it.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\ja.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\ka.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\ka.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\km.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\km.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\ko.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\ku.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\ku.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\lt.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\lv.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\mk.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\mk.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\mn.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\mn.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\ms.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\ms.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\nb.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\nl.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\no.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\no.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\oc.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\oc.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\pl.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\pt-br.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\pt.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\ro.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\ru.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\si.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\si.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\sk.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\sl.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\sq.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\sq.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\sr.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\sv.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\th.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\th.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\tr.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\tt.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\tt.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\ug.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\uk.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\vi.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\lang\\zh.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\a11yhelp.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\a11yhelp.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\_translationstatus.txt",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\_translationstatus.txt"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\af.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\af.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ar.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\az.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\az.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\bg.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ca.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cs.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cy.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\da.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\da.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de-ch.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de-ch.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\el.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\el.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-au.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-gb.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eo.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es-mx.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es-mx.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\et.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\et.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eu.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fa.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fi.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fo.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fo.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gl.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gu.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gu.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\he.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\he.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hi.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hi.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hr.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hu.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\id.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\id.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\it.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\it.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ja.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\km.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\km.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ko.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ku.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ku.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lt.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lv.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mk.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mk.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mn.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mn.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nb.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nl.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\no.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\no.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\oc.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\oc.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pl.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt-br.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ro.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ru.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\si.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\si.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sk.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sl.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sq.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sq.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sv.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\th.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\th.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tr.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tt.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tt.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ug.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\uk.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\vi.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\about\\dialogs\\about.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\about\\dialogs\\about.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\about\\dialogs\\hidpi\\logo_ckeditor.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\about\\dialogs\\hidpi\\logo_ckeditor.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\about\\dialogs\\logo_ckeditor.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\about\\dialogs\\logo_ckeditor.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\clipboard\\dialogs\\paste.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\clipboard\\dialogs\\paste.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\colordialog\\dialogs\\colordialog.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\colordialog\\dialogs\\colordialog.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\colordialog\\dialogs\\colordialog.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\colordialog\\dialogs\\colordialog.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\copyformatting\\cursors\\cursor-disabled.svg",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\copyformatting\\cursors\\cursor-disabled.svg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\copyformatting\\cursors\\cursor.svg",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\copyformatting\\cursors\\cursor.svg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\copyformatting\\styles\\copyformatting.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\copyformatting\\styles\\copyformatting.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\dialog\\dialogDefinition.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\dialog\\dialogDefinition.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\dialog\\styles\\dialog.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\dialog\\styles\\dialog.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\div\\dialogs\\div.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\div\\dialogs\\div.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\CHANGELOG.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\LICENSE.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\README.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\README.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\plugindefinition.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\plugindefinition.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\_helpers\\tools.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\_helpers\\tools.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\authentication.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\authentication.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\exportpdf.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\exportpdf.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\configfilename.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\configfilename.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\configfilename.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\configfilename.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\emptyeditor.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\emptyeditor.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\emptyeditor.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\emptyeditor.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integration.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integration.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integration.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integration.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integrations\\easyimage.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integrations\\easyimage.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integrations\\easyimage.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integrations\\easyimage.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notifications.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notifications.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notifications.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notifications.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notificationsasync.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notificationsasync.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notificationsasync.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notificationsasync.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\paperformat.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\paperformat.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\paperformat.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\paperformat.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\readonly.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\readonly.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\readonly.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\readonly.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\stylesheets.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\stylesheets.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\stylesheets.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\stylesheets.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenfetching.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenfetching.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenfetching.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenfetching.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorscorrect.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorscorrect.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorscorrect.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorscorrect.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorswrong.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorswrong.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorswrong.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorswrong.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenwithouturl.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenwithouturl.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenwithouturl.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenwithouturl.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\wrongendpoint.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\wrongendpoint.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\wrongendpoint.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\manual\\wrongendpoint.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\notification.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\notification.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\resourcespaths.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\resourcespaths.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\statistics.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\statistics.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\stylesheets.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\exportpdf\\tests\\stylesheets.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\find\\dialogs\\find.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\find\\dialogs\\find.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\flash\\dialogs\\flash.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\flash\\dialogs\\flash.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\flash\\images\\placeholder.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\flash\\images\\placeholder.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\forms\\dialogs\\button.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\forms\\dialogs\\button.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\forms\\dialogs\\checkbox.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\forms\\dialogs\\checkbox.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\forms\\dialogs\\form.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\forms\\dialogs\\form.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\forms\\dialogs\\hiddenfield.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\forms\\dialogs\\hiddenfield.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\forms\\dialogs\\radio.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\forms\\dialogs\\radio.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\forms\\dialogs\\select.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\forms\\dialogs\\select.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\forms\\dialogs\\textarea.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\forms\\dialogs\\textarea.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\forms\\dialogs\\textfield.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\forms\\dialogs\\textfield.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\forms\\images\\hiddenfield.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\forms\\images\\hiddenfield.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\icons.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\icons.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\icons_hidpi.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\icons_hidpi.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\iframe\\dialogs\\iframe.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\iframe\\dialogs\\iframe.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\iframe\\images\\placeholder.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\iframe\\images\\placeholder.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\image\\dialogs\\image.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\image\\dialogs\\image.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\image\\images\\noimage.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\image\\images\\noimage.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\link\\dialogs\\anchor.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\link\\dialogs\\anchor.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\link\\dialogs\\link.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\link\\dialogs\\link.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\link\\images\\anchor.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\link\\images\\anchor.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\link\\images\\hidpi\\anchor.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\link\\images\\hidpi\\anchor.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\liststyle\\dialogs\\liststyle.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\liststyle\\dialogs\\liststyle.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon-rtl.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon-rtl.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\magicline\\images\\icon-rtl.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\magicline\\images\\icon-rtl.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\magicline\\images\\icon.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\magicline\\images\\icon.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\pagebreak\\images\\pagebreak.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\pagebreak\\images\\pagebreak.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\pastefromgdocs\\filter\\default.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\pastefromgdocs\\filter\\default.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\pastefromlibreoffice\\filter\\default.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\pastefromlibreoffice\\filter\\default.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\pastefromword\\filter\\default.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\pastefromword\\filter\\default.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\pastetools\\filter\\common.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\pastetools\\filter\\common.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\pastetools\\filter\\image.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\pastetools\\filter\\image.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\preview\\images\\pagebreak.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\preview\\images\\pagebreak.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\preview\\preview.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\preview\\preview.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\preview\\styles\\screen.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\preview\\styles\\screen.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\scayt\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\scayt\\CHANGELOG.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\scayt\\LICENSE.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\scayt\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\scayt\\README.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\scayt\\README.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\scayt\\dialogs\\dialog.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\scayt\\dialogs\\dialog.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\scayt\\dialogs\\options.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\scayt\\dialogs\\options.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\scayt\\dialogs\\toolbar.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\scayt\\dialogs\\toolbar.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\scayt\\skins\\moono-lisa\\scayt.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\scayt\\skins\\moono-lisa\\scayt.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_address.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_address.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_blockquote.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_blockquote.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_div.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_div.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_h1.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_h1.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_h2.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_h2.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_h3.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_h3.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_h4.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_h4.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_h5.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_h5.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_h6.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_h6.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_p.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_p.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_pre.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\showblocks\\images\\block_pre.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\dialogs\\smiley.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\dialogs\\smiley.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\angel_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\angel_smile.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\angel_smile.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\angel_smile.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\angry_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\angry_smile.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\angry_smile.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\angry_smile.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\broken_heart.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\broken_heart.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\broken_heart.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\broken_heart.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\confused_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\confused_smile.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\confused_smile.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\confused_smile.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\cry_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\cry_smile.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\cry_smile.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\cry_smile.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\devil_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\devil_smile.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\devil_smile.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\devil_smile.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\embaressed_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\embaressed_smile.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\embarrassed_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\embarrassed_smile.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\embarrassed_smile.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\embarrassed_smile.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\envelope.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\envelope.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\envelope.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\envelope.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\heart.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\heart.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\heart.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\heart.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\kiss.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\kiss.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\kiss.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\kiss.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\lightbulb.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\lightbulb.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\lightbulb.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\lightbulb.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\omg_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\omg_smile.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\omg_smile.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\omg_smile.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\regular_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\regular_smile.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\regular_smile.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\regular_smile.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\sad_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\sad_smile.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\sad_smile.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\sad_smile.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\shades_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\shades_smile.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\shades_smile.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\shades_smile.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\teeth_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\teeth_smile.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\teeth_smile.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\teeth_smile.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\thumbs_down.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\thumbs_down.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\thumbs_down.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\thumbs_down.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\thumbs_up.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\thumbs_up.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\thumbs_up.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\thumbs_up.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\tongue_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\tongue_smile.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\tongue_smile.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\tongue_smile.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\tounge_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\tounge_smile.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\whatchutalkingabout_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\whatchutalkingabout_smile.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\whatchutalkingabout_smile.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\whatchutalkingabout_smile.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\wink_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\wink_smile.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\wink_smile.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\smiley\\images\\wink_smile.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\_translationstatus.txt",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\_translationstatus.txt"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\af.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\af.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ar.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\az.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\az.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\bg.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ca.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cs.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cy.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\da.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\da.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de-ch.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de-ch.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\el.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\el.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-au.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-ca.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-ca.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-gb.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eo.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es-mx.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es-mx.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\et.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\et.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eu.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fa.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fi.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\gl.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\he.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\he.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hr.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hu.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\id.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\id.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\it.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\it.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ja.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\km.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\km.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ko.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ku.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ku.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lt.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lv.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nb.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nl.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\no.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\no.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\oc.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\oc.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pl.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt-br.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ro.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ru.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\si.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\si.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sk.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sl.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sq.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sq.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sv.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\th.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\th.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tr.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tt.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tt.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ug.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\uk.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\vi.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\specialchar.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\specialchar\\dialogs\\specialchar.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\table\\dialogs\\table.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\table\\dialogs\\table.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\tableselection\\styles\\tableselection.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\tableselection\\styles\\tableselection.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\tabletools\\dialogs\\tableCell.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\tabletools\\dialogs\\tableCell.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\templates\\dialogs\\templates.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\templates\\dialogs\\templates.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\templates\\dialogs\\templates.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\templates\\dialogs\\templates.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\templates\\templates\\default.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\templates\\templates\\default.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\templates\\templates\\images\\template1.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\templates\\templates\\images\\template1.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\templates\\templates\\images\\template2.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\templates\\templates\\images\\template2.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\templates\\templates\\images\\template3.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\templates\\templates\\images\\template3.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\widget\\images\\handle.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\widget\\images\\handle.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\LICENSE.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\README.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\README.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\dialogs\\ciframe.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\dialogs\\ciframe.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\dialogs\\tmpFrameset.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\dialogs\\tmpFrameset.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\dialogs\\wsc.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\dialogs\\wsc.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\dialogs\\wsc.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\dialogs\\wsc.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\dialogs\\wsc_ie.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\dialogs\\wsc_ie.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\icons\\hidpi\\spellchecker.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\icons\\hidpi\\spellchecker.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\icons\\spellchecker.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\icons\\spellchecker.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\af.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\af.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ar.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\bg.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\bn.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\bn.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\bs.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\bs.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ca.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\cs.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\cy.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\da.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\da.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\de.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\de.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\el.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\el.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\en-au.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\en-ca.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\en-ca.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\en-gb.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\en.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\en.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\eo.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\es.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\es.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\et.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\et.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\eu.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\fa.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\fi.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\fo.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\fo.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\fr.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\gl.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\gu.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\gu.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\he.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\he.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\hi.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\hi.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\hr.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\hu.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\is.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\is.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\it.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\it.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ja.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ka.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ka.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\km.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\km.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ko.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ku.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ku.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\lt.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\lv.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\mk.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\mk.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\mn.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\mn.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ms.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ms.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\nb.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\nl.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\no.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\no.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\pl.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\pt-br.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\pt.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ro.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ru.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\sk.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\sl.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\sr.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\sv.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\th.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\th.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\tr.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\ug.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\uk.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\vi.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\lang\\zh.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\plugin.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\plugin.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\plugins\\wsc\\skins\\moono-lisa\\wsc.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\plugins\\wsc\\skins\\moono-lisa\\wsc.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\css\\samples.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\css\\samples.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\img\\github-top.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\img\\github-top.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\img\\header-bg.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\img\\header-bg.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\img\\header-separator.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\img\\header-separator.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\img\\logo.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\img\\logo.svg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\img\\navigation-tip.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\img\\navigation-tip.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\index.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\index.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\js\\sample.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\js\\sample.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\js\\sf.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\js\\sf.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\ajax.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\ajax.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\api.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\api.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\appendto.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\appendto.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\assets\\inlineall\\logo.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\assets\\inlineall\\logo.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\assets\\outputxhtml\\outputxhtml.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\assets\\outputxhtml\\outputxhtml.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\assets\\posteddata.php",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\assets\\posteddata.php"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\assets\\sample.jpg",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\assets\\sample.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\assets\\uilanguages\\languages.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\assets\\uilanguages\\languages.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\datafiltering.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\datafiltering.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\dialog\\assets\\my_dialog.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\dialog\\assets\\my_dialog.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\dialog\\dialog.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\dialog\\dialog.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\divreplace.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\divreplace.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\enterkey\\enterkey.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\enterkey\\enterkey.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\htmlwriter\\assets\\outputforflash\\outputforflash.fla",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\htmlwriter\\assets\\outputforflash\\outputforflash.fla"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\htmlwriter\\assets\\outputforflash\\outputforflash.swf",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\htmlwriter\\assets\\outputforflash\\outputforflash.swf"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\htmlwriter\\assets\\outputforflash\\swfobject.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\htmlwriter\\assets\\outputforflash\\swfobject.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\htmlwriter\\outputforflash.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\htmlwriter\\outputforflash.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\htmlwriter\\outputhtml.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\htmlwriter\\outputhtml.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\index.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\index.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\inlineall.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\inlineall.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\inlinebycode.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\inlinebycode.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\inlinetextarea.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\inlinetextarea.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\jquery.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\jquery.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\magicline\\magicline.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\magicline\\magicline.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\readonly.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\readonly.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\replacebyclass.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\replacebyclass.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\replacebycode.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\replacebycode.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\sample.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\sample.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\sample.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\sample.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\sample_posteddata.php",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\sample_posteddata.php"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\tabindex.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\tabindex.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\toolbar\\toolbar.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\toolbar\\toolbar.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\uicolor.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\uicolor.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\uilanguages.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\uilanguages.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\wysiwygarea\\fullpage.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\wysiwygarea\\fullpage.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\old\\xhtmlstyle.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\old\\xhtmlstyle.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\css\\fontello.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\css\\fontello.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\font\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\font\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\font\\config.json",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\font\\config.json"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.eot",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.eot"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.svg",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.svg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.ttf",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.ttf"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.woff",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.woff"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\index.html",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\index.html"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\js\\abstracttoolbarmodifier.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\js\\abstracttoolbarmodifier.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\js\\fulltoolbareditor.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\js\\fulltoolbareditor.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbarmodifier.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbarmodifier.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbartextmodifier.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbartextmodifier.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\LICENSE",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\javascript.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\javascript.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\neo.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\neo.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\dialog.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\dialog.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\dialog_ie.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\dialog_ie.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\dialog_ie8.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\dialog_ie8.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\dialog_iequirks.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\dialog_iequirks.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\editor.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\editor.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\editor_gecko.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\editor_gecko.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\editor_ie.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\editor_ie.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\editor_ie8.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\editor_ie8.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\editor_iequirks.css",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\editor_iequirks.css"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\icons.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\icons.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\icons_hidpi.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\icons_hidpi.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\arrow.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\arrow.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\close.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\close.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\close.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\close.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock-open.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock-open.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\refresh.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\refresh.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\lock-open.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\lock-open.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\lock.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\lock.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\refresh.png",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\refresh.png"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\spinner.gif",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\images\\spinner.gif"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\skins\\moono-lisa\\readme.md",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\skins\\moono-lisa\\readme.md"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\styles.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\styles.js"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\ckeditor4\\ckeditor\\vendor\\promise.js",
+      "PackagePath": "staticwebassets\\ckeditor4\\ckeditor\\vendor\\promise.js"
+    },
+    {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -1335,6 +3451,22 @@
     {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\articleCategories\\133304329011464039-1-1170x743.jpg",
+      "PackagePath": "staticwebassets\\pictures\\articleCategories\\133304329011464039-1-1170x743.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\articles\\133304651215640714-1-1170x743.jpg",
+      "PackagePath": "staticwebassets\\pictures\\articles\\133304651215640714-1-1170x743.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\articles\\133304657006680398-2-1170x743.jpg",
+      "PackagePath": "staticwebassets\\pictures\\articles\\133304657006680398-2-1170x743.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\articles\\133304666978662265-3-1170x743.jpg",
+      "PackagePath": "staticwebassets\\pictures\\articles\\133304666978662265-3-1170x743.jpg"
     },
     {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\categories\\img1-top-eposi1.jpg",

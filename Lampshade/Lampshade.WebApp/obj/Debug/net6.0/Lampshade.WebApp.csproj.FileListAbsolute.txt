@@ -99,3 +99,13 @@ D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.genruntimeconfig.cache
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\ref\Lampshade.WebApp.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.MvcApplicationPartsAssemblyInfo.cs
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\BlogManagement.Application.Contracts.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\BlogManagement.Domain.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\BlogManagement.Infra.Configuration.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\BlogManagement.Infra.EfCore.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\BlogManagement.Infra.Configuration.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\BlogManagement.Application.Contracts.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\BlogManagement.Domain.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\BlogManagement.Infra.EfCore.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\BlogManagement.Application.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\BlogManagement.Application.pdb

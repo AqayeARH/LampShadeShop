@@ -16,6 +16,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Areas/Administrator/Pages/BlogManagement/ArticleCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xCbG9nTWFuYWdlbWVudFxBcnRpY2xlQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Areas/Administrator/Pages/BlogManagement/ArticleCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xCbG9nTWFuYWdlbWVudFxBcnRpY2xlQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Areas/Administrator/Pages/BlogManagement/ArticleCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xCbG9nTWFuYWdlbWVudFxBcnRpY2xlQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Areas/Administrator/Pages/BlogManagement/Articles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xCbG9nTWFuYWdlbWVudFxBcnRpY2xlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Areas/Administrator/Pages/BlogManagement/Articles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xCbG9nTWFuYWdlbWVudFxBcnRpY2xlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Areas/Administrator/Pages/BlogManagement/Articles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xCbG9nTWFuYWdlbWVudFxBcnRpY2xlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Areas/Administrator/Pages/DiscountsManagement/ColleaguesDiscounts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xEaXNjb3VudHNNYW5hZ2VtZW50XENvbGxlYWd1ZXNEaXNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

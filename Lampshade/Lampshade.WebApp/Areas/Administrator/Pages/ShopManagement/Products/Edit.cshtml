@@ -20,7 +20,7 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <label asp-for="Name" class="control-label">نام</label>
-                    <input type="file" class="form-control" asp-for="Name" onchange="makeSlug('Name', 'Slug')">
+                    <input class="form-control" asp-for="Name" onchange="makeSlug('Name', 'Slug')">
                     <span asp-validation-for="Name" class="error"></span>
                 </div>
             </div>
@@ -36,7 +36,7 @@
             <div class="col-md-12">
                 <div class="form-group">
                     <label asp-for="Picture" class="control-label">عکس</label>
-                    <input class="form-control" asp-for="Picture" accept="image/*">
+                    <input type="file" class="form-control" asp-for="Picture" accept="image/*">
                     <span asp-validation-for="Picture" class="error"></span>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                 <div class="form-group no-margin">
                     <label asp-for="ShortDescription" class="control-label">توضیحات کوتاه</label>
                     <textarea class="form-control autogrow" asp-for="ShortDescription" onchange="fillField('ShortDescription', 'MetaDescription')"
-                              style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
+                              style="overflow: hidden; word-wrap: break-word; resize: vertical; height: 104px;"></textarea>
                     <span asp-validation-for="ShortDescription" class="error"></span>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                 <div class="form-group no-margin">
                     <label asp-for="Description" class="control-label">توضیحات</label>
                     <textarea class="form-control autogrow" asp-for="Description"
-                              style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
+                              style="overflow: hidden; word-wrap: break-word; resize: vertical; height: 104px;"></textarea>
                     <span asp-validation-for="Description" class="error"></span>
                 </div>
             </div>
@@ -112,7 +112,7 @@
                 <div class="form-group no-margin">
                     <label asp-for="MetaDescription" class="control-label">توضیحات متا</label>
                     <textarea class="form-control autogrow" asp-for="MetaDescription"
-                              style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
+                              style="overflow: hidden; word-wrap: break-word; resize: vertical; height: 104px;"></textarea>
                     <span asp-validation-for="MetaDescription" class="error"></span>
                 </div>
             </div>

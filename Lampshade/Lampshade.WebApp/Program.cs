@@ -1,4 +1,5 @@
 using _0.Framework.Application;
+using BlogManagement.Infra.Configuration;
 using DiscountManagement.Infra.Configuration;
 using InventoryManagement.Infra.Configuration;
 using Lampshade.WebApp;
@@ -13,6 +14,7 @@ var connectionString = builder.Configuration.GetConnectionString("LampshadeConne
 ShopManagementIoc.Configure(service, connectionString);
 DiscountManagementIoc.Configure(service,connectionString);
 InventoryManagementIoc.Configure(service,connectionString);
+BlogManagementIoc.Configure(service,connectionString);
 
 service.AddTransient<IFileUploader, FileUploader>();
 
