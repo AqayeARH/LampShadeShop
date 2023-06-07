@@ -1,0 +1,80 @@
+﻿@* Sidebar in article details and articles page *@
+@model Lampshade.Query.Common.ArticleSidebarQueryModel
+@{
+    Layout = null;
+}
+<div class="col-lg-3 order-2 order-lg-2">
+    <!--=======  page sidebar wrapper =======-->
+    <div class="page-sidebar-wrapper">
+        <!--=======  single sidebar widget  =======-->
+        <div class="single-sidebar-widget">
+
+            <h4 class="single-sidebar-widget__title">دسته بندی مقالات</h4>
+            <ul class="single-sidebar-widget__category-list">
+                @foreach (var item in Model.ArticleCategories)
+                {
+                    <li>
+                        <a asp-page="Articles" asp-route-slug="@item.Slug">
+                            @item.Name <span class="counter">@item.ArticlesCount</span>
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+
+        <div class="single-sidebar-widget">
+
+            <h4 class="single-sidebar-widget__title">آخرین مقالات</h4>
+            <div class="block-container">
+                @foreach (var item in Model.RecentArticles)
+                {
+                    <div class="single-block d-flex">
+                        <div class="image">
+                            <a asp-page="ArticleDetails" asp-route-slug="@item.Slug">
+                                <img src="~/pictures/articles/@item.Picture"
+                                 class="img-fluid" alt="@item.PictureAlt"
+                                 title="@item.PictureTitle">
+                            </a>
+                        </div>
+                        <div class="content">
+                            <p>
+                                <a asp-page="ArticleDetails" asp-route-slug="@item.Slug">
+                                    @item.Title
+                                </a> <span>@item.PublishDate</span>
+                            </p>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <!--=======  End of block container  =======-->
+        </div>
+        <!--=======  End of single sidebar widget  =======-->
+        <!--=======  single sidebar widget  =======-->
+        <div class="single-sidebar-widget">
+            <h4 class="single-sidebar-widget__title">تگ های پربازدید</h4>
+            <ul class="single-sidebar-widget__tag-list">
+                <li>
+                    <a asp-page="SearchResult" asp-route-searchValue="پاف">پاف</a>
+                </li>
+                <li>
+                    <a asp-page="SearchResult" asp-route-searchValue="آباژور">آباژور</a>
+                </li>
+                <li>
+                    <a asp-page="SearchResult" asp-route-searchValue="چراغ خواب">چراغ خواب</a>
+                </li>
+                <li>
+                    <a asp-page="SearchResult" asp-route-searchValue="گلدان">گلدان</a>
+                </li>
+                <li>
+                    <a asp-page="SearchResult" asp-route-searchValue="ماگ">ماگ</a>
+                </li>
+                <li>
+                    <a asp-page="SearchResult" asp-route-searchValue="فنجان">فنجان</a>
+                </li>
+            </ul>
+        </div>
+        <!--=======  End of single sidebar widget  =======-->
+    </div>
+    <!--=======  End of page sidebar wrapper  =======-->
+</div>

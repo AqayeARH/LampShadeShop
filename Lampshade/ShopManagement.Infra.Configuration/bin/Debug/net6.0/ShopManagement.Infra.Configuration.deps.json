@@ -546,6 +546,34 @@
           "0.Framework.dll": {}
         }
       },
+      "BlogManagement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "0.Framework": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
+        "runtime": {
+          "BlogManagement.Application.Contracts.dll": {}
+        }
+      },
+      "BlogManagement.Domain/1.0.0": {
+        "dependencies": {
+          "0.Framework": "1.0.0",
+          "BlogManagement.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "BlogManagement.Domain.dll": {}
+        }
+      },
+      "BlogManagement.Infra.EfCore/1.0.0": {
+        "dependencies": {
+          "BlogManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16"
+        },
+        "runtime": {
+          "BlogManagement.Infra.EfCore.dll": {}
+        }
+      },
       "DiscountManagement.Application.Contracts/1.0.0": {
         "dependencies": {
           "0.Framework": "1.0.0",
@@ -606,6 +634,7 @@
       },
       "Lampshade.Query/1.0.0": {
         "dependencies": {
+          "BlogManagement.Infra.EfCore": "1.0.0",
           "DiscountManagement.Infra.EfCore": "1.0.0",
           "InventoryManagement.Infra.EfCore": "1.0.0",
           "ShopManagement.Infra.EfCore": "1.0.0"
@@ -997,6 +1026,21 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "0.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogManagement.Infra.EfCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

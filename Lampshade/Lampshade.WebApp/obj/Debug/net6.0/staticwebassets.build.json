@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qIBz7z8UhJFrrpfeXWWH4MC0ZVTKRkQ3sy+PLkVKhrI=",
+  "Hash": "Tm/XsSwInVzlcvnX3H/tHqLJymxl4Pfw/8a+ZM6Zu28=",
   "Source": "Lampshade.WebApp",
   "BasePath": "_content/Lampshade.WebApp",
   "Mode": "Default",
@@ -14688,23 +14688,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\articleCategories\\133304329011464039-1-1170x743.jpg",
-      "SourceId": "Lampshade.WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\",
-      "BasePath": "_content/Lampshade.WebApp",
-      "RelativePath": "pictures/articleCategories/133304329011464039-1-1170x743.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\pictures\\articleCategories\\133304329011464039-1-1170x743.jpg"
-    },
-    {
       "Identity": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\articles\\133304651215640714-1-1170x743.jpg",
       "SourceId": "Lampshade.WebApp",
       "SourceType": "Discovered",
@@ -14754,6 +14737,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\pictures\\articles\\133304666978662265-3-1170x743.jpg"
+    },
+    {
+      "Identity": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\articles\\133305602902346259-4-370x235.jpg",
+      "SourceId": "Lampshade.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\",
+      "BasePath": "_content/Lampshade.WebApp",
+      "RelativePath": "pictures/articles/133305602902346259-4-370x235.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\articles\\133305602902346259-4-370x235.jpg"
+    },
+    {
+      "Identity": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\articles\\133305606043479673-5-370x235.jpg",
+      "SourceId": "Lampshade.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\",
+      "BasePath": "_content/Lampshade.WebApp",
+      "RelativePath": "pictures/articles/133305606043479673-5-370x235.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\articles\\133305606043479673-5-370x235.jpg"
     },
     {
       "Identity": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\categories\\img1-top-eposi1.jpg",

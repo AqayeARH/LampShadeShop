@@ -954,6 +954,7 @@
           "BlogManagement.Application": "1.0.0",
           "BlogManagement.Domain": "1.0.0",
           "BlogManagement.Infra.EfCore": "1.0.0",
+          "Lampshade.Query": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "compile": {
@@ -1130,6 +1131,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "BlogManagement.Infra.EfCore": "1.0.0",
           "DiscountManagement.Infra.EfCore": "1.0.0",
           "InventoryManagement.Infra.EfCore": "1.0.0",
           "ShopManagement.Infra.EfCore": "1.0.0"

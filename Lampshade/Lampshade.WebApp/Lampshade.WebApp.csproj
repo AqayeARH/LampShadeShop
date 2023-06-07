@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\pictures\articleCategories\" />
     <Folder Include="wwwroot\pictures\articles\" />
   </ItemGroup>
 

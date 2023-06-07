@@ -160,6 +160,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Pages/ArticleDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNsZURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Pages/Articles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -182,6 +190,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Pages/SearchResult.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoUmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Pages/Shared/Components/Articles/ArticleSidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcQXJ0aWNsZXNcQXJ0aWNsZVNpZGViYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Pages/Shared/Components/Articles/LatestArticles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcQXJ0aWNsZXNcTGF0ZXN0QXJ0aWNsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Pages/Shared/Components/Footer/Footer.cshtml]

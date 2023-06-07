@@ -319,6 +319,9 @@
               },
               "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\BlogManagement.Infra.EfCore\\BlogManagement.Infra.EfCore.csproj": {
                 "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\BlogManagement.Infra.EfCore\\BlogManagement.Infra.EfCore.csproj"
+              },
+              "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.Query\\Lampshade.Query.csproj": {
+                "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.Query\\Lampshade.Query.csproj"
               }
             }
           }
@@ -1187,6 +1190,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\BlogManagement.Infra.EfCore\\BlogManagement.Infra.EfCore.csproj": {
+                "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\BlogManagement.Infra.EfCore\\BlogManagement.Infra.EfCore.csproj"
+              },
               "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\DiscountManagement.Infra.EfCore\\DiscountManagement.Infra.EfCore.csproj": {
                 "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\DiscountManagement.Infra.EfCore\\DiscountManagement.Infra.EfCore.csproj"
               },

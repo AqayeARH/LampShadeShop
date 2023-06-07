@@ -3453,10 +3453,6 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\articleCategories\\133304329011464039-1-1170x743.jpg",
-      "PackagePath": "staticwebassets\\pictures\\articleCategories\\133304329011464039-1-1170x743.jpg"
-    },
-    {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\articles\\133304651215640714-1-1170x743.jpg",
       "PackagePath": "staticwebassets\\pictures\\articles\\133304651215640714-1-1170x743.jpg"
     },
@@ -3467,6 +3463,14 @@
     {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\articles\\133304666978662265-3-1170x743.jpg",
       "PackagePath": "staticwebassets\\pictures\\articles\\133304666978662265-3-1170x743.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\articles\\133305602902346259-4-370x235.jpg",
+      "PackagePath": "staticwebassets\\pictures\\articles\\133305602902346259-4-370x235.jpg"
+    },
+    {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\articles\\133305606043479673-5-370x235.jpg",
+      "PackagePath": "staticwebassets\\pictures\\articles\\133305606043479673-5-370x235.jpg"
     },
     {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\pictures\\categories\\img1-top-eposi1.jpg",

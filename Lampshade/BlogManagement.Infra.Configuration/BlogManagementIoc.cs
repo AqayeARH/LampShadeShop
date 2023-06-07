@@ -5,6 +5,9 @@ using BlogManagement.Domain.ArticleAgg;
 using BlogManagement.Domain.ArticleCategoryAgg;
 using BlogManagement.Infra.EfCore;
 using BlogManagement.Infra.EfCore.Repositories;
+using Lampshade.Query.Contracts.Article;
+using Lampshade.Query.Contracts.ArticleCategory;
+using Lampshade.Query.Queries;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.DependencyInjection;
@@ -26,6 +29,13 @@ namespace BlogManagement.Infra.Configuration
 
             service.AddTransient<IArticleRepository, ArticleRepository>();
             service.AddTransient<IArticleApplication, ArticleApplication>();
+
+            #endregion
+
+            #region Query
+
+            service.AddTransient<IArticleQuery, ArticleQuery>();
+            service.AddTransient<IArticleCategoryQuery, ArticleCategoryQuery>();
 
             #endregion
 

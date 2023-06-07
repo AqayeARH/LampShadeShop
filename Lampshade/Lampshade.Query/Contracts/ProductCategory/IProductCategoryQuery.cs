@@ -5,5 +5,6 @@
         List<ProductCategoryQueryModel> ShowCategoriesInIndex();
         List<ProductCategoryQueryModel> GetCategoriesWithProductsInIndex();
         ProductCategoryQueryModel GetCategoryWithProducts(string slug);
+        List<ProductCategoryQueryModel> GetProductCategoriesInMenu();
     }
 }

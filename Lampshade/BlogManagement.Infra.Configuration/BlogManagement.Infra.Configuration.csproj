@@ -13,6 +13,7 @@
 	  <ProjectReference Include="..\BlogManagement.Application\BlogManagement.Application.csproj" />
 	  <ProjectReference Include="..\BlogManagement.Domain\BlogManagement.Domain.csproj" />
 	  <ProjectReference Include="..\BlogManagement.Infra.EfCore\BlogManagement.Infra.EfCore.csproj" />
+	  <ProjectReference Include="..\Lampshade.Query\Lampshade.Query.csproj" />
 	</ItemGroup>
 
 </Project>

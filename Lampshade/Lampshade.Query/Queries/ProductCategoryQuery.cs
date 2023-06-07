@@ -120,5 +120,16 @@ namespace Lampshade.Query.Queries
                     MetaDescription = x.MetaDescription,
                 }).FirstOrDefault(x => x.Slug == slug);
         }
+
+        public List<ProductCategoryQueryModel> GetProductCategoriesInMenu()
+        {
+            return _shopContext.ProductCategories
+                .Select(x => new ProductCategoryQueryModel()
+                {
+                    Name = x.Name,
+                    Slug = x.Slug,
+                    Id = x.Id
+                }).OrderByDescending(x => x.Id).ToList();
+        }
     }
 }

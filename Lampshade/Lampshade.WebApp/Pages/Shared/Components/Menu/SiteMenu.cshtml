@@ -1,4 +1,5 @@
 ﻿@* Top Menu *@
+@model Lampshade.Query.Common.MenuQueryModel
 @{
     Layout = null;
 }
@@ -25,41 +26,26 @@
                                 </li>
 
                                 <li class="menu-item-has-children">
-                                    <a href="blog-left-sidebar.html">محصولات</a>
+                                    <a asp-page="SearchResult">محصولات</a>
                                     <ul class="sub-menu">
-                                        <li>
-                                            <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                                        </li>
+                                        @foreach (var item in Model.ProductCategories)
+                                        {
+                                            <li>
+                                                <a asp-page="ProductsCategory" asp-route-slug="@item.Slug">@item.Name</a>
+                                            </li>
+                                        }
                                     </ul>
                                 </li>
 
                                 <li class="menu-item-has-children">
-                                    <a href="blog-left-sidebar.html">مقالات</a>
+                                    <a asp-page="Articles">مقالات</a>
                                     <ul class="sub-menu">
-                                        <li>
-                                            <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-right-sidebar.html">Blog Right Sidebar</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-post-left-sidebar.html">Blog Post Left Sidebar</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-post-right-sidebar.html">Blog Post Right Sidebar</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-post-image-format.html">Blog Post Image Format</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-post-image-gallery.html">Blog Post Image Gallery</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-post-audio-format.html">Blog Post Audio Format</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-post-video-format.html">Blog Post Video Format</a>
-                                        </li>
+                                        @foreach (var item in Model.ArticleCategories)
+                                        {
+                                            <li>
+                                                <a asp-page="Articles" asp-route-slug="@item.Slug">@item.Name</a>
+                                            </li>
+                                        }
                                     </ul>
                                 </li>
 
@@ -266,59 +252,23 @@
                     <li class="menu-item-has-children">
                         <a href="#">محصولات</a>
                         <ul class="sub-menu">
-                            <li>
-                                <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                            </li>
-                            <li>
-                                <a href="blog-right-sidebar.html">Blog Right Sidebar</a>
-                            </li>
-                            <li>
-                                <a href="blog-post-left-sidebar.html">Blog Post Left Sidebar</a>
-                            </li>
-                            <li>
-                                <a href="blog-post-right-sidebar.html">Blog Post Right Sidebar</a>
-                            </li>
-                            <li>
-                                <a href="blog-post-image-format.html">Blog Post Image Format</a>
-                            </li>
-                            <li>
-                                <a href="blog-post-image-gallery.html">Blog Post Image Gallery</a>
-                            </li>
-                            <li>
-                                <a href="blog-post-audio-format.html">Blog Post Audio Format</a>
-                            </li>
-                            <li>
-                                <a href="blog-post-video-format.html">Blog Post Video Format</a>
-                            </li>
+                            @foreach (var item in Model.ProductCategories)
+                            {
+                                <li>
+                                    <a asp-page="ProductsCategory" asp-route-slug="@item.Slug">@item.Name</a>
+                                </li>
+                            }
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
                         <a href="#">مقالات</a>
                         <ul class="sub-menu">
-                            <li>
-                                <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                            </li>
-                            <li>
-                                <a href="blog-right-sidebar.html">Blog Right Sidebar</a>
-                            </li>
-                            <li>
-                                <a href="blog-post-left-sidebar.html">Blog Post Left Sidebar</a>
-                            </li>
-                            <li>
-                                <a href="blog-post-right-sidebar.html">Blog Post Right Sidebar</a>
-                            </li>
-                            <li>
-                                <a href="blog-post-image-format.html">Blog Post Image Format</a>
-                            </li>
-                            <li>
-                                <a href="blog-post-image-gallery.html">Blog Post Image Gallery</a>
-                            </li>
-                            <li>
-                                <a href="blog-post-audio-format.html">Blog Post Audio Format</a>
-                            </li>
-                            <li>
-                                <a href="blog-post-video-format.html">Blog Post Video Format</a>
-                            </li>
+                            @foreach (var item in Model.ArticleCategories)
+                            {
+                                <li>
+                                    <a asp-page="Articles" asp-route-slug="@item.Slug">@item.Name</a>
+                                </li>
+                            }
                         </ul>
                     </li>
                     <li>
