@@ -979,6 +979,80 @@
           "bin/placeholder/BlogManagement.Infra.EfCore.dll": {}
         }
       },
+      "CommentManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0.Framework": "1.0.0",
+          "CommentManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Application.dll": {}
+        }
+      },
+      "CommentManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0.Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Application.Contracts.dll": {}
+        }
+      },
+      "CommentManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0.Framework": "1.0.0",
+          "CommentManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Domain.dll": {}
+        }
+      },
+      "CommentManagement.Infra.Configuration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CommentManagement.Application": "1.0.0",
+          "CommentManagement.Domain": "1.0.0",
+          "CommentManagement.Infra.EfCore": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Infra.Configuration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Infra.Configuration.dll": {}
+        }
+      },
+      "CommentManagement.Infra.EfCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BlogManagement.Infra.EfCore": "1.0.0",
+          "CommentManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16",
+          "ShopManagement.Infra.EfCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Infra.EfCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Infra.EfCore.dll": {}
+        }
+      },
       "DiscountManagement.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1132,6 +1206,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "BlogManagement.Infra.EfCore": "1.0.0",
+          "CommentManagement.Infra.EfCore": "1.0.0",
           "DiscountManagement.Infra.EfCore": "1.0.0",
           "InventoryManagement.Infra.EfCore": "1.0.0",
           "ShopManagement.Infra.EfCore": "1.0.0"
@@ -2590,6 +2665,31 @@
       "path": "../BlogManagement.Infra.EfCore/BlogManagement.Infra.EfCore.csproj",
       "msbuildProject": "../BlogManagement.Infra.EfCore/BlogManagement.Infra.EfCore.csproj"
     },
+    "CommentManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Application/CommentManagement.Application.csproj",
+      "msbuildProject": "../CommentManagement.Application/CommentManagement.Application.csproj"
+    },
+    "CommentManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Application.Contracts/CommentManagement.Application.Contracts.csproj",
+      "msbuildProject": "../CommentManagement.Application.Contracts/CommentManagement.Application.Contracts.csproj"
+    },
+    "CommentManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Domain/CommentManagement.Domain.csproj",
+      "msbuildProject": "../CommentManagement.Domain/CommentManagement.Domain.csproj"
+    },
+    "CommentManagement.Infra.Configuration/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Infra.Configuration/CommentManagement.Infra.Configuration.csproj",
+      "msbuildProject": "../CommentManagement.Infra.Configuration/CommentManagement.Infra.Configuration.csproj"
+    },
+    "CommentManagement.Infra.EfCore/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Infra.EfCore/CommentManagement.Infra.EfCore.csproj",
+      "msbuildProject": "../CommentManagement.Infra.EfCore/CommentManagement.Infra.EfCore.csproj"
+    },
     "DiscountManagement.Application/1.0.0": {
       "type": "project",
       "path": "../DiscountManagement.Application/DiscountManagement.Application.csproj",
@@ -2674,6 +2774,9 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "BlogManagement.Infra.Configuration >= 1.0.0",
+      "CommentManagement.Application.Contracts >= 1.0.0",
+      "CommentManagement.Domain >= 1.0.0",
+      "CommentManagement.Infra.Configuration >= 1.0.0",
       "DiscountManagement.Infra.Configuration >= 1.0.0",
       "InventoryManagement.Infra.Configuration >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.16",
@@ -2715,6 +2818,15 @@
           "projectReferences": {
             "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\BlogManagement.Infra.Configuration\\BlogManagement.Infra.Configuration.csproj": {
               "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\BlogManagement.Infra.Configuration\\BlogManagement.Infra.Configuration.csproj"
+            },
+            "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj": {
+              "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj"
+            },
+            "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+              "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
+            },
+            "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\CommentManagement.Infra.Configuration\\CommentManagement.Infra.Configuration.csproj": {
+              "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\CommentManagement.Infra.Configuration\\CommentManagement.Infra.Configuration.csproj"
             },
             "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\DiscountManagement.Infra.Configuration\\DiscountManagement.Infra.Configuration.csproj": {
               "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\DiscountManagement.Infra.Configuration\\DiscountManagement.Infra.Configuration.csproj"

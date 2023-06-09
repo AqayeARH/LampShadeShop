@@ -7,5 +7,6 @@ namespace BlogManagement.Domain.ArticleAgg
     {
         EditArticleCommand GetDetailForEdit(long id);
         List<ArticleViewModel> GetByFilter(ArticleSearchModel searchModel);
+        List<ArticleViewModel> GetArticles();
     }
 }

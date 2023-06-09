@@ -36,6 +36,8 @@
                                     <div class="row">
                                         @foreach (var item in Model.Articles)
                                         {
+                                            ViewData["keywords"] = item.CategoryKeyWords.Replace("-", ",");
+                                            ViewData["description"] = item.CategoryMetaDescription;
                                             <div class="col-md-6">
                                                 <!--=======  single blog post  =======-->
                                                 <div class="single-blog-post">

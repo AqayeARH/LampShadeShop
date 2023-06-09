@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-
-namespace BlogManagement.Application.Contracts.Article
+﻿namespace BlogManagement.Application.Contracts.Article
 {
     public class ArticleViewModel
     {

@@ -1,7 +1,9 @@
 ﻿@page "{slug}"
 @model Lampshade.WebApp.Pages.ProductsCategoryModel
 @{
-    ViewData["Title"] = $"دسته بندی {Model.ProductsCategory.Name}";
+    ViewData["Title"] = Model.ProductsCategory.Name;
+    ViewData["keywords"] = Model.ProductsCategory.KeyWords.Replace("-", ",");
+    ViewData["description"] = Model.ProductsCategory.MetaDescription;
 }
 
 <div class="breadcrumb-area section-space--half">
@@ -128,7 +130,7 @@
                                                         else
                                                         {
                                                             <p class="single-grid-product__price">
-                                                               <span class="main-price">@product.Price</span>
+                                                                <span class="main-price">@product.Price</span>
                                                             </p>
                                                         }
                                                         @if (product.HasDiscount)

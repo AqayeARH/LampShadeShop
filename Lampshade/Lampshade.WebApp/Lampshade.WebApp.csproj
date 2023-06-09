@@ -14,6 +14,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BlogManagement.Infra.Configuration\BlogManagement.Infra.Configuration.csproj" />
+    <ProjectReference Include="..\CommentManagement.Application.Contracts\CommentManagement.Application.Contracts.csproj" />
+    <ProjectReference Include="..\CommentManagement.Domain\CommentManagement.Domain.csproj" />
+    <ProjectReference Include="..\CommentManagement.Infra.Configuration\CommentManagement.Infra.Configuration.csproj" />
     <ProjectReference Include="..\DiscountManagement.Infra.Configuration\DiscountManagement.Infra.Configuration.csproj" />
     <ProjectReference Include="..\InventoryManagement.Infra.Configuration\InventoryManagement.Infra.Configuration.csproj" />
     <ProjectReference Include="..\ShopManagement.Infra.Configuration\ShopManagement.Infra.Configuration.csproj" />

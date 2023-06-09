@@ -68,5 +68,15 @@ namespace BlogManagement.Infra.EfCore.Repositories
 
             return query.OrderByDescending(x => x.Id).ToList();
         }
+
+        public List<ArticleViewModel> GetArticles()
+        {
+            return _context.Articles.Where(x => x.PublishDate <= DateTime.Now)
+                .Select(x => new ArticleViewModel()
+                {
+                    Id = x.Id,
+                    Title = x.Title
+                }).ToList();
+        }
     }
 }

@@ -11,7 +11,6 @@
                 <li><a asp-area="Administrator" asp-page="/ShopManagement/ProductCategories/Index">گروه محصولات</a></li>
                 <li><a asp-area="Administrator" asp-page="/ShopManagement/Products/Index">محصولات</a></li>
                 <li><a asp-area="Administrator" asp-page="/ShopManagement/ProductPictures/Index">تصاویر محصولات</a></li>
-                <li><a asp-area="Administrator" asp-page="/ShopManagement/ProductComment/Index">نظرات محصول</a></li>
                 <li><a asp-area="Administrator" asp-page="/ShopManagement/Sliders/Index">اسلایدرها</a></li>
             </ul>
         </li>
@@ -33,6 +32,14 @@
             <ul class="list-unstyled">
                 <li><a asp-area="Administrator" asp-page="/BlogManagement/ArticleCategories/Index">گروه مقالات</a></li>
                 <li><a asp-area="Administrator" asp-page="/BlogManagement/Articles/Index">مقالات</a></li>
+            </ul>
+        </li>
+
+        <li class="has_sub">
+            <a class="waves-effect"><i class="md md-comment"></i><span> کامنت ها </span><span class="pull-right"><i class="md md-add"></i></span></a>
+            <ul class="list-unstyled">
+                <li><a asp-area="Administrator" asp-page="/CommentsManagement/ProductsComments/Index">کامنت محصولات</a></li>
+                <li><a asp-area="Administrator" asp-page="/CommentsManagement/ArticlesComments/Index">کامنت مقالات</a></li>
             </ul>
         </li>
 

@@ -1,7 +1,9 @@
 ﻿@page "{slug}"
 @model Lampshade.WebApp.Pages.ArticleDetailsModel
 @{
-    ViewData["Title"] = @Model.Article.Title;
+    ViewData["Title"] = Model.Article.Title;
+    ViewData["keywords"] = Model.Article.KeyWords.Replace("-", ",");
+    ViewData["description"] = Model.Article.MetaDescription;
 }
 
 <div class="breadcrumb-area section-space--half">
@@ -135,163 +137,122 @@
                                     =============================================-->
 
                                     <div class="comment-section">
-                                        <h3 class="comment-counter">4 COMMENTS</h3>
+                                        <h3 class="comment-counter">@Model.Article.Comments.Count نظر ثبت شده</h3>
 
                                         <!--=======  comment container  =======-->
 
                                         <div class="comment-container">
-                                            <!--=======  single comment  =======-->
+                                            @foreach (var item in Model.Article.Comments.Where(x=>x.ParenId == 0).OrderByDescending(x=>x.Id))
+                                            {
+                                                <!--=======  single comment  =======-->
+                                                <div class="single-comment">
+                                                    <span class="reply-btn">
+                                                        <a href="#postComment" onclick="$('#Command_ParentId').val(@item.Id)">پاسخ</a>
+                                                    </span>
 
-                                            <div class="single-comment">
-                                                <span class="reply-btn">
-                                                    <a href="#">Reply</a>
-                                                </span>
-
-                                                <div class="image">
-                                                    <img src="assets/img/blog/comment-icon.png" alt="">
+                                                    <div class="image">
+                                                        <img src="~/site/assets/img/blog/comment-icon.png" alt="@item.Name">
+                                                    </div>
+                                                    <div class="content">
+                                                        <h3 class="user">
+                                                            @item.Name <span class="comment-time">
+                                                                @item.CreationDate
+                                                            </span>
+                                                        </h3>
+                                                        <p class="comment-text">
+                                                           @item.Text
+                                                        </p>
+                                                    </div>
                                                 </div>
-                                                <div class="content">
-                                                    <h3 class="user">
-                                                        admin <span class="comment-time">
-                                                            April 28, 2019
-                                                            at 3:09 am
-                                                        </span>
-                                                    </h3>
-                                                    <p class="comment-text">
-                                                        Lorem ipsum dolor sit amet consectetur
-                                                        adipisicing elit. Sint quia rem dolorem et rerum est
-                                                        laudantium eum dolores omnis perspiciatis.
-                                                    </p>
-                                                </div>
+                                                <!--=======  End of single comment  =======-->
+                                                @if (Model.Article.Comments.Any(x => x.ParenId == item.Id))
+                                                {
+                                                    foreach (var child in Model.Article.Comments.Where(x => x.ParenId == item.Id))
+                                                    {
+                                                        <!--=======  single reply comment  =======-->
+                                                        <div class="single-comment reply-comment">
+                                                            <span class="reply-btn">
+                                                                <a href="#postComment" onclick="$('#Command_ParentId').val(@item.Id)">پاسخ</a>
+                                                            </span>
+                                                            <div class="image">
+                                                                <img src="~/site/assets/img/blog/comment-icon.png" alt="">
+                                                            </div>
+                                                            <div class="content">
+                                                                <h3 class="user">
+                                                                    @child.Name <span class="comment-time">
+                                                                        @child.CreationDate
+                                                                    </span>
+                                                                </h3>
+                                                                <p class="comment-text">
+                                                                    @child.Text
+                                                                </p>
+                                                            </div>
 
-                                            </div>
-
-                                            <!--=======  End of single comment  =======-->
-                                            <!--=======  single reply comment  =======-->
-
-                                            <div class="single-comment reply-comment">
-                                                <span class="reply-btn">
-                                                    <a href="#">Reply</a>
-                                                </span>
-
-                                                <div class="image">
-                                                    <img src="assets/img/blog/comment-icon.png" alt="">
-                                                </div>
-                                                <div class="content">
-                                                    <h3 class="user">
-                                                        admin <span class="comment-time">
-                                                            April 28, 2019
-                                                            at 3:09 am
-                                                        </span>
-                                                    </h3>
-                                                    <p class="comment-text">
-                                                        Lorem ipsum dolor sit amet consectetur
-                                                        adipisicing elit. Sint quia rem dolorem et rerum est
-                                                        laudantium eum dolores omnis perspiciatis.
-                                                    </p>
-                                                </div>
-
-                                            </div>
-
-                                            <!--=======  End of single reply comment  =======-->
-                                            <!--=======  single comment  =======-->
-
-                                            <div class="single-comment">
-                                                <span class="reply-btn">
-                                                    <a href="#">Reply</a>
-                                                </span>
-
-                                                <div class="image">
-                                                    <img src="assets/img/blog/comment-icon.png" alt="">
-                                                </div>
-                                                <div class="content">
-                                                    <h3 class="user">
-                                                        admin <span class="comment-time">
-                                                            April 28, 2019
-                                                            at 3:09 am
-                                                        </span>
-                                                    </h3>
-                                                    <p class="comment-text">
-                                                        Lorem ipsum dolor sit amet consectetur
-                                                        adipisicing elit. Sint quia rem dolorem et rerum est
-                                                        laudantium eum dolores omnis perspiciatis.
-                                                    </p>
-                                                </div>
-
-                                            </div>
-
-                                            <!--=======  End of single comment  =======-->
-
-
+                                                        </div>
+                                                        <!--=======  End of single reply comment  =======-->
+                                                    }
+                                                }
+                                            }
                                         </div>
 
                                         <!--=======  End of comment container  =======-->
                                         <!--=======  comment form container  =======-->
 
                                         <div class="comment-form-container">
-                                            <h3 class="comment-form-title">LEAVE A REPLY</h3>
+                                            <h3 class="comment-form-title">دیدگاهتان را ثبت کنید</h3>
                                             <p>
-                                                Your email address will not be published. Required fields are marked
+                                                وارد کردن ایمیل اجباری است . و به دیگران نمایش داده نمیشود
                                                 *
                                             </p>
 
                                             <!--=======  comment form  =======-->
 
-                                            <div class="comment-form">
-                                                <form action="#">
+                                            <div class="comment-form" id="postComment">
+                                                <form method="post">
+                                                    <input type="hidden" asp-for="Command.OwnerRecordId" value="@Model.Article.Id" />
+                                                    <input type="hidden" name="articleSlug" id="articleSlug" value="@Model.Article.Slug" />
+                                                    @*<input type="hidden" asp-for="Command.Type" value="@CommentTypes.Article" />*@
                                                     <div class="row">
                                                         <div class="col-lg-12">
                                                             <div class="form-group">
-                                                                <label>Comment</label>
-                                                                <textarea name="commentMessage"
-                                                                          id="commentMessage"></textarea>
+                                                                <label>دیدگاه ارزشمند شما</label>
+                                                                <textarea asp-for="Command.Text"></textarea>
+                                                                <span asp-validation-for="Command.Text"></span>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-4">
                                                             <div class="form-group">
-                                                                <label>Name <span class="required">*</span></label>
-                                                                <input type="text" name="commenterName">
+                                                                <label>نام شما <span class="required">*</span></label>
+                                                                <input asp-for="Command.Name" type="text" />
+                                                                <span asp-validation-for="Command.Name"></span>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-4">
                                                             <div class="form-group">
-                                                                <label>Email <span class="required">*</span></label>
-                                                                <input type="text" name="commenterEmail">
+                                                                <label>ایمیل <span class="required">*</span></label>
+                                                                <input asp-for="Command.Email" type="email" />
+                                                                <span asp-validation-for="Command.Email"></span>
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-4">
-                                                            <div class="form-group">
-                                                                <label>Website</label>
-                                                                <input type="text" name="commenterWebsite">
-                                                            </div>
-                                                        </div>
+                                                        <input type="hidden" asp-for="Command.ParentId" value="0" />
                                                         <div class="col-lg-12">
                                                             <button type="submit" class="comment-btn"
                                                                     name="submit">
-                                                                post comment
+                                                                ثبت نظر
                                                             </button>
                                                         </div>
                                                     </div>
                                                 </form>
                                             </div>
-
-                                            <!--=======  End of comment form  =======-->
                                         </div>
-
-                                        <!--=======  End of comment form container  =======-->
-
                                     </div>
-
-                                    <!--=====  End of Comment section  ======-->
                                 </div>
-                                <!--=======  End of blog page content  =======-->
                             </div>
                             @* Sidebar *@
                             @await Component.InvokeAsync("ArticleSidebar")
                         </div>
                     </div>
                 </div>
-                <!--=======  End of page wrapper  =======-->
             </div>
         </div>
     </div>

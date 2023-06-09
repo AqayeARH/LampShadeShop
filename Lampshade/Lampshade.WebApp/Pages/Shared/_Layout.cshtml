@@ -3,7 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    @if (ViewData["Title"] == null)
+    {
+        <title>فروشگاه دیجی استور</title>
+    }
     <title>فروشگاه دیجی استور | @ViewData["Title"]</title>
+    
+    @* Meta *@
+    <meta name="keywords" content="@ViewData["keywords"]" />
+    <meta name="description" content="@ViewData["description"]" />
+    @* End Meta *@
 
     <!-- CSS -->
     <link href="~/site/assets/css/vendors.css" rel="stylesheet">

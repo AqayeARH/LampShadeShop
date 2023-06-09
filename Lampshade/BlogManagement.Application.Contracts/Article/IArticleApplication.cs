@@ -8,5 +8,6 @@ namespace BlogManagement.Application.Contracts.Article
         OperationResult Edit(EditArticleCommand command);
         EditArticleCommand GetForEdit(long id);
         List<ArticleViewModel> GetList(ArticleSearchModel searchModel);
+        public List<ArticleViewModel> GetArticles();
     }
 }

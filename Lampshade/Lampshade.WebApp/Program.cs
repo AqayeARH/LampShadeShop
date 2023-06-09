@@ -1,5 +1,8 @@
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
 using _0.Framework.Application;
 using BlogManagement.Infra.Configuration;
+using CommentManagement.Infra.Configuration;
 using DiscountManagement.Infra.Configuration;
 using InventoryManagement.Infra.Configuration;
 using Lampshade.WebApp;
@@ -15,8 +18,11 @@ ShopManagementIoc.Configure(service, connectionString);
 DiscountManagementIoc.Configure(service,connectionString);
 InventoryManagementIoc.Configure(service,connectionString);
 BlogManagementIoc.Configure(service,connectionString);
+CommentManagementIoc.Configure(service,connectionString);
 
 service.AddTransient<IFileUploader, FileUploader>();
+
+service.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
 
 service.AddRazorPages();
 #endregion

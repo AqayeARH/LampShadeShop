@@ -1,3 +1,12 @@
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.csproj.AssemblyReference.cache
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.AssemblyInfoInputs.cache
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.AssemblyInfo.cs
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.csproj.CoreCompileInputs.cache
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.MvcApplicationPartsAssemblyInfo.cs
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.RazorAssemblyInfo.cache
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.RazorAssemblyInfo.cs
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\appsettings.Development.json
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\appsettings.json
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Lampshade.WebApp.staticwebassets.runtime.json
@@ -48,6 +57,8 @@ D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\BlogManagement.Domain.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\BlogManagement.Infra.Configuration.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\BlogManagement.Infra.EfCore.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\CommentManagement.Application.Contracts.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\CommentManagement.Domain.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\DiscountManagement.Application.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\DiscountManagement.Domain.dll
@@ -65,6 +76,8 @@ D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\ShopManagement.Infra.Configuration.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\ShopManagement.Infra.EfCore.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\BlogManagement.Infra.Configuration.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\CommentManagement.Application.Contracts.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\CommentManagement.Domain.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\DiscountManagement.Infra.Configuration.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\InventoryManagement.Infra.Configuration.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\ShopManagement.Infra.Configuration.pdb
@@ -86,15 +99,6 @@ D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\ShopManagement.Domain.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\ShopManagement.Infra.EfCore.pdb
-D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.csproj.AssemblyReference.cache
-D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.AssemblyInfoInputs.cache
-D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.AssemblyInfo.cs
-D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.csproj.CoreCompileInputs.cache
-D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.MvcApplicationPartsAssemblyInfo.cs
-D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.MvcApplicationPartsAssemblyInfo.cache
-D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.RazorAssemblyInfo.cache
-D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.RazorAssemblyInfo.cs
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\staticwebassets\msbuild.Lampshade.WebApp.Microsoft.AspNetCore.StaticWebAssets.props
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\staticwebassets\msbuild.build.Lampshade.WebApp.props
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Lampshade.WebApp.props
@@ -109,3 +113,9 @@ D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.genruntimeconfig.cache
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\ref\Lampshade.WebApp.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\CommentManagement.Application.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\CommentManagement.Infra.Configuration.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\CommentManagement.Infra.EfCore.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\CommentManagement.Infra.Configuration.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\CommentManagement.Application.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\CommentManagement.Infra.EfCore.pdb

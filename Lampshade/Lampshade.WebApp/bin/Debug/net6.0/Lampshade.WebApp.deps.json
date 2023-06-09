@@ -9,6 +9,9 @@
       "Lampshade.WebApp/1.0.0": {
         "dependencies": {
           "BlogManagement.Infra.Configuration": "1.0.0",
+          "CommentManagement.Application.Contracts": "1.0.0",
+          "CommentManagement.Domain": "1.0.0",
+          "CommentManagement.Infra.Configuration": "1.0.0",
           "DiscountManagement.Infra.Configuration": "1.0.0",
           "InventoryManagement.Infra.Configuration": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.16",
@@ -533,6 +536,55 @@
           "BlogManagement.Infra.EfCore.dll": {}
         }
       },
+      "CommentManagement.Application/1.0.0": {
+        "dependencies": {
+          "0.Framework": "1.0.0",
+          "CommentManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CommentManagement.Application.dll": {}
+        }
+      },
+      "CommentManagement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "0.Framework": "1.0.0"
+        },
+        "runtime": {
+          "CommentManagement.Application.Contracts.dll": {}
+        }
+      },
+      "CommentManagement.Domain/1.0.0": {
+        "dependencies": {
+          "0.Framework": "1.0.0",
+          "CommentManagement.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "CommentManagement.Domain.dll": {}
+        }
+      },
+      "CommentManagement.Infra.Configuration/1.0.0": {
+        "dependencies": {
+          "CommentManagement.Application": "1.0.0",
+          "CommentManagement.Domain": "1.0.0",
+          "CommentManagement.Infra.EfCore": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "CommentManagement.Infra.Configuration.dll": {}
+        }
+      },
+      "CommentManagement.Infra.EfCore/1.0.0": {
+        "dependencies": {
+          "BlogManagement.Infra.EfCore": "1.0.0",
+          "CommentManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16",
+          "ShopManagement.Infra.EfCore": "1.0.0"
+        },
+        "runtime": {
+          "CommentManagement.Infra.EfCore.dll": {}
+        }
+      },
       "DiscountManagement.Application/1.0.0": {
         "dependencies": {
           "DiscountManagement.Application.Contracts": "1.0.0",
@@ -634,6 +686,7 @@
       "Lampshade.Query/1.0.0": {
         "dependencies": {
           "BlogManagement.Infra.EfCore": "1.0.0",
+          "CommentManagement.Infra.EfCore": "1.0.0",
           "DiscountManagement.Infra.EfCore": "1.0.0",
           "InventoryManagement.Infra.EfCore": "1.0.0",
           "ShopManagement.Infra.EfCore": "1.0.0"
@@ -1077,6 +1130,31 @@
       "sha512": ""
     },
     "BlogManagement.Infra.EfCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommentManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommentManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommentManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommentManagement.Infra.Configuration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommentManagement.Infra.EfCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

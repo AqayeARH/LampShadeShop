@@ -1,9 +1,10 @@
 ﻿using Lampshade.Query.Contracts.Product;
 using _0.Framework.Application;
+using CommentManagement.Domain.CommentAgg;
+using CommentManagement.Infra.EfCore;
 using DiscountManagement.Infra.EfCore;
 using InventoryManagement.Infra.EfCore;
 using Microsoft.EntityFrameworkCore;
-using ShopManagement.Domain.ProductCommentAgg;
 using ShopManagement.Infra.EfCore;
 
 namespace Lampshade.Query.Queries
@@ -15,11 +16,13 @@ namespace Lampshade.Query.Queries
         private readonly ShopContext _shopContext;
         private readonly InventoryContext _inventoryContext;
         private readonly DiscountContext _discountContext;
-        public ProductQuery(ShopContext shopContext, InventoryContext inventoryContext, DiscountContext discountContext)
+        private readonly CommentingContext _commentingContext;
+        public ProductQuery(ShopContext shopContext, InventoryContext inventoryContext, DiscountContext discountContext, CommentingContext commentingContext)
         {
             _shopContext = shopContext;
             _inventoryContext = inventoryContext;
             _discountContext = discountContext;
+            _commentingContext = commentingContext;
         }
 
         #endregion
@@ -101,9 +104,9 @@ namespace Lampshade.Query.Queries
                 .Where(x => x.StartDate <= DateTime.Now && x.EndDate >= DateTime.Now)
                 .Select(x => new { x.ProductId, x.DiscountRate, x.EndDate }).ToList();
 
+
             return _shopContext.Products.Include(x => x.Category)
                 .Include(x => x.ProductPictures)
-                .Include(x=>x.ProductComments)
                 .AsEnumerable()
                 .Select(x => new ProductQueryModel()
                 {
@@ -135,15 +138,14 @@ namespace Lampshade.Query.Queries
                             PictureAlt = productPicture.PictureAlt,
                             PictureTitle = productPicture.PictureTitle
                         }).ToList(),
-                    ProductComments = x.ProductComments
-                        .Where(c=>c.Status == ProductCommentStatuses.Confirmed)
-                        .AsEnumerable()
+                    ProductComments = _commentingContext.Comments
+                        .Where(c=> c.Type == CommentTypes.Product && c.OwnerRecordId == x.Id && c.Status == CommentStatuses.Confirmed)
                         .Select(c=> new ProductCommentQueryModel()
                         {
-                            CreationDate = c.CreationDate.ToFarsi(),
                             Name = c.Name,
-                            Text = c.Text,
-                            Id = c.Id
+                            CreationDate = c.CreationDate.ToFarsi(),
+                            Id = c.Id,
+                            Text = c.Text
                         }).OrderByDescending(c=>c.Id).ToList(),
                 }).FirstOrDefault(x => x.Slug == slug);
         }

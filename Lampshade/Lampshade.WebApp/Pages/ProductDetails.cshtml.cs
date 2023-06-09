@@ -1,8 +1,8 @@
-using _0.Framework.Application;
+using CommentManagement.Application.Contracts.Comment;
+using CommentManagement.Domain.CommentAgg;
 using Lampshade.Query.Contracts.Product;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using ShopManagement.Application.Contracts.ProductComment;
 
 namespace Lampshade.WebApp.Pages
 {
@@ -11,11 +11,11 @@ namespace Lampshade.WebApp.Pages
         #region Constractor Injection
 
         private readonly IProductQuery _productQuery;
-        private readonly IProductCommentApplication _productCommentApplication;
-        public ProductDetailsModel(IProductQuery productQuery, IProductCommentApplication productCommentApplication)
+        private readonly ICommentApplication _commentApplication;
+        public ProductDetailsModel(IProductQuery productQuery, ICommentApplication productCommentApplication)
         {
             _productQuery = productQuery;
-            _productCommentApplication = productCommentApplication;
+            _commentApplication = productCommentApplication;
         }
 
         #endregion
@@ -32,12 +32,14 @@ namespace Lampshade.WebApp.Pages
 
         public IActionResult OnPost(string productSlug)
         {
-            var result = _productCommentApplication.Add(Command);
-
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
+
+            Command.Type = CommentTypes.Product;
+            Command.ParentId = 0;
+            _commentApplication.Add(Command);
 
             return RedirectToPage("ProductDetails", new { slug = productSlug });
         }

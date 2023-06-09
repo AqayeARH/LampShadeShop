@@ -78,5 +78,10 @@ namespace BlogManagement.Application
         {
             return _articleRepository.GetByFilter(searchModel);
         }
+
+        public List<ArticleViewModel> GetArticles()
+        {
+            return _articleRepository.GetArticles();
+        }
     }
 }

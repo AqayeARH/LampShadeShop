@@ -18,5 +18,6 @@
         public string CategorySlug { get; set; }
         public string CategoryMetaDescription { get; set; }
         public string CategoryKeyWords { get; set; }
+        public List<ArticleCommentQueryModel> Comments { get; set; }
     }
 }

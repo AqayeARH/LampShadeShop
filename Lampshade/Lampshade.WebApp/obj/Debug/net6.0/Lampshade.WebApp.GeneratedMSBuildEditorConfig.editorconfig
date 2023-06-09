@@ -40,6 +40,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xCbG9nTWFuYWdlbWVudFxBcnRpY2xlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Areas/Administrator/Pages/CommentsManagement/ArticlesComments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xDb21tZW50c01hbmFnZW1lbnRcQXJ0aWNsZXNDb21tZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Areas/Administrator/Pages/CommentsManagement/ProductsComments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xDb21tZW50c01hbmFnZW1lbnRcUHJvZHVjdHNDb21tZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Areas/Administrator/Pages/DiscountsManagement/ColleaguesDiscounts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xEaXNjb3VudHNNYW5hZ2VtZW50XENvbGxlYWd1ZXNEaXNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -110,10 +118,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Areas/Administrator/Pages/ShopManagement/ProductCategories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xTaG9wTWFuYWdlbWVudFxQcm9kdWN0Q2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Areas/Administrator/Pages/ShopManagement/ProductComment/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xTaG9wTWFuYWdlbWVudFxQcm9kdWN0Q29tbWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Project/Core/Atriya/ShopPoroject/Lampshade/Lampshade.WebApp/Areas/Administrator/Pages/ShopManagement/ProductPictures/Create.cshtml]

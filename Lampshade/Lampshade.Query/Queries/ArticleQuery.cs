@@ -1,6 +1,8 @@
 ﻿using Lampshade.Query.Contracts.Article;
 using _0.Framework.Application;
 using BlogManagement.Infra.EfCore;
+using CommentManagement.Domain.CommentAgg;
+using CommentManagement.Infra.EfCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Lampshade.Query.Queries
@@ -10,9 +12,11 @@ namespace Lampshade.Query.Queries
         #region Constractor Injection
 
         private readonly BlogContext _blogContext;
-        public ArticleQuery(BlogContext blogContext)
+        private readonly CommentingContext _commentingContext;
+        public ArticleQuery(BlogContext blogContext, CommentingContext commentingContext)
         {
             _blogContext = blogContext;
+            _commentingContext = commentingContext;
         }
 
         #endregion
@@ -41,6 +45,7 @@ namespace Lampshade.Query.Queries
         {
             return _blogContext.Articles.Include(x => x.ArticleCategory)
                 .Where(x => x.PublishDate <= DateTime.Now && x.Slug == slug)
+                .AsEnumerable()
                 .Select(x => new ArticleQueryModel()
                 {
                     KeyWords = x.KeyWords,
@@ -55,7 +60,18 @@ namespace Lampshade.Query.Queries
                     MetaDescription = x.MetaDescription,
                     PictureAlt = x.PictureAlt,
                     PictureTitle = x.PictureTitle,
-                    ShortDescription = x.ShortDescription
+                    ShortDescription = x.ShortDescription,
+                    Id = x.Id,
+                    Comments = _commentingContext.Comments
+                        .Where(c=> c.Type == CommentTypes.Article && c.OwnerRecordId == x.Id && c.Status == CommentStatuses.Confirmed)
+                        .Select(c=> new ArticleCommentQueryModel()
+                        {
+                            Name = c.Name,
+                            CreationDate = c.CreationDate.ToFarsi(),
+                            Id = c.Id,
+                            ParenId = c.ParentId,
+                            Text = c.Text
+                        }).ToList(),
                 }).First();
         }
 

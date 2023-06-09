@@ -1,7 +1,10 @@
 ﻿@page "{slug}"
+@using CommentManagement.Infra.EfCore
 @model Lampshade.WebApp.Pages.ProductDetailsModel
 @{
-    ViewData["Title"] = $"جزئیات محصول {Model.Product.Name}";
+    ViewData["Title"] = Model.Product.Name;
+    ViewData["keywords"] = Model.Product.Tags.Replace("-", ",");
+    ViewData["description"] = Model.Product.MetaDescription;
 }
 
 
@@ -285,8 +288,9 @@
                                                     <div class="rating-form-wrapper fix">
                                                         <h3>دیدگاهتان را ثبت کنید</h3>
                                                         <form method="post">
-                                                            <input type="hidden" asp-for="Command.ProductId" value="@Model.Product.Id" />
+                                                            <input type="hidden" asp-for="Command.OwnerRecordId" value="@Model.Product.Id" />
                                                             <input type="hidden" name="productSlug" id="productSlug" value="@Model.Product.Slug" />
+                                                            @*<input type="hidden" asp-for="Command.Type" value="@CommentTypes.Product" />*@
                                                             <div class="rating-form row">
                                                                 <div class="col-md-6 col-12 form-group">
                                                                     <label>نام شما:</label>
