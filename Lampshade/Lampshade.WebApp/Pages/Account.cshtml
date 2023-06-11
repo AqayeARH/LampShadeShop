@@ -1,0 +1,120 @@
+﻿@page "{handler?}"
+@model Lampshade.WebApp.Pages.AccountModel
+@{
+    ViewData["Title"] = "ورود و ثبت نام";
+}
+
+<div class="breadcrumb-area section-space--half">
+    <div class="container wide">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-wrapper breadcrumb-bg">
+                    <div class="breadcrumb-content">
+                        <h2 class="breadcrumb-content__title">ورود - ثبت نام</h2>
+                        <ul class="breadcrumb-content__page-map">
+                            <li><a asp-page="Index">خانه</a></li>
+                            <li class="active">ورود - ثبت نام</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page-content-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-wrapper">
+                    <div class="page-content-wrapper">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-xs-12 col-lg-6">
+                                <form method="post" asp-page-handler="Login">
+                                    <div class="login-form">
+                                        <h4 class="login-title">ورود</h4>
+                                        <div class="row">
+                                            <div class="col-md-12 col-12">
+                                                <label>نام گاربری</label>
+                                                <input asp-for="LoginModel.Username" type="text" placeholder="نام کاربری">
+                                                <span class="text-danger" asp-validation-for="LoginModel.Username"></span>
+                                            </div>
+                                            <div class="col-12">
+                                                <label>کلمه عبور</label>
+                                                <input asp-for="LoginModel.Password" type="password" placeholder="کلمه عبور">
+                                                <span class="text-danger" asp-validation-for="LoginModel.Password"></span>
+                                            </div>
+                                            <div class="col-sm-6">
+
+                                                <div class="check-box d-inline-block ml-0 ml-md-2">
+                                                    <input asp-for="LoginModel.RememberMe" type="checkbox" id="remember_me">
+                                                    <label for="remember_me">مرا به خاطر بسپار</label>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-sm-6 text-left text-sm-right">
+                                                <a href="#" class="forget-pass-link"> رمز خود را فراموش کردید؟</a>
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <button class="register-button">ورود</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
+                                <form method="post" asp-page-handler="Register">
+
+                                    <div class="login-form">
+                                        <h4 class="login-title">ثبت نام</h4>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-12 mb-20">
+                                                <label>نام و نام خانوادگی</label>
+                                                <input asp-for="RegisterModel.Fullname" type="text" placeholder="نام و نام خانوادگی">
+                                                <span asp-validation-for="RegisterModel.Fullname" class="text-danger"></span>
+                                            </div>
+                                            <div class="col-md-6 col-12 mb-20">
+                                                <label>نام کاربری</label>
+                                                <input asp-for="RegisterModel.Username" type="text" placeholder="نام کاربری">
+                                                <span asp-validation-for="RegisterModel.Username" class="text-danger"></span>
+                                            </div>
+                                            <div class="col-md-12 mb-20">
+                                                <label>شماره موبایل</label>
+                                                <input type="text" asp-for="RegisterModel.Mobile" placeholder="09XXXXXXXXX">
+                                                <span asp-validation-for="RegisterModel.Mobile" class="text-danger"></span>
+                                            </div>
+                                            <div class="col-md-6 mb-20">
+                                                <label>کلمه عبور</label>
+                                                <input asp-for="RegisterModel.Password" type="password" placeholder="کلمه عبور">
+                                                <span asp-validation-for="RegisterModel.Password" class="text-danger"></span>
+                                            </div>
+                                            <div class="col-md-6 mb-20">
+                                                <label>تکرار کلمه عبور</label>
+                                                <input asp-for="RegisterModel.RePassword" type="password" placeholder="تکرار کلمه عبور">
+                                                <span asp-validation-for="RegisterModel.RePassword" class="text-danger"></span>
+                                            </div>
+                                            <div class="col-12">
+                                                <button class="register-button mt-0">ثبت نام</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+    {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <partial name="Shared/_ValidationScriptsPartial" />
+}

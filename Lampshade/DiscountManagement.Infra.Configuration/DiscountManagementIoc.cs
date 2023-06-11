@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace DiscountManagement.Infra.Configuration
 {
-    public class DiscountManagementIoc
+    public static class DiscountManagementIoc
     {
         public static void Configure(IServiceCollection service, string connectionString)
         {

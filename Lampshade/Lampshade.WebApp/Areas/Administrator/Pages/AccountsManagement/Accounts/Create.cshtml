@@ -1,0 +1,79 @@
+﻿@model AccountManagement.Application.Contracts.Account.CreateAccountCommand
+
+@{
+    Layout = null;
+}
+
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h4 class="modal-title">ایجاد حساب جدید</h4>
+</div>
+
+<form asp-page="Index" asp-page-handler="Create"
+      method="post"
+      data-ajax="true"
+      data-callback=""
+      data-action="Refresh"
+      enctype="multipart/form-data">
+    <div class="modal-body">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Fullname" class="control-label">نام</label>
+                    <input class="form-control" asp-for="Fullname" />
+                    <span asp-validation-for="Fullname" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Username" class="control-label">نام کاربری</label>
+                    <input class="form-control" asp-for="Username">
+                    <span asp-validation-for="Username" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="Profile" class="control-label">عکس</label>
+                    <input type="file" class="form-control" asp-for="Profile" accept="image/*">
+                    <span asp-validation-for="Profile" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Mobile" class="control-label">موبایل</label>
+                    <input class="form-control" asp-for="Mobile">
+                    <span asp-validation-for="Mobile" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="RoleId" class="control-label">نقش</label>
+                    @{
+                        var roleItems = new SelectList(Model.Roles, "Id", "Name");
+                    }
+                    <select class="form-control" asp-for="RoleId" asp-items="roleItems">
+                        <option value="0">انتخاب نقش</option>
+                    </select>
+                    <span asp-validation-for="RoleId" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label">کبمه عبور</label>
+                    <input class="form-control" asp-for="Password">
+                    <span asp-validation-for="Password" class="error"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">بستن</button>
+        <button type="submit" class="btn btn-success waves-effect waves-light">ایجاد</button>
+    </div>
+</form>

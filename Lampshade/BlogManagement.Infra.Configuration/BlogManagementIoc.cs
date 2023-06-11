@@ -14,7 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace BlogManagement.Infra.Configuration
 {
-    public class BlogManagementIoc
+    public static class BlogManagementIoc
     {
         public static void Configure(IServiceCollection service,string connectionString)
         {

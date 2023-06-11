@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AccountManagement.Infra.Configuration\AccountManagement.Infra.Configuration.csproj" />
     <ProjectReference Include="..\BlogManagement.Infra.Configuration\BlogManagement.Infra.Configuration.csproj" />
     <ProjectReference Include="..\CommentManagement.Application.Contracts\CommentManagement.Application.Contracts.csproj" />
     <ProjectReference Include="..\CommentManagement.Domain\CommentManagement.Domain.csproj" />
@@ -25,6 +26,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\pictures\articleCategories\" />
     <Folder Include="wwwroot\pictures\articles\" />
+    <Folder Include="wwwroot\pictures\account\" />
   </ItemGroup>
 
 </Project>

@@ -142,7 +142,7 @@
                                         <!--=======  comment container  =======-->
 
                                         <div class="comment-container">
-                                            @foreach (var item in Model.Article.Comments.Where(x=>x.ParenId == 0).OrderByDescending(x=>x.Id))
+                                            @foreach (var item in Model.Article.Comments.Where(x => x.ParenId == 0).OrderByDescending(x => x.Id))
                                             {
                                                 <!--=======  single comment  =======-->
                                                 <div class="single-comment">
@@ -160,7 +160,7 @@
                                                             </span>
                                                         </h3>
                                                         <p class="comment-text">
-                                                           @item.Text
+                                                            @item.Text
                                                         </p>
                                                     </div>
                                                 </div>
@@ -257,3 +257,9 @@
         </div>
     </div>
 </div>
+
+@section Scripts
+    {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <partial name="Shared/_ValidationScriptsPartial" />
+}

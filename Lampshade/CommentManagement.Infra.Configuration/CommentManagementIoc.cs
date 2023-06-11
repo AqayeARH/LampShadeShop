@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace CommentManagement.Infra.Configuration
 {
-    public class CommentManagementIoc
+    public static class CommentManagementIoc
     {
         public static void Configure(IServiceCollection service,string connectionString)
         {

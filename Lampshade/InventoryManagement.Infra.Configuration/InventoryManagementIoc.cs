@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace InventoryManagement.Infra.Configuration
 {
-    public class InventoryManagementIoc
+    public static class InventoryManagementIoc
     {
         public static void Configure(IServiceCollection service, string connectionString)
         {

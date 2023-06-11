@@ -1,8 +1,11 @@
 ﻿@* Top Menu *@
+@using _0.Framework.Application.Authentication
 @model Lampshade.Query.Common.MenuQueryModel
 @{
     Layout = null;
 }
+
+@inject IAuthenticationHelper AuthenticationHelper
 
 <!--====================  header area ====================-->
 <div class="header-area header-sticky">
@@ -169,12 +172,21 @@
                                         <div class="single-settings-block">
                                             <h4 class="title">حساب کاربری </h4>
                                             <ul>
-                                                <li>
-                                                    <a href="login-register.html">ثبت نام</a>
-                                                </li>
-                                                <li>
-                                                    <a href="login-register.html">ورود</a>
-                                                </li>
+                                                @if (AuthenticationHelper.IsAuthenticated())
+                                                {
+                                                    <li>
+                                                        <a asp-page="Account" asp-page-handler="Logout">خروج</a>
+                                                    </li>
+                                                }
+                                                else
+                                                {
+                                                    <li>
+                                                        <a asp-page="Account">ثبت نام</a>
+                                                    </li>
+                                                    <li>
+                                                        <a asp-page="Account">ورود</a>
+                                                    </li>
+                                                }
                                             </ul>
                                         </div>
                                     </div>
@@ -283,12 +295,21 @@
                         <li class="menu-item-has-children">
                             <a href="#">حساب کاربری </a>
                             <ul class="sub-menu">
-                                <li>
-                                    <a href="login-register.html">ثبت نام</a>
-                                </li>
-                                <li>
-                                    <a href="login-register.html">ورود</a>
-                                </li>
+                                @if (AuthenticationHelper.IsAuthenticated())
+                                {
+                                    <li>
+                                        <a asp-page="Account" asp-page-handler="Logout"> ثبت نام</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a asp-page="Account"> ثبت نام</a>
+                                    </li>
+                                    <li>
+                                        <a asp-page="Account">ورود</a>
+                                    </li>
+                                }
                             </ul>
                         </li>
                     </ul>

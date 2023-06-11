@@ -5,6 +5,9 @@ D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\0
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\BlogManagement.Application.Contracts.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\BlogManagement.Domain.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\BlogManagement.Infra.EfCore.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\CommentManagement.Application.Contracts.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\CommentManagement.Domain.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\CommentManagement.Infra.EfCore.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\DiscountManagement.Domain.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\DiscountManagement.Infra.EfCore.dll
@@ -15,12 +18,15 @@ D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\S
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\ShopManagement.Domain.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\ShopManagement.Infra.EfCore.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\BlogManagement.Infra.EfCore.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\CommentManagement.Infra.EfCore.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\DiscountManagement.Infra.EfCore.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\InventoryManagement.Infra.EfCore.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\ShopManagement.Infra.EfCore.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\0.Framework.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\BlogManagement.Application.Contracts.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\BlogManagement.Domain.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\CommentManagement.Application.Contracts.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\CommentManagement.Domain.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\DiscountManagement.Domain.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\InventoryManagement.Application.Contracts.pdb
@@ -37,9 +43,3 @@ D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\obj\Debug\net6.0\L
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\obj\Debug\net6.0\refint\Lampshade.Query.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\obj\Debug\net6.0\Lampshade.Query.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\obj\Debug\net6.0\ref\Lampshade.Query.dll
-D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\CommentManagement.Application.Contracts.dll
-D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\CommentManagement.Domain.dll
-D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\CommentManagement.Infra.EfCore.dll
-D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\CommentManagement.Infra.EfCore.pdb
-D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\CommentManagement.Application.Contracts.pdb
-D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.Query\bin\Debug\net6.0\CommentManagement.Domain.pdb
