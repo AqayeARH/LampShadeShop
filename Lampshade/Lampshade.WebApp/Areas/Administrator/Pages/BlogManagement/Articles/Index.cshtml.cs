@@ -1,11 +1,12 @@
 using BlogManagement.Application.Contracts.Article;
 using BlogManagement.Application.Contracts.ArticleCategory;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Lampshade.WebApp.Areas.Administrator.Pages.BlogManagement.Articles
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         #region Constractor Injection

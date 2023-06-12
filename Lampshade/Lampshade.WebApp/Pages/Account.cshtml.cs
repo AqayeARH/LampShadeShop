@@ -17,27 +17,26 @@ namespace Lampshade.WebApp.Pages
 
         #endregion
 
-        [BindProperty]
-        public LoginViewModel LoginModel { get; set; }
-
-        [BindProperty]
-        public RegisterAccountCommand RegisterModel { get; set; }
-
         public void OnGet()
         {
            
         }
 
-        public IActionResult OnPostLogin()
+        public IActionResult OnPostLogin(LoginViewModel loginModel)
         {
-            var result = _accountApplication.Login(LoginModel);
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+
+            var result = _accountApplication.Login(loginModel);
 
             if (result.IsSuccess)
             {
                 return RedirectToPage("Index");
             }
 
-            ModelState.AddModelError("LoginModel.Username", result.Message);
+            ModelState.AddModelError("Username", result.Message);
             return Page();
         }
 
@@ -47,22 +46,28 @@ namespace Lampshade.WebApp.Pages
             return RedirectToPage("Index");
         }
 
-        public IActionResult OnPostRegister()
+        public IActionResult OnPostRegister(RegisterAccountCommand registerModel)
         {
-            if (!RegisterModel.Password.Equals(RegisterModel.RePassword))
+
+            if (!ModelState.IsValid)
             {
-                ModelState.AddModelError("RegisterModel.RePassword", "ò·„Â ⁄»Ê— »«  ò—«— ¬‰ „ÿ«»ﬁ  ‰œ«—œ");
                 return Page();
             }
 
-            var result = _accountApplication.Register(RegisterModel);
+            if (!registerModel.Password.Equals(registerModel.RePassword))
+            {
+                ModelState.AddModelError("RePassword", "ò·„Â ⁄»Ê— »«  ò—«— ¬‰ „ÿ«»ﬁ  ‰œ«—œ");
+                return Page();
+            }
+
+            var result = _accountApplication.Register(registerModel);
 
             if (result.IsSuccess)
             {
                 return RedirectToPage("Index");
             }
 
-            ModelState.AddModelError("RegisterModel.Username", result.Message);
+            ModelState.AddModelError("Username", result.Message);
             return Page();
         }
     }

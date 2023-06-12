@@ -1,9 +1,11 @@
 using AccountManagement.Application.Contracts.Role;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Lampshade.WebApp.Areas.Administrator.Pages.AccountsManagement.Roles
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         #region Constractor Injection

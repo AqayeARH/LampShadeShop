@@ -1,0 +1,45 @@
+﻿@model AccountManagement.Application.Contracts.Account.RegisterAccountCommand
+@{
+    Layout = null;
+}
+
+<div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
+    <form method="post" asp-page-handler="Register">
+
+        <div class="login-form">
+            <h4 class="login-title">ثبت نام</h4>
+
+            <div class="row">
+                <div class="col-md-6 col-12 mb-20">
+                    <label>نام و نام خانوادگی</label>
+                    <input asp-for="@Model.Fullname" type="text" placeholder="نام و نام خانوادگی">
+                    <span asp-validation-for="@Model.Fullname" class="text-danger"></span>
+                </div>
+                <div class="col-md-6 col-12 mb-20">
+                    <label>نام کاربری</label>
+                    <input asp-for="@Model.Username" type="text" placeholder="نام کاربری">
+                    <span asp-validation-for="@Model.Username" class="text-danger"></span>
+                </div>
+                <div class="col-md-12 mb-20">
+                    <label>شماره موبایل</label>
+                    <input type="text" asp-for="@Model.Mobile" placeholder="09XXXXXXXXX">
+                    <span asp-validation-for="@Model.Mobile" class="text-danger"></span>
+                </div>
+                <div class="col-md-6 mb-20">
+                    <label>کلمه عبور</label>
+                    <input asp-for="@Model.Password" type="password" placeholder="کلمه عبور">
+                    <span asp-validation-for="@Model.Password" class="text-danger"></span>
+                </div>
+                <div class="col-md-6 mb-20">
+                    <label>تکرار کلمه عبور</label>
+                    <input asp-for="@Model.RePassword" type="password" placeholder="تکرار کلمه عبور">
+                    <span asp-validation-for="@Model.RePassword" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <button class="register-button mt-0">ثبت نام</button>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</div>

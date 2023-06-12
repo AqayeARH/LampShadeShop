@@ -1,4 +1,5 @@
 using DiscountManagement.Application.Contracts.CustomerDiscount;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -6,6 +7,7 @@ using ShopManagement.Application.Contracts.Product;
 
 namespace Lampshade.WebApp.Areas.Administrator.Pages.DiscountsManagement.CustomerDiscounts
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         #region Constractor Injection

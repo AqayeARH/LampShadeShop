@@ -1,11 +1,13 @@
 using BlogManagement.Application.Contracts.Article;
 using CommentManagement.Application.Contracts.Comment;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Lampshade.WebApp.Areas.Administrator.Pages.CommentsManagement.ArticlesComments
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         #region Constractoe Injection

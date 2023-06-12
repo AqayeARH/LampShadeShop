@@ -1,0 +1,41 @@
+﻿@model AccountManagement.Application.Contracts.Account.LoginViewModel
+@{
+    Layout = null;
+}
+
+<div class="col-sm-12 col-md-12 col-xs-12 col-lg-6">
+    <form method="post" asp-page-handler="Login">
+        <div class="login-form">
+            <h4 class="login-title">ورود</h4>
+            <div class="row">
+                <div class="col-md-12 col-12">
+                    <label>نام گاربری</label>
+                    <input asp-for="@Model.Username" type="text" placeholder="نام کاربری">
+                    <span class="text-danger" asp-validation-for="@Model.Username"></span>
+                </div>
+                <div class="col-12">
+                    <label>کلمه عبور</label>
+                    <input asp-for="@Model.Password" type="password" placeholder="کلمه عبور">
+                    <span class="text-danger" asp-validation-for="@Model.Password"></span>
+                </div>
+                <div class="col-sm-6">
+
+                    <div class="check-box d-inline-block ml-0 ml-md-2">
+                        <input asp-for="@Model.RememberMe" type="checkbox" id="remember_me">
+                        <label for="remember_me">مرا به خاطر بسپار</label>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-6 text-left text-sm-right">
+                    <a href="#" class="forget-pass-link"> رمز خود را فراموش کردید؟</a>
+                </div>
+
+                <div class="col-md-12">
+                    <button class="register-button">ورود</button>
+                </div>
+
+            </div>
+        </div>
+    </form>
+</div>

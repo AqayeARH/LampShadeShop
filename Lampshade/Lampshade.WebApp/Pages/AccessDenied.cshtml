@@ -1,0 +1,25 @@
+﻿@page
+@model Lampshade.WebApp.Pages.AccessDeniedModel
+@{
+    ViewData["Title"] = "Access Denied";
+}
+
+<div class="breadcrumb-area section-space--half">
+    <div class="container wide">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-wrapper breadcrumb-bg">
+                    <div class="breadcrumb-content">
+                        <h2 class="breadcrumb-content__title text-danger">شما به این بخش دسترسی ندارید !!</h2>
+                        <ul class="breadcrumb-content__page-map">
+                            <li>
+                                <a asp-page="Index">خانه</a>
+                            </li>
+                            <li class="active">Access Denied</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

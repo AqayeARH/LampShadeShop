@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -6,6 +7,7 @@ using ShopManagement.Application.Contracts.ProductCategory;
 
 namespace Lampshade.WebApp.Areas.Administrator.Pages.ShopManagement.Products
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         #region Constractor Injection

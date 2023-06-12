@@ -1,5 +1,4 @@
-﻿
-<div id="sidebar-menu">
+﻿<div id="sidebar-menu">
     <ul>
         <li>
             <a asp-area="Administrator" asp-page="/Index" class="waves-effect"><i class="md md-home"></i><span> داشبورد </span></a>
@@ -14,7 +13,7 @@
                 <li><a asp-area="Administrator" asp-page="/ShopManagement/Sliders/Index">اسلایدرها</a></li>
             </ul>
         </li>
-        
+
         <li class="has_sub">
             <a class="waves-effect"><i class="md md-attach-money"></i><span> تخفیفات </span><span class="pull-right"><i class="md md-add"></i></span></a>
             <ul class="list-unstyled">
@@ -22,11 +21,11 @@
                 <li><a asp-area="Administrator" asp-page="/DiscountsManagement/ColleaguesDiscounts/Index">تخفیف همکاران</a></li>
             </ul>
         </li>
-        
+
         <li>
             <a asp-area="Administrator" asp-page="/InventoryManagement/Index" class="waves-effect"><i class="md md-store"></i><span> مدیریت انبار </span></a>
         </li>
-        
+
         <li class="has_sub">
             <a class="waves-effect"><i class="md md-description"></i><span> وبلاگ </span><span class="pull-right"><i class="md md-add"></i></span></a>
             <ul class="list-unstyled">
@@ -49,6 +48,10 @@
                 <li><a asp-area="Administrator" asp-page="/AccountsManagement/Accounts/Index">حساب ها</a></li>
                 <li><a asp-area="Administrator" asp-page="/AccountsManagement/Roles/Index">نقش ها</a></li>
             </ul>
+        </li>
+        
+        <li>
+            <a asp-area="" asp-page="/Account" asp-page-handler="Logout" class="waves-effect"><i class="fa fa-sign-out"></i><span> خروج </span></a>
         </li>
 
     </ul>

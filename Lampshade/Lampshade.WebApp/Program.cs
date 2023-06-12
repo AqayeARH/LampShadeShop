@@ -3,6 +3,7 @@ using System.Text.Unicode;
 using _0.Framework.Application;
 using _0.Framework.Application.Authentication;
 using _0.Framework.Application.PasswordHasher;
+using _0.Framework.Infrastructure;
 using AccountManagement.Infra.Configuration;
 using BlogManagement.Infra.Configuration;
 using CommentManagement.Infra.Configuration;
@@ -19,11 +20,11 @@ var service = builder.Services;
 var connectionString = builder.Configuration.GetConnectionString("LampshadeConnection");
 
 ShopManagementIoc.Configure(service, connectionString);
-DiscountManagementIoc.Configure(service,connectionString);
-InventoryManagementIoc.Configure(service,connectionString);
-BlogManagementIoc.Configure(service,connectionString);
-CommentManagementIoc.Configure(service,connectionString);
-AccountManagementIoc.Configure(service,connectionString);
+DiscountManagementIoc.Configure(service, connectionString);
+InventoryManagementIoc.Configure(service, connectionString);
+BlogManagementIoc.Configure(service, connectionString);
+CommentManagementIoc.Configure(service, connectionString);
+AccountManagementIoc.Configure(service, connectionString);
 
 service.AddTransient<IFileUploader, FileUploader>();
 service.AddTransient<IAuthenticationHelper, AuthenticationHelper>();
@@ -42,7 +43,35 @@ service.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
         o.AccessDeniedPath = new PathString("/AccessDenied");
     });
 service.AddHttpContextAccessor();
-service.AddRazorPages();
+service.AddAuthorization(options =>
+{
+    options.AddPolicy("Administrator", configurePolicy =>
+    {
+        configurePolicy.RequireRole(new List<string> { Roles.Administrator.ToString(), Roles.Operator.ToString() });
+    });
+
+    options.AddPolicy("DiscountsManagement", configurePolicy =>
+    {
+        configurePolicy.RequireRole(new List<string> { Roles.Administrator.ToString() });
+    });
+
+    options.AddPolicy("AccountsManagement", configurePolicy =>
+    {
+        configurePolicy.RequireRole(new List<string> { Roles.Administrator.ToString() });
+    });
+
+    options.AddPolicy("InventoryManagement", configurePolicy =>
+    {
+        configurePolicy.RequireRole(new List<string> { Roles.Administrator.ToString() });
+    });
+});
+service.AddRazorPages().AddRazorPagesOptions(options =>
+{
+    options.Conventions.AuthorizeAreaFolder("Administrator", "/", "Administrator");
+    options.Conventions.AuthorizeAreaFolder("Administrator", "/DiscountsManagement", "DiscountsManagement");
+    options.Conventions.AuthorizeAreaFolder("Administrator", "/AccountsManagement", "AccountsManagement");
+    options.Conventions.AuthorizeAreaFolder("Administrator", "/InventoryManagement", "InventoryManagement");
+});
 #endregion
 
 var app = builder.Build();

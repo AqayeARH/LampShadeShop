@@ -1,6 +1,7 @@
 ﻿using _0.Framework.Application;
 using _0.Framework.Application.Authentication;
 using _0.Framework.Application.PasswordHasher;
+using _0.Framework.Infrastructure;
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domain.AccountAgg;
 
@@ -55,8 +56,8 @@ namespace AccountManagement.Application
 
             var password = _passwordHasher.Hash(command.Password);
 
-            var account = new Account(command.Fullname, command.Username, command.Password, 
-                command.Mobile, "", 3);
+            var account = new Account(command.Fullname, command.Username, password, 
+                command.Mobile, "", Roles.User);
             
             _accountRepository.Create(account);
             _accountRepository.Save();
@@ -127,9 +128,9 @@ namespace AccountManagement.Application
                 return operation.Error("کاربری با مشخصات ارسالی یافت نشد");
             }
 
-            var result = _passwordHasher.Check(account.Password, loginModel.Password);
+            var (verified, _) = _passwordHasher.Check(account.Password, loginModel.Password);
 
-            if (!result.Verified)
+            if (!verified)
             {
                 return operation.Error("کاربری با مشخصات ارسالی یافت نشد");
             }
