@@ -3,7 +3,9 @@ using _0.Framework.Application.Authentication;
 using _0.Framework.Application.PasswordHasher;
 using _0.Framework.Infrastructure;
 using AccountManagement.Application.Contracts.Account;
+using AccountManagement.Application.Contracts.Role;
 using AccountManagement.Domain.AccountAgg;
+using AccountManagement.Domain.RoleAgg;
 
 namespace AccountManagement.Application
 {
@@ -15,13 +17,15 @@ namespace AccountManagement.Application
         private readonly IPasswordHasher _passwordHasher;
         private readonly IFileUploader _fileUploader;
         private readonly IAuthenticationHelper _authenticationHelper;
+        private readonly IRoleRepository _roleRepository;
         public AccountApplication(IAccountRepository accountRepository, IPasswordHasher passwordHasher, 
-            IFileUploader fileUploader, IAuthenticationHelper authenticationHelper)
+            IFileUploader fileUploader, IAuthenticationHelper authenticationHelper, IRoleRepository roleRepository)
         {
             _accountRepository = accountRepository;
             _passwordHasher = passwordHasher;
             _fileUploader = fileUploader;
             _authenticationHelper = authenticationHelper;
+            _roleRepository = roleRepository;
         }
 
         #endregion
@@ -135,13 +139,17 @@ namespace AccountManagement.Application
                 return operation.Error("کاربری با مشخصات ارسالی یافت نشد");
             }
 
+            var permissions = _roleRepository.GetBy(account.RoleId).Permissions
+                .Select(x => x.Code).ToList();
+
             _authenticationHelper.Signin(new AuthenticationViewModel()
             {
                 Fullname = account.Fullname,
                 Username = account.Username,
                 Id = account.Id,
                 RoleId = account.RoleId,
-                RememberMe = loginModel.RememberMe
+                RememberMe = loginModel.RememberMe,
+                Permissions = permissions
             });
 
             return operation.Success();

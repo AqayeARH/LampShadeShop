@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oGitCd9XUZgFwaKmK2idnRWRpeLnxo/UOPoRCZ+OhbO+PzGAY+XwawwVxEVsgtdkjNqkuh6/NecROQJmnikpRw==",
+  "dgSpecHash": "H3ky41wiOXZ8hKXz87TWY538461BBBKnN5te7WSE2/Zu5Ex67ytZU2LLzZZVpryrKSsVCpKr2W1cBb2c1+SQcQ==",
   "success": true,
   "projectFilePath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\ILIYA 2022\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",

@@ -101,6 +101,36 @@ namespace AccountManagement.Infra.EfCore.Migrations
 
             modelBuilder.Entity("AccountManagement.Domain.RoleAgg.Role", b =>
                 {
+                    b.OwnsMany("AccountManagement.Domain.RoleAgg.RolePermission", "Permissions", b1 =>
+                        {
+                            b1.Property<int>("Code")
+                                .HasColumnType("int");
+
+                            b1.Property<long>("RoleId")
+                                .HasColumnType("bigint");
+
+                            b1.Property<string>("Name")
+                                .IsRequired()
+                                .HasMaxLength(100)
+                                .HasColumnType("nvarchar(100)");
+
+                            b1.HasKey("Code", "RoleId");
+
+                            b1.HasIndex("RoleId");
+
+                            b1.ToTable("RolePermissions", (string)null);
+
+                            b1.WithOwner("Role")
+                                .HasForeignKey("RoleId");
+
+                            b1.Navigation("Role");
+                        });
+
+                    b.Navigation("Permissions");
+                });
+
+            modelBuilder.Entity("AccountManagement.Domain.RoleAgg.Role", b =>
+                {
                     b.Navigation("Accounts");
                 });
 #pragma warning restore 612, 618

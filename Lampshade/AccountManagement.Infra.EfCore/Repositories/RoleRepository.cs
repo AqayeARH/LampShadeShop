@@ -1,10 +1,11 @@
 ﻿using _0.Framework.Infrastructure;
 using AccountManagement.Application.Contracts.Role;
 using AccountManagement.Domain.RoleAgg;
+using Microsoft.EntityFrameworkCore;
 
 namespace AccountManagement.Infra.EfCore.Repositories
 {
-    public class RoleRepository:EfCoreGenericRepository<long,Role>, IRoleRepository
+    public class RoleRepository : EfCoreGenericRepository<long, Role>, IRoleRepository
     {
         #region Constractor Injection
 
@@ -19,11 +20,14 @@ namespace AccountManagement.Infra.EfCore.Repositories
 
         public EditRoleCommand GetDetailForEdit(long id)
         {
-            return _context.Roles.Select(x => new EditRoleCommand()
-            {
-                Id = x.Id,
-                Name = x.Name
-            }).FirstOrDefault(x => x.Id == id);
+            return _context.Roles
+                .Include(x => x.Permissions)
+                .Select(x => new EditRoleCommand()
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    MappedPermissions = x.Permissions.Select(p => new PermissionDto(p.Code, p.Name)).ToList(),
+                }).FirstOrDefault(x => x.Id == id);
         }
     }
 }

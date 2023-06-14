@@ -33,7 +33,6 @@ namespace AccountManagement.Infra.Configuration
             {
                 options.UseSqlServer(connectionString);
 
-                //Use it in ef core 6
                 options.ConfigureWarnings(warnings =>
                     warnings.Ignore(CoreEventId.NavigationBaseIncludeIgnored));
             });

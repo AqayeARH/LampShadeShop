@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9ExFGqEhb9Qp/dlMur49GwCfvOick9IxCU2fU2X9pW+8XHb74KnEl5zL6U8eF4dRaap/GIqic0lrF/wgYppvxA==",
+  "dgSpecHash": "+QZ7LSgpce6Ox99YL0pLS8QgHCnr5Pa5z3vT+uUriYW3yCzErMZ97wNgx7a0NE6fXjrP4mlrWuLyVlutyCb0kA==",
   "success": true,
   "projectFilePath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.EfCore\\ShopManagement.Infra.EfCore.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,7 @@
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\ILIYA 2022\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",

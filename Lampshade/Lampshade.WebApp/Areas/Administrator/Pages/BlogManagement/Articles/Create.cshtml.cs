@@ -1,5 +1,7 @@
+using _0.Framework.Infrastructure;
 using BlogManagement.Application.Contracts.Article;
 using BlogManagement.Application.Contracts.ArticleCategory;
+using BlogManagement.Infra.Configuration.Permissions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -26,11 +28,13 @@ namespace Lampshade.WebApp.Areas.Administrator.Pages.BlogManagement.Articles
         public CreateArticleCommand Command { get; set; }
         public SelectList ArticleCategories { get; set; }
 
+        [NeedPermission(BlogPermissionCode.CreateArticle)]
         public void OnGet()
         {
             ArticleCategories = new SelectList(_articleCategoryApplication.GetArticleCategories(), "Id", "Name");
         }
 
+        [NeedPermission(BlogPermissionCode.CreateArticle)]
         public IActionResult OnPost()
         {
             if (!ModelState.IsValid)

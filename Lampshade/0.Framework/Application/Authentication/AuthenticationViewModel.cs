@@ -8,5 +8,6 @@
         public string Username { get; set; }
         public bool RememberMe { get; set; }
         public string RoleName { get; set; }
+        public List<int> Permissions { get; set; }
     }
 }

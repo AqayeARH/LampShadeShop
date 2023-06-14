@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ewkf21AMGUayHZmGu46Er6zudKu+5n6qzK0A4ZRZBGom5eFLbuVvrF4K/CX/PaBhhD0J8IxFs5STke+g+uXc/w==",
+  "dgSpecHash": "P3SIZ+vkmn0dOPcZpakHFOxpwr2SikgaVYbxSvOmof2YznVsLwB7zfp0m3EG8pC+s4yM5nB3gaoy/uFbIYnQdg==",
   "success": true,
   "projectFilePath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\ILIYA 2022\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",

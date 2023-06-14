@@ -1,8 +1,10 @@
-﻿using BlogManagement.Application;
+﻿using _0.Framework.Infrastructure;
+using BlogManagement.Application;
 using BlogManagement.Application.Contracts.Article;
 using BlogManagement.Application.Contracts.ArticleCategory;
 using BlogManagement.Domain.ArticleAgg;
 using BlogManagement.Domain.ArticleCategoryAgg;
+using BlogManagement.Infra.Configuration.Permissions;
 using BlogManagement.Infra.EfCore;
 using BlogManagement.Infra.EfCore.Repositories;
 using Lampshade.Query.Contracts.Article;
@@ -38,6 +40,8 @@ namespace BlogManagement.Infra.Configuration
             service.AddTransient<IArticleCategoryQuery, ArticleCategoryQuery>();
 
             #endregion
+
+            service.AddTransient<IPermissionExposure, BlogPermissionExposure>();
 
             service.AddDbContext<BlogContext>(options =>
             {

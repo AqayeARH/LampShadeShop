@@ -65,13 +65,18 @@ service.AddAuthorization(options =>
         configurePolicy.RequireRole(new List<string> { Roles.Administrator.ToString() });
     });
 });
-service.AddRazorPages().AddRazorPagesOptions(options =>
-{
-    options.Conventions.AuthorizeAreaFolder("Administrator", "/", "Administrator");
-    options.Conventions.AuthorizeAreaFolder("Administrator", "/DiscountsManagement", "DiscountsManagement");
-    options.Conventions.AuthorizeAreaFolder("Administrator", "/AccountsManagement", "AccountsManagement");
-    options.Conventions.AuthorizeAreaFolder("Administrator", "/InventoryManagement", "InventoryManagement");
-});
+service.AddRazorPages()
+    .AddMvcOptions(options =>
+    {
+        options.Filters.Add<SecurityPageFilter>();
+    })
+    .AddRazorPagesOptions(options =>
+    {
+        options.Conventions.AuthorizeAreaFolder("Administrator", "/", "Administrator");
+        options.Conventions.AuthorizeAreaFolder("Administrator", "/DiscountsManagement", "DiscountsManagement");
+        options.Conventions.AuthorizeAreaFolder("Administrator", "/AccountsManagement", "AccountsManagement");
+        options.Conventions.AuthorizeAreaFolder("Administrator", "/InventoryManagement", "InventoryManagement");
+    });
 #endregion
 
 var app = builder.Build();
@@ -85,13 +90,9 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthentication();
 app.UseCookiePolicy();
 app.UseAuthorization();
-
 app.MapRazorPages();
-
 app.Run();

@@ -3,6 +3,7 @@ using _0.Framework.Infrastructure;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
+using Newtonsoft.Json;
 
 namespace _0.Framework.Application.Authentication
 {
@@ -32,15 +33,14 @@ namespace _0.Framework.Application.Authentication
             return result;
         }
 
-        //public List<int> GetPermissions()
-        //{
-        //    if (!IsAuthenticated())
-        //        return new List<int>();
+        public List<int> GetPermissions()
+        {
+            if (!IsAuthenticated())
+                return new List<int>();
 
-        //    var permissions = _contextAccessor.HttpContext.User.Claims.FirstOrDefault(x => x.Type == "permissions")
-        //        ?.Value;
-        //    //return JsonConvert.DeserializeObject<List<int>>(permissions);
-        //}
+            var permissions = _contextAccessor.HttpContext.User.Claims.FirstOrDefault(x => x.Type == "permissions")?.Value;
+            return JsonConvert.DeserializeObject<List<int>>(permissions);
+        }
 
         //public long CurrentAccountId()
         //{
@@ -68,14 +68,14 @@ namespace _0.Framework.Application.Authentication
 
         public void Signin(AuthenticationViewModel account)
         {
-            //var permissions = JsonConvert.SerializeObject(account.Permissions);
+            var permissions = JsonConvert.SerializeObject(account.Permissions);
             var claims = new List<Claim>
             {
                 new Claim("AccountId", account.Id.ToString()),
                 new Claim(ClaimTypes.Name, account.Fullname),
                 new Claim(ClaimTypes.Role, account.RoleId.ToString()),
                 new Claim("Username", account.Username),
-                //new Claim("permissions", permissions),
+                new Claim("permissions", permissions),
                 //new Claim("Mobile", account.Mobile)
             };
 

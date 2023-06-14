@@ -1,4 +1,5 @@
 ﻿@page
+@using ShopManagement.Infra.Configuration.Permissions
 @model Lampshade.WebApp.Areas.Administrator.Pages.ShopManagement.ProductCategories.IndexModel
 @{
     ViewData["Title"] = "لیست دسته بندی محصولات";
@@ -63,7 +64,7 @@
                                         <td>@item.Name</td>
                                         <td>@item.CreationDate</td>
                                         <td>
-                                            <a class="btn btn-warning btn-xs" 
+                                            <a class="btn btn-warning btn-xs"
                                                href="#showmodal=@Url.Page("Index", "Edit", new { id = item.Id })">
                                                 <i class="fa fa-edit"></i>ویرایش
                                             </a>

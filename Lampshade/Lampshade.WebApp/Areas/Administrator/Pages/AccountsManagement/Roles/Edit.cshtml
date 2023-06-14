@@ -1,32 +1,106 @@
-﻿@model AccountManagement.Application.Contracts.Role.EditRoleCommand
+﻿@page
+@model Lampshade.WebApp.Areas.Administrator.Pages.AccountsManagement.Roles.EditModel
 @{
-    Layout = null;
+    ViewData["Title"] = $"ویرایش نقش : {Model.Command.Name}";
 }
 
-<div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h4 class="modal-title">ویرایش نقش : @Model.Name</h4>
+@section styles
+{
+    <link href="~/admin/assets/jquery-multi-select/multi-select.css" rel="stylesheet" type="text/css" />
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <h4 class="page-title pull-right">@ViewData["title"]</h4>
+    </div>
 </div>
 
-<form asp-page="Index" asp-page-handler="Edit"
-      method="post"
-      data-ajax="true"
-      data-callback=""
-      data-action="Refresh">
-    <div class="modal-body">
-        <input type="hidden" asp-for="Id" value="@Model.Id"/>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="form-group">
-                    <label asp-for="Name" class="control-label">نام نقش</label>
-                    <input class="form-control" asp-for="Name">
-                    <span asp-validation-for="Name" class="error"></span>
-                </div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">اطلاعات نقش</h3>
+            </div>
+            <div class="panel-body">
+                <form method="post">
+                    <div class="panel-body">
+                        <input type="hidden" asp-for="Command.Id" value="@Model.Command.Id" />
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label asp-for="Command.Name" class="control-label">نام نقش</label>
+                                    <input class="form-control" asp-for="Command.Name">
+                                    <span asp-validation-for="Command.Name" class="error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <label class="control-label col-md-3">انتخاب دسترسی ها</label>
+                                <div class="col-md-12">
+                                    <select asp-for="Command.Permissions" asp-items="Model.Permissions" class="multi-select" multiple="multiple" id="permissions">
+
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        <a class="btn btn-default waves-effect" asp-page="Index">بستن</a>
+                        <button type="submit" class="btn btn-success waves-effect waves-light">ذخیره</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-    <div class="modal-footer">
-        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">بستن</button>
-        <button type="submit" class="btn btn-success waves-effect waves-light">ذخیره</button>
-    </div>
-</form>
+</div>
+
+@section Scripts
+{
+    <script src="~/admin/assets/jquery-multi-select/jquery.multi-select.js"></script>
+    <script src="~/admin/assets/jquery-multi-select/jquery.quicksearch.js"></script>
+
+    <script>
+        jQuery(document).ready(function () {
+            $('#permissions').multiSelect({
+                selectableOptgroup: true,
+                selectableHeader:
+                    "<input type='text' class='form-control search-input' autocomplete='off' placeholder='search...'>",
+                selectionHeader:
+                    "<input type='text' class='form-control search-input' autocomplete='off' placeholder='search...'>",
+                afterInit: function (ms) {
+                    var that = this,
+                        $selectableSearch = that.$selectableUl.prev(),
+                        $selectionSearch = that.$selectionUl.prev(),
+                        selectableSearchString =
+                            '#' + that.$container.attr('id') + ' .ms-elem-selectable:not(.ms-selected)',
+                        selectionSearchString = '#' + that.$container.attr('id') + ' .ms-elem-selection.ms-selected';
+
+                    that.qs1 = $selectableSearch.quicksearch(selectableSearchString)
+                        .on('keydown',
+                            function (e) {
+                                if (e.which === 40) {
+                                    that.$selectableUl.focus();
+                                    return false;
+                                }
+                            });
+
+                    that.qs2 = $selectionSearch.quicksearch(selectionSearchString)
+                        .on('keydown',
+                            function (e) {
+                                if (e.which == 40) {
+                                    that.$selectionUl.focus();
+                                    return false;
+                                }
+                            });
+                },
+                afterSelect: function () {
+                    this.qs1.cache();
+                    this.qs2.cache();
+                },
+                afterDeselect: function () {
+                    this.qs1.cache();
+                    this.qs2.cache();
+                }
+            });
+        });
+    </script>
+}

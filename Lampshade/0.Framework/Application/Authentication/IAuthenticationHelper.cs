@@ -7,5 +7,6 @@
         void SignOut();
         int CurrentAccountRole();
         AuthenticationViewModel CurrentAccountInfo();
+        List<int> GetPermissions();
     }
 }

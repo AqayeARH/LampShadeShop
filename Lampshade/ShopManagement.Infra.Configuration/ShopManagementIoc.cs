@@ -1,4 +1,5 @@
-﻿using Lampshade.Query.Contracts.Product;
+﻿using _0.Framework.Infrastructure;
+using Lampshade.Query.Contracts.Product;
 using Lampshade.Query.Contracts.ProductCategory;
 using Lampshade.Query.Contracts.Slider;
 using Lampshade.Query.Queries;
@@ -14,6 +15,7 @@ using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Domain.SliderAgg;
+using ShopManagement.Infra.Configuration.Permissions;
 using ShopManagement.Infra.EfCore;
 using ShopManagement.Infra.EfCore.Repositories;
 
@@ -58,6 +60,8 @@ namespace ShopManagement.Infra.Configuration
             service.AddTransient<IProductQuery, ProductQuery>();
 
             #endregion
+
+            service.AddTransient<IPermissionExposure, ShopPermissionExposure>();
 
             service.AddDbContext<ShopContext>(options =>
             {

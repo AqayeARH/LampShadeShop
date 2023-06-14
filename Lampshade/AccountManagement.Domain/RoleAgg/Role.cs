@@ -8,6 +8,7 @@ namespace AccountManagement.Domain.RoleAgg
         public string Name { get; private set; }
 
         public List<Account> Accounts { get; private set; }
+        public List<RolePermission> Permissions { get; private set; }
 
         //Empty constructor for relations
         protected Role()
@@ -16,15 +17,17 @@ namespace AccountManagement.Domain.RoleAgg
         }
 
         //The constructor is called when creating a new instance
-        public Role(string name)
+        public Role(string name, List<RolePermission> permissions)
         {
             Name = name;
+            Permissions = permissions;
         }
 
         //The edit method is called when an entity is changed
-        public void Edit(string name)
+        public void Edit(string name, List<RolePermission> permissions)
         {
             Name = name;
+            Permissions = permissions;
         }
     }
 }

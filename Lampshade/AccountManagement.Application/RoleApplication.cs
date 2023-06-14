@@ -23,7 +23,7 @@ namespace AccountManagement.Application
                 return operation.Error("امکان ثبت نقش تکراری وجود ندارد");
             }
 
-            var role = new Role(command.Name);
+            var role = new Role(command.Name, new List<RolePermission>());
             _roleRepository.Create(role);
             _roleRepository.Save();
 
@@ -45,7 +45,14 @@ namespace AccountManagement.Application
                 return operation.Error("امکان ثبت نقش تکراری وجود ندارد");
             }
 
-            role.Edit(command.Name);
+            var permissions = new List<RolePermission>();
+
+            foreach (var permissionCode in command.Permissions)
+            {
+                permissions.Add(new RolePermission(permissionCode, "Permission", command.Id));
+            }
+
+            role.Edit(command.Name, permissions);
             _roleRepository.Save();
             return operation.Success();
         }

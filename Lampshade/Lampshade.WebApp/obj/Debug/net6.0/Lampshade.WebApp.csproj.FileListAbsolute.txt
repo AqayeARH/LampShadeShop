@@ -1,4 +1,3 @@
-D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\ShopManagement.Domain.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\appsettings.Development.json
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\appsettings.json
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Lampshade.WebApp.staticwebassets.runtime.json
@@ -23,6 +22,7 @@ D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\System.Drawing.Common.dll
@@ -72,6 +72,7 @@ D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Lampshade.Query.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\ShopManagement.Application.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\ShopManagement.Domain.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\ShopManagement.Infra.Configuration.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\ShopManagement.Infra.EfCore.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\AccountManagement.Infra.Configuration.pdb

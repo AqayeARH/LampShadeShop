@@ -16,6 +16,7 @@ namespace AccountManagement.Infra.EfCore
 
         public DbSet<Account> Accounts { get; set; }
         public DbSet<Role> Roles { get; set; }
+        public DbSet<RolePermission> RolePermissions { get; set; }
 
         #endregion
 
