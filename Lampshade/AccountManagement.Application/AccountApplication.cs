@@ -3,7 +3,6 @@ using _0.Framework.Application.Authentication;
 using _0.Framework.Application.PasswordHasher;
 using _0.Framework.Infrastructure;
 using AccountManagement.Application.Contracts.Account;
-using AccountManagement.Application.Contracts.Role;
 using AccountManagement.Domain.AccountAgg;
 using AccountManagement.Domain.RoleAgg;
 

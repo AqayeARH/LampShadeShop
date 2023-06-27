@@ -3801,6 +3801,10 @@
       "PackagePath": "staticwebassets\\site\\assets\\js\\ajax-mail.js"
     },
     {
+      "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\site\\assets\\js\\plugins.js"
+    },
+    {
       "Id": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\js\\vendors.js",
       "PackagePath": "staticwebassets\\site\\assets\\js\\vendors.js"
     },

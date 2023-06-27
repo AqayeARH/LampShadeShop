@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZR2wfodoQU1PNjO9q6h6OCxYsuZFnzDyvkPPRH6WMTA=",
+  "Hash": "dsF2cLEZ8mqOWZ3HbrUDUib3AnlD4mYyRasZ/nI69FI=",
   "Source": "Lampshade.WebApp",
   "BasePath": "_content/Lampshade.WebApp",
   "Mode": "Default",
@@ -16165,6 +16165,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\site\\assets\\js\\ajax-mail.js"
+    },
+    {
+      "Identity": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\js\\plugins.js",
+      "SourceId": "Lampshade.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\",
+      "BasePath": "_content/Lampshade.WebApp",
+      "RelativePath": "site/assets/js/plugins.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\site\\assets\\js\\plugins.js"
     },
     {
       "Identity": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\Lampshade.WebApp\\wwwroot\\site\\assets\\js\\vendors.js",

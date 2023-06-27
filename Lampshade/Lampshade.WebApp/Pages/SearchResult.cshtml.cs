@@ -1,5 +1,4 @@
 ﻿using Lampshade.Query.Contracts.Product;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Lampshade.WebApp.Pages
