@@ -80,7 +80,7 @@
                                                 {
                                                     <div class="single-image">
                                                         <img src="/pictures/products-pictures/@picture.Picture" class="img-fluid"
-                                                         alt="@picture.PictureAlt" title="@picture.PictureTitle">
+                                                             alt="@picture.PictureAlt" title="@picture.PictureTitle">
                                                     </div>
                                                 }
 
@@ -109,16 +109,16 @@
         {"breakpoint":479, "settings": {"slidesToShow": 2, "arrows": false, "slidesToScroll": 1} }
     ]'>
                                             <div class="single-image">
-                                                <img src="/pictures/products-banner/@Model.Product.Picture" class="img-fluid"
+                                                <img src="~/pictures/products-banner/@Model.Product.Picture" class="img-fluid"
                                                      alt="@Model.Product.PictureAlt"
                                                      title="@Model.Product.PictureTitle">
                                             </div>
                                             @foreach (var picture in Model.Product.ProductPictures)
                                             {
                                                 <div class="single-image">
-                                                    <img src="/pictures/products-pictures/@picture.Picture" class="img-fluid"
-                                                     alt="@picture.PictureAlt"
-                                                     title="@picture.PictureTitle">
+                                                    <img src="~/pictures/products-pictures/@picture.Picture" class="img-fluid"
+                                                         alt="@picture.PictureAlt"
+                                                         title="@picture.PictureTitle">
                                                 </div>
                                             }
 
@@ -180,11 +180,11 @@
                                         <div class="product-actions">
                                             <div class="quantity-selection">
                                                 <label>تعداد</label>
-                                                <input type="number" value="1" min="1">
+                                                <input type="number" value="1" min="1" id="productCount" />
                                             </div>
 
                                             <div class="product-buttons">
-                                                <a class="cart-btn" href="#">
+                                                <a class="cart-btn" onclick="addToCart('@Model.Product.Id','@Model.Product.Name','@Model.Product.UnitPrice','@Model.Product.Picture')">
                                                     <i class="ion-bag"></i> افزودن به سبد خرید
                                                 </a>
                                             </div>
@@ -334,6 +334,5 @@
 <!--====================  End of page content area  ====================-->
 @section Scripts
 {
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <partial name="Shared/_ValidationScriptsPartial"/>
+    <partial name="Shared/_ValidationScriptsPartial" />
 }

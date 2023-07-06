@@ -1,0 +1,112 @@
+﻿@page
+@using _0.Framework.Application
+@model Lampshade.WebApp.Pages.CartModel
+@{
+    ViewData["Title"] = "سبد خرید";
+}
+
+<div class="breadcrumb-area section-space--half">
+    <div class="container wide">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-wrapper breadcrumb-bg">
+                    <div class="breadcrumb-content">
+                        <h2 class="breadcrumb-content__title">سبد خرید</h2>
+                        <ul class="breadcrumb-content__page-map">
+                            <li>
+                                <a asp-page="Index">خانه</a>
+                            </li>
+                            <li class="active">سبد خرید</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page-content-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!--=======  page wrapper  =======-->
+                <div class="page-wrapper">
+                    @foreach (var item in Model.CartItems.Where(x => x.IsInStock == false))
+                    {
+                        <div class="alert alert-warning">
+                            <i class="fa fa-warning"></i>
+                            کالای @item.Name با تعداد انتخابی در انبار موجود نیست
+                        </div>
+                    }
+                    <div class="page-content-wrapper">
+                        <form action="#">
+                            <div class="cart-table table-responsive">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th class="pro-thumbnail">عکس</th>
+                                        <th class="pro-title">محصول</th>
+                                        <th class="pro-price">قیمت واحد</th>
+                                        <th class="pro-quantity">تعداد</th>
+                                        <th class="pro-subtotal">قیمت کل</th>
+                                        <th class="pro-remove">حذف</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    @if (Model.CartItems != null && Model.CartItems.Any())
+                                    {
+                                        foreach (var item in Model.CartItems)
+                                        {
+                                            <tr>
+                                                <td class="pro-thumbnail">
+                                                    <a href="single-product.html">
+                                                        <img src="~/pictures/products-banner/@item.Picture" class="img-fluid"
+                                                             alt="@item.Name" title="@item.Name"/>
+                                                    </a>
+                                                </td>
+                                                <td class="pro-title">
+                                                    <a href="single-product.html">@item.Name</a>
+                                                </td>
+                                                <td class="pro-price">
+                                                    <span>@item.UnitPrice.ToMoney() تومان</span>
+                                                </td>
+                                                <td class="pro-quantity">
+                                                    <div class="quantity-selection">
+                                                            <input type="number" value="@item.Count" min="1" onchange="changeCartItemCount('@item.Id','total_item_price_@item.Id',this.value)">
+                                                    </div>
+                                                </td>
+                                                <td class="pro-subtotal">
+                                                    <span id="total_item_price_@item.Id">@item.TotalItemPrice.ToMoney() تومان</span>
+                                                </td>
+                                                <td class="pro-remove">
+                                                    <a asp-page-handler="RemoveItemFromCart" asp-route-id="@item.Id">
+                                                        <i class="fa fa-trash-o text-danger"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <div class="alert alert-warning">سبد خرید شما خالی است</div>
+                                    }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </form>
+
+                        <div class="row">
+                            <div class="col-lg-6 col-12 d-flex">
+                                <div class="cart-summary">
+                                    <div class="cart-summary-button">
+                                        <a asp-page-handler="GoToCheckout" class="checkout-btn">پرداخت نهایی</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

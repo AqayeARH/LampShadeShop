@@ -9,6 +9,8 @@ using BlogManagement.Infra.Configuration;
 using CommentManagement.Infra.Configuration;
 using DiscountManagement.Infra.Configuration;
 using InventoryManagement.Infra.Configuration;
+using Lampshade.Query.Contracts;
+using Lampshade.Query.Queries;
 using Lampshade.WebApp;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using ShopManagement.Infra.Configuration;
@@ -28,13 +30,9 @@ AccountManagementIoc.Configure(service, connectionString);
 
 service.AddTransient<IFileUploader, FileUploader>();
 service.AddTransient<IAuthenticationHelper, AuthenticationHelper>();
+service.AddTransient<ICartCalculateService, CartCalculateService>();
 service.AddSingleton<IPasswordHasher, PasswordHasher>();
 service.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
-service.Configure<CookiePolicyOptions>(options =>
-{
-    options.CheckConsentNeeded = context => true;
-    options.MinimumSameSitePolicy = SameSiteMode.Lax;
-});
 service.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
     {
@@ -92,7 +90,6 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication();
-app.UseCookiePolicy();
 app.UseAuthorization();
 app.MapRazorPages();
 app.Run();

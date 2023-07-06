@@ -8,6 +8,7 @@
         public string PictureAlt { get; set; }
         public string PictureTitle { get; set; }
         public string Price { get; set; }
+        public double UnitPrice { get; set; }
         public string PriceAfterDiscount { get; set; }
         public int DiscountRate { get; set; }
         public string CategoryName { get; set; }

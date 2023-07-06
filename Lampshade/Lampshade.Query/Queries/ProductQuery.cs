@@ -5,6 +5,7 @@ using CommentManagement.Infra.EfCore;
 using DiscountManagement.Infra.EfCore;
 using InventoryManagement.Infra.EfCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Infra.EfCore;
 
 namespace Lampshade.Query.Queries
@@ -139,15 +140,29 @@ namespace Lampshade.Query.Queries
                             PictureTitle = productPicture.PictureTitle
                         }).ToList(),
                     ProductComments = _commentingContext.Comments
-                        .Where(c=> c.Type == CommentTypes.Product && c.OwnerRecordId == x.Id && c.Status == CommentStatuses.Confirmed)
-                        .Select(c=> new ProductCommentQueryModel()
+                        .Where(c => c.Type == CommentTypes.Product && c.OwnerRecordId == x.Id && c.Status == CommentStatuses.Confirmed)
+                        .Select(c => new ProductCommentQueryModel()
                         {
                             Name = c.Name,
                             CreationDate = c.CreationDate.ToFarsi(),
                             Id = c.Id,
                             Text = c.Text
-                        }).OrderByDescending(c=>c.Id).ToList(),
+                        }).OrderByDescending(c => c.Id).ToList(),
+                    UnitPrice = inventories.FirstOrDefault(i => i.ProductId == x.Id) != null ? inventories.FirstOrDefault(i => i.ProductId == x.Id)!.UnitPrice : 0
                 }).FirstOrDefault(x => x.Slug == slug);
+        }
+
+        public List<CartItem> CheckInventoryStatus(List<CartItem> cartItems)
+        {
+            var inventories = _inventoryContext.Inventories.ToList();
+
+            foreach (var item in cartItems)
+            {
+                item.IsInStock = inventories.Any(x => x.ProductId == item.Id &&
+                              x.InStock && x.CalculateCurrentCountInStock() >= item.Count);
+            }
+
+            return cartItems;
         }
     }
 }

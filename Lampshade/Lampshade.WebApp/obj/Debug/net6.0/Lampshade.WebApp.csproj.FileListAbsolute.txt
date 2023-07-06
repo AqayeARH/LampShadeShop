@@ -130,3 +130,7 @@ D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.genruntimeconfig.cache
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\ref\Lampshade.WebApp.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Nancy.dll
