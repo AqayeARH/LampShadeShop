@@ -3,6 +3,9 @@ D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bi
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\DiscountManagement.Infra.EfCore.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\DiscountManagement.Infra.EfCore.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\0.Framework.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\AccountManagement.Application.Contracts.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\AccountManagement.Domain.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\AccountManagement.Infra.EfCore.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\DiscountManagement.Domain.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
@@ -11,6 +14,9 @@ D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bi
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\DiscountManagement.Domain.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\ShopManagement.Infra.EfCore.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\0.Framework.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\AccountManagement.Application.Contracts.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\AccountManagement.Domain.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\AccountManagement.Infra.EfCore.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\DiscountManagement.Infra.EfCore\bin\Debug\net6.0\ShopManagement.Domain.pdb

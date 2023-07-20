@@ -42,6 +42,12 @@ namespace ShopManagement.Infra.Configuration.Permissions
                         new PermissionDto(ShopPermissionCode.ChangeStatusSlider, "ChangeStatusSlider")
                     }
                 },
+                {
+                    "Order", new List<PermissionDto>()
+                    {
+                        new PermissionDto(ShopPermissionCode.ListOrders, "ListOrders"),
+                    }
+                },
             };
         }
     }

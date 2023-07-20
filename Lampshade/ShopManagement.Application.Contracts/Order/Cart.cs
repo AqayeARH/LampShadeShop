@@ -6,6 +6,7 @@
         public double TotalAmount { get; set; }
         public double DiscountAmount { get; set; }
         public double PayAmount { get; set; }
+        public int PaymentMethod { get; set; }
 
         public Cart()
         {
@@ -18,6 +19,11 @@
             TotalAmount += item.TotalItemPrice;
             DiscountAmount += item.DiscountAmount;
             PayAmount += item.ItemPayAmount;
+        }
+
+        public void SetPaymentMethod(int methodId)
+        {
+            PaymentMethod = methodId;
         }
     }
 }

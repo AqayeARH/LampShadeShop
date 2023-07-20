@@ -9,5 +9,6 @@ namespace AccountManagement.Domain.AccountAgg
         EditAccountCommand GetDetailForEdit(long id);
         List<AccountViewModel> GetByFilter(AccountSearchModel searchModel);
         Account GetBy(string username);
+        List<AccountViewModel> GetAccounts();
     }
 }

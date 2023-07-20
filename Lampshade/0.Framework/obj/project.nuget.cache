@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y0OcCH+3QV7N+mb6zBv5duQFS6JyvWVBQN3jYtD3SEBUw8bXpxhsYC5HJwy1PbnN2czRiikNx948dvZIIo7V/w==",
+  "dgSpecHash": "UxRoZX0e+Bfb90SKT3d+NwWJ6v6y6OBpGzUEK4e22U+NAJvrRW1YzTenBq2mRZh/Ur963RMhtheKLo6ASvoKCw==",
   "success": true,
   "projectFilePath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\0.Framework\\0.Framework.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,8 @@
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\ILIYA 2022\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\ILIYA 2022\\.nuget\\packages\\restsharp.serializers.newtonsoftjson\\110.2.0\\restsharp.serializers.newtonsoftjson.110.2.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
@@ -51,7 +53,8 @@
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.security.cryptography.xml\\4.5.0\\system.security.cryptography.xml.4.5.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
     "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512",
-    "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+    "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\ILIYA 2022\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,4 +1,5 @@
 ﻿using _0.Framework.Application;
+using _0.Framework.Application.Authentication;
 using InventoryManagement.Application.Contracts.Inventory;
 using InventoryManagement.Domain.InventoryAgg;
 
@@ -9,9 +10,11 @@ namespace InventoryManagement.Application
         #region Constracto Injection
 
         private readonly IInventoryRepository _inventoryRepository;
-        public InventoryApplication(IInventoryRepository inventoryRepository)
+        private readonly IAuthenticationHelper _authenticationHelper;
+        public InventoryApplication(IInventoryRepository inventoryRepository, IAuthenticationHelper authenticationHelper)
         {
             _inventoryRepository = inventoryRepository;
+            _authenticationHelper = authenticationHelper;
         }
 
         #endregion
@@ -93,7 +96,7 @@ namespace InventoryManagement.Application
                     return operation.Error();
                 }
 
-                const long operatorId = 1;
+                var operatorId = _authenticationHelper.CurrentAccountId();
 
                 inventory.Reduce(item.Count, operatorId, item.Description, item.OrderId);
             }
@@ -114,7 +117,7 @@ namespace InventoryManagement.Application
                 return operation.Error("انباری در سیستم انبارداری با مشخصات ارسالی یافت نشد");
             }
 
-            const long operatorId = 1;
+            var operatorId = _authenticationHelper.CurrentAccountId();
             const long orderId = 0;
 
             inventory.Reduce(command.Count, operatorId, command.Description, orderId);

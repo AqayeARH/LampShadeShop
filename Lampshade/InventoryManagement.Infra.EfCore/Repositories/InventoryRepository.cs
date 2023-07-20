@@ -1,5 +1,6 @@
 ﻿using _0.Framework.Application;
 using _0.Framework.Infrastructure;
+using AccountManagement.Infra.EfCore;
 using InventoryManagement.Application.Contracts.Inventory;
 using InventoryManagement.Domain.InventoryAgg;
 using ShopManagement.Infra.EfCore;
@@ -12,11 +13,13 @@ namespace InventoryManagement.Infra.EfCore.Repositories
 
         private readonly InventoryContext _context;
         private readonly ShopContext _shopContext;
+        private readonly AccountContext _accountContext;
 
-        public InventoryRepository(InventoryContext context, ShopContext shopContext) : base(context)
+        public InventoryRepository(InventoryContext context, ShopContext shopContext, AccountContext accountContext) : base(context)
         {
             _context = context;
             _shopContext = shopContext;
+            _accountContext = accountContext;
         }
 
         #endregion
@@ -97,6 +100,9 @@ namespace InventoryManagement.Infra.EfCore.Repositories
                 return null;
             }
 
+            var accounts = _accountContext.Accounts
+                .Select(x => new { x.Id, x.Fullname }).ToList();
+
             return inventory.InventoryOperations
                 .OrderByDescending(x => x.Id)
                 .Select(x => new InventoryOperationViewModel()
@@ -110,7 +116,7 @@ namespace InventoryManagement.Infra.EfCore.Repositories
                     OperationDate = x.OperationDate.ToFarsiFull(),
                     OrderId = x.OrderId,
                     OperatorId = x.OperatorId,
-                    OperatorName = "ادمین",
+                    OperatorName = accounts.FirstOrDefault(a => a.Id == x.OperatorId)?.Fullname,
                     Operation = x.Operation
                 }).ToList();
         }

@@ -9,5 +9,6 @@
         public bool RememberMe { get; set; }
         public string RoleName { get; set; }
         public List<int> Permissions { get; set; }
+        public string Mobile { get; set; }
     }
 }

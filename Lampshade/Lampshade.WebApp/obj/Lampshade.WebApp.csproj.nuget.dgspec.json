@@ -64,6 +64,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            },
+            "RestSharp.Serializers.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[110.2.0, )"
             }
           },
           "imports": [
@@ -1835,6 +1843,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\AccountManagement.Infra.EfCore\\AccountManagement.Infra.EfCore.csproj": {
+                "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\AccountManagement.Infra.EfCore\\AccountManagement.Infra.EfCore.csproj"
+              },
               "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
                 "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
               },
@@ -2041,6 +2052,10 @@
             "Nancy": {
               "target": "Package",
               "version": "[2.0.0, )"
+            },
+            "ZarinpalSandbox": {
+              "target": "Package",
+              "version": "[2.0.4, )"
             }
           },
           "imports": [
@@ -2316,6 +2331,9 @@
               },
               "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.EfCore\\ShopManagement.Infra.EfCore.csproj": {
                 "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.EfCore\\ShopManagement.Infra.EfCore.csproj"
+              },
+              "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.InventoryAcl\\ShopManagement.Infra.InventoryAcl.csproj": {
+                "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.InventoryAcl\\ShopManagement.Infra.InventoryAcl.csproj"
               }
             }
           }
@@ -2384,6 +2402,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\AccountManagement.Infra.EfCore\\AccountManagement.Infra.EfCore.csproj": {
+                "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\AccountManagement.Infra.EfCore\\AccountManagement.Infra.EfCore.csproj"
+              },
               "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
                 "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
@@ -2415,6 +2436,73 @@
               "version": "[6.0.16, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.InventoryAcl\\ShopManagement.Infra.InventoryAcl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.InventoryAcl\\ShopManagement.Infra.InventoryAcl.csproj",
+        "projectName": "ShopManagement.Infra.InventoryAcl",
+        "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.InventoryAcl\\ShopManagement.Infra.InventoryAcl.csproj",
+        "packagesPath": "C:\\Users\\ILIYA 2022\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.InventoryAcl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ILIYA 2022\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
+              },
+              "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",

@@ -42,19 +42,17 @@ namespace _0.Framework.Application.Authentication
             return JsonConvert.DeserializeObject<List<int>>(permissions);
         }
 
-        //public long CurrentAccountId()
-        //{
-        //    return IsAuthenticated()
-        //        ? long.Parse(_contextAccessor.HttpContext.User.Claims.First(x => x.Type == "AccountId")?.Value)
-        //        : 0;
-        //}
+        public long CurrentAccountId()
+        {
+            return IsAuthenticated()
+                ? long.Parse(_contextAccessor.HttpContext.User.Claims.First(x => x.Type == "AccountId").Value)
+                : 0;
+        }
 
-        //public string CurrentAccountMobile()
-        //{
-        //    return IsAuthenticated()
-        //        ? _contextAccessor.HttpContext.User.Claims.First(x => x.Type == "Mobile")?.Value
-        //        : "";
-        //}
+        public string CurrentAccountMobile()
+        {
+	        return IsAuthenticated() ? _contextAccessor.HttpContext.User.FindFirst("Mobile")?.Value : "09000000000";
+        }
 
         public int CurrentAccountRole()
         {
@@ -76,7 +74,7 @@ namespace _0.Framework.Application.Authentication
                 new Claim(ClaimTypes.Role, account.RoleId.ToString()),
                 new Claim("Username", account.Username),
                 new Claim("permissions", permissions),
-                //new Claim("Mobile", account.Mobile)
+                new Claim("Mobile", account.Mobile)
             };
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

@@ -121,6 +121,11 @@ namespace AccountManagement.Application
             return _accountRepository.GetByFilter(searchModel);
         }
 
+        public List<AccountViewModel> GetAccounts()
+        {
+            return _accountRepository.GetAccounts();
+        }
+
         public OperationResult Login(LoginViewModel loginModel)
         {
             var operation = new OperationResult();
@@ -148,7 +153,8 @@ namespace AccountManagement.Application
                 Id = account.Id,
                 RoleId = account.RoleId,
                 RememberMe = loginModel.RememberMe,
-                Permissions = permissions
+                Permissions = permissions,
+                Mobile = account.Mobile
             });
 
             return operation.Success();

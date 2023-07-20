@@ -19,5 +19,7 @@
         public const int CreateSlider = 131;
         public const int EditSlider = 132;
         public const int ChangeStatusSlider = 133;
+
+        public const int ListOrders = 140;
     }
 }

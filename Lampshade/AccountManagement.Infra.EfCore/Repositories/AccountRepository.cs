@@ -79,5 +79,16 @@ namespace AccountManagement.Infra.EfCore.Repositories
         {
             return _context.Accounts.SingleOrDefault(x => x.Username == username);
         }
+
+        public List<AccountViewModel> GetAccounts()
+        {
+            return _context.Accounts
+                .Select(x => new AccountViewModel()
+                {
+                    Id = x.Id,
+                    Fullname = x.Fullname
+                }).ToList();
+
+        }
     }
 }

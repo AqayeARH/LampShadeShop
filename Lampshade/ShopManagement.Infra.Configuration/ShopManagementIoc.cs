@@ -7,17 +7,21 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;
+using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Application.Contracts.ProductPicture;
 using ShopManagement.Application.Contracts.Slider;
+using ShopManagement.Domain.OrderAgg;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
+using ShopManagement.Domain.Services;
 using ShopManagement.Domain.SliderAgg;
 using ShopManagement.Infra.Configuration.Permissions;
 using ShopManagement.Infra.EfCore;
 using ShopManagement.Infra.EfCore.Repositories;
+using ShopManagement.Infra.InventoryAcl;
 
 namespace ShopManagement.Infra.Configuration
 {
@@ -61,7 +65,16 @@ namespace ShopManagement.Infra.Configuration
 
             #endregion
 
+            #region Order
+
+            service.AddTransient<IOrderRepository, OrderRepository>();
+            service.AddTransient<IOrderApplication, OrderApplication>();
+
+            #endregion
+
             service.AddTransient<IPermissionExposure, ShopPermissionExposure>();
+            service.AddTransient<IShopInventoryAcl, ShopInventoryAcl>();
+            service.AddSingleton<ICartService, CartService>();
 
             service.AddDbContext<ShopContext>(options =>
             {

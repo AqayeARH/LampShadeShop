@@ -2,6 +2,9 @@ D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\ShopManagement.Infra.Configuration.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\ShopManagement.Infra.Configuration.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\0.Framework.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\AccountManagement.Application.Contracts.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\AccountManagement.Domain.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\AccountManagement.Infra.EfCore.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\BlogManagement.Application.Contracts.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\BlogManagement.Domain.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\BlogManagement.Infra.EfCore.dll
@@ -19,12 +22,17 @@ D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\ShopManagement.Application.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\ShopManagement.Domain.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\ShopManagement.Infra.EfCore.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\ShopManagement.Infra.InventoryAcl.dll
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\Lampshade.Query.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\ShopManagement.Application.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\ShopManagement.Domain.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\ShopManagement.Infra.EfCore.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\ShopManagement.Infra.InventoryAcl.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\0.Framework.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\AccountManagement.Application.Contracts.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\AccountManagement.Domain.pdb
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\AccountManagement.Infra.EfCore.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\BlogManagement.Application.Contracts.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\BlogManagement.Domain.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\ShopManagement.Infra.Configuration\bin\Debug\net6.0\BlogManagement.Infra.EfCore.pdb
