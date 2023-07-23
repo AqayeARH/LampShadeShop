@@ -10,6 +10,7 @@ using BlogManagement.Infra.Configuration;
 using CommentManagement.Infra.Configuration;
 using DiscountManagement.Infra.Configuration;
 using InventoryManagement.Infra.Configuration;
+using InventoryManagement.Presentation.Api.Controllers;
 using Lampshade.Query.Contracts;
 using Lampshade.Query.Queries;
 using Lampshade.WebApp;
@@ -71,6 +72,14 @@ service.AddAuthorization(options =>
         configurePolicy.RequireRole(new List<string> { Roles.Administrator.ToString() });
     });
 });
+
+service.AddCors(options => options.AddPolicy("CORS", corsPolicyBuilder =>
+{
+    corsPolicyBuilder.AllowAnyOrigin()
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+}));
+
 service.AddRazorPages()
     .AddMvcOptions(options =>
     {
@@ -82,7 +91,11 @@ service.AddRazorPages()
         options.Conventions.AuthorizeAreaFolder("Administrator", "/DiscountsManagement", "DiscountsManagement");
         options.Conventions.AuthorizeAreaFolder("Administrator", "/AccountsManagement", "AccountsManagement");
         options.Conventions.AuthorizeAreaFolder("Administrator", "/InventoryManagement", "InventoryManagement");
-    });
+    })
+    .AddApplicationPart(typeof(InventoryController).Assembly)
+    .AddNewtonsoftJson();  //In the new .net, due to json formatting, this piece of code should be used and the package related to asp.net core mvc json should be installed.
+
+service.AddControllers();
 #endregion
 
 var app = builder.Build();
@@ -100,4 +113,6 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapRazorPages();
+app.MapControllers();
+app.UseCors("CORS");
 app.Run();

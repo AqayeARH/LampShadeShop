@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "iHKw2Pjyyl5sbnM42/x+W9nL0LCEiyrBewBdZLw5NgM=",
+  "Hash": "G5J5Pswue0ISZ2Z2qslf8B0UNLHK+9KQ5lk6KdaY/sY=",
   "Source": "Lampshade.WebApp",
   "BasePath": "_content/Lampshade.WebApp",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj",
+      "Version": 2,
+      "Source": "InventoryManagement.Presentation.Api",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "Lampshade.WebApp\\wwwroot",

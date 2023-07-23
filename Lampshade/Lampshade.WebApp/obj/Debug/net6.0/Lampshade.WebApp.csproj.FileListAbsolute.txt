@@ -154,3 +154,15 @@ D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.pdb
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\Lampshade.WebApp.genruntimeconfig.cache
 D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\obj\Debug\net6.0\ref\Lampshade.WebApp.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\InventoryManagement.Presentation.Api.deps.json
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\InventoryManagement.Presentation.Api.runtimeconfig.json
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\InventoryManagement.Presentation.Api.exe
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\InventoryManagement.Presentation.Api.dll
+D:\Project\Core\Atriya\ShopPoroject\Lampshade\Lampshade.WebApp\bin\Debug\net6.0\InventoryManagement.Presentation.Api.pdb

@@ -5,6 +5,8 @@ using InventoryManagement.Domain.InventoryAgg;
 using InventoryManagement.Infra.Configuration.Permissions;
 using InventoryManagement.Infra.EfCore;
 using InventoryManagement.Infra.EfCore.Repositories;
+using Lampshade.Query.Contracts.Inventory;
+using Lampshade.Query.Queries;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.DependencyInjection;
@@ -17,6 +19,8 @@ namespace InventoryManagement.Infra.Configuration
         {
             service.AddTransient<IInventoryRepository, InventoryRepository>();
             service.AddTransient<IInventoryApplication, InventoryApplication>();
+
+            service.AddTransient<IInventoryQuery, InventoryQuery>();
 
             service.AddTransient<IPermissionExposure, InventoryPermissionExposure>();
 

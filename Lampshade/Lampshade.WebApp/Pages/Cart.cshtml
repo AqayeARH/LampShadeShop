@@ -31,13 +31,15 @@
             <div class="col-lg-12">
                 <!--=======  page wrapper  =======-->
                 <div class="page-wrapper">
+                    <div id="productStockWarnings">
                     @foreach (var item in Model.CartItems.Where(x => x.IsInStock == false))
                     {
-                        <div class="alert alert-warning">
+                        <div class="alert alert-warning" id="@item.Id">
                             <i class="fa fa-warning"></i>
-                            کالای @item.Name با تعداد انتخابی در انبار موجود نیست
+                                کالای <strong> @item.Name </strong> با تعداد انتخابی در انبار موجود نیست
                         </div>
                     }
+                    </div>
                     <div class="page-content-wrapper">
                         <form action="#">
                             <div class="cart-table table-responsive">
@@ -72,7 +74,7 @@
                                                 </td>
                                                 <td class="pro-quantity">
                                                     <div class="quantity-selection">
-                                                            <input type="number" value="@item.Count" min="1" onchange="changeCartItemCount('@item.Id','total_item_price_@item.Id',this.value)">
+                                                        <input type="number" value="@item.Count" min="1" onchange="changeCartItemCount('@item.Id', 'total_item_price_@item.Id', this.value)">
                                                     </div>
                                                 </td>
                                                 <td class="pro-subtotal">

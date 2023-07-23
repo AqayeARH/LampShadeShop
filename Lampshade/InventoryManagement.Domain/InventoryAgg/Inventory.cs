@@ -48,7 +48,7 @@ namespace InventoryManagement.Domain.InventoryAgg
             var currentCount = CalculateCurrentCountInStock() + count;
 
             var operation = new InventoryOperation(this.Id, true, count, operatorId, currentCount, description, 0);
-            this.InventoryOperations.Add(operation);
+            InventoryOperations.Add(operation);
 
             InStock = currentCount > 0;
 
@@ -64,7 +64,7 @@ namespace InventoryManagement.Domain.InventoryAgg
             var currentCount = CalculateCurrentCountInStock() - count;
 
             var operation = new InventoryOperation(this.Id, false, count, operatorId, currentCount, description, orderId);
-            this.InventoryOperations.Add(operation);
+            InventoryOperations.Add(operation);
 
             InStock = currentCount > 0;
         }

@@ -119,6 +119,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountManagement.Infra.Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Infra.InventoryAcl", "ShopManagement.Infra.InventoryAcl\ShopManagement.Infra.InventoryAcl.csproj", "{CC563A96-A8B9-4DF8-9CB8-DD94F885A9E8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IM.Presentation", "IM.Presentation", "{9513A373-FE64-45A2-815F-D94A3162B2A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Presentation.Api", "InventoryManagement.Presentation.Api\InventoryManagement.Presentation.Api.csproj", "{6DE01F29-ACE5-44D9-9743-21269CCB31DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -261,6 +265,10 @@ Global
 		{CC563A96-A8B9-4DF8-9CB8-DD94F885A9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC563A96-A8B9-4DF8-9CB8-DD94F885A9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC563A96-A8B9-4DF8-9CB8-DD94F885A9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE01F29-ACE5-44D9-9743-21269CCB31DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE01F29-ACE5-44D9-9743-21269CCB31DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE01F29-ACE5-44D9-9743-21269CCB31DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE01F29-ACE5-44D9-9743-21269CCB31DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -315,6 +323,8 @@ Global
 		{AA939C97-0749-4492-8A32-7EFC7AB992D5} = {B3F20C3D-4007-401E-B62D-30B90F683ED0}
 		{C9821283-8058-404E-AB44-582CC0062613} = {B3F20C3D-4007-401E-B62D-30B90F683ED0}
 		{CC563A96-A8B9-4DF8-9CB8-DD94F885A9E8} = {7063D3AD-3DEE-49C1-A6C1-E8CC63C1F7AE}
+		{9513A373-FE64-45A2-815F-D94A3162B2A1} = {C688F5A7-DBB4-401D-9C7F-5E9733A270E0}
+		{6DE01F29-ACE5-44D9-9743-21269CCB31DD} = {9513A373-FE64-45A2-815F-D94A3162B2A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {58820ADB-FBB5-4107-A7D9-20E491BBC35D}
