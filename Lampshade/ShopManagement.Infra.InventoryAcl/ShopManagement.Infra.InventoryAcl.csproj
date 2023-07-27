@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="3.1.32" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\InventoryManagement.Application.Contracts\InventoryManagement.Application.Contracts.csproj" />
     <ProjectReference Include="..\ShopManagement.Domain\ShopManagement.Domain.csproj" />
   </ItemGroup>

@@ -7,11 +7,15 @@ namespace InventoryManagement.Presentation.Api.Controllers
     [Route("api/[controller]")]
     public class InventoryController : ControllerBase
     {
+        #region Constractor Injection
+
         private readonly IInventoryQuery _inventoryQuery;
         public InventoryController(IInventoryQuery inventoryQuery)
         {
             _inventoryQuery = inventoryQuery;
         }
+        
+        #endregion
 
         [HttpPost]
         public StockStatus CheckStockStatus(IsInStockCommand command)

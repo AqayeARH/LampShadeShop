@@ -1,5 +1,6 @@
 ﻿using _0.Framework.Application;
 using _0.Framework.Application.Authentication;
+using _0.Framework.Application.Sms;
 using Microsoft.Extensions.Configuration;
 using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Domain.OrderAgg;
@@ -15,12 +16,18 @@ namespace ShopManagement.Application
         private readonly IAuthenticationHelper _authenticationHelper;
         private readonly IConfiguration _configuration;
         private readonly IShopInventoryAcl _shopInventoryAcl;
-        public OrderApplication(IOrderRepository orderRepository, IAuthenticationHelper authenticationHelper, IConfiguration configuration, IShopInventoryAcl shopInventoryAcl)
+        private readonly ISmsService _smsService;
+        private readonly IShopAccountAcl _shopAccountAcl;
+        public OrderApplication(IOrderRepository orderRepository,
+            IAuthenticationHelper authenticationHelper, IConfiguration configuration,
+            IShopInventoryAcl shopInventoryAcl, ISmsService smsService, IShopAccountAcl shopAccountAcl)
         {
             _orderRepository = orderRepository;
             _authenticationHelper = authenticationHelper;
             _configuration = configuration;
             _shopInventoryAcl = shopInventoryAcl;
+            _smsService = smsService;
+            _shopAccountAcl = shopAccountAcl;
         }
 
         #endregion
@@ -61,6 +68,14 @@ namespace ShopManagement.Application
 
             #endregion
 
+            var (_, name, mobile) = _shopAccountAcl.GetAccountBy(order.AccountId);
+
+            /*
+            var message =
+                $"{name} گرامی! پرداخت فاکتور به شماره {orderId} با موفقیت انجام شد. شماره پیگیری پرداخت : {issueTrackingNo}";
+           */
+
+            _smsService.SendConfirmOrder(mobile, name, issueTrackingNo, orderId.ToString());
             return issueTrackingNo;
         }
 

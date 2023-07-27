@@ -13,5 +13,6 @@ namespace AccountManagement.Application.Contracts.Account
         List<AccountViewModel> GetAccounts();
         OperationResult Login(LoginViewModel loginModel);
         void Logout();
+        AccountViewModel GetAccountBy(long id);
     }
 }

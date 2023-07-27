@@ -2,7 +2,9 @@ using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using _0.Framework.Application;
 using _0.Framework.Application.Authentication;
+using _0.Framework.Application.Email;
 using _0.Framework.Application.PasswordHasher;
+using _0.Framework.Application.Sms;
 using _0.Framework.Application.ZarinPal;
 using _0.Framework.Infrastructure;
 using AccountManagement.Infra.Configuration;
@@ -34,6 +36,8 @@ service.AddTransient<IFileUploader, FileUploader>();
 service.AddTransient<IAuthenticationHelper, AuthenticationHelper>();
 service.AddTransient<ICartCalculateService, CartCalculateService>();
 service.AddTransient<IZarinPalFactory, ZarinPalFactory>();
+service.AddTransient<ISmsService, SmsService>();
+service.AddTransient<IEmailService,EmailService>();
 service.AddSingleton<IPasswordHasher, PasswordHasher>();
 service.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
 

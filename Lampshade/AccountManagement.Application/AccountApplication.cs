@@ -164,5 +164,17 @@ namespace AccountManagement.Application
         {
             _authenticationHelper.SignOut();
         }
+
+        public AccountViewModel GetAccountBy(long id)
+        {
+            var account = _accountRepository.GetBy(id);
+
+            return new AccountViewModel()
+            {
+                Fullname = account.Fullname,
+                Id = account.Id,
+                Mobile = account.Mobile
+            };
+        }
     }
 }

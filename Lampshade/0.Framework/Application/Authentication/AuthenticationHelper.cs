@@ -51,7 +51,7 @@ namespace _0.Framework.Application.Authentication
 
         public string CurrentAccountMobile()
         {
-	        return IsAuthenticated() ? _contextAccessor.HttpContext.User.FindFirst("Mobile")?.Value : "09000000000";
+	        return IsAuthenticated() ? _contextAccessor.HttpContext.User.FindFirst("Mobile")?.Value : "";
         }
 
         public int CurrentAccountRole()

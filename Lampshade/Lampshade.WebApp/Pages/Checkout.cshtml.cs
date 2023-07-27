@@ -124,6 +124,11 @@ namespace Lampshade.WebApp.Pages
 						result.Succeeded($"پرداخت شما به قیمت {orderAmount} با موفقیت انجام شد",
 						issueTrackingNo));
 				}
+                else
+                {
+                    _orderApplication.Cancel(oId);
+                    Response.Cookies.Delete(CookieName);
+                }
             }
 
             return RedirectToPage("PaymentResult", result.Failed("خطا در پرداخت وجه"));

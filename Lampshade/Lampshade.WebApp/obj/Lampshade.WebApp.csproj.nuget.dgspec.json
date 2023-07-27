@@ -45,21 +45,33 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "IPE.SmsIr": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.Cookies": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.1.34, )"
             },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[3.1.32, )"
             },
             "Microsoft.AspNetCore.Mvc.Abstractions": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.1.38, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.16, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -141,7 +153,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[3.1.32, )"
             }
           },
           "imports": [
@@ -278,6 +290,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -501,7 +519,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[3.1.32, )"
             }
           },
           "imports": [
@@ -1584,6 +1602,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -1951,7 +1975,7 @@
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -2212,7 +2236,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[3.1.32, )"
             }
           },
           "imports": [
@@ -2352,6 +2376,79 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.AccountAcl\\ShopManagement.Infra.AccountAcl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.AccountAcl\\ShopManagement.Infra.AccountAcl.csproj",
+        "projectName": "ShopManagement.Infra.AccountAcl",
+        "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.AccountAcl\\ShopManagement.Infra.AccountAcl.csproj",
+        "packagesPath": "C:\\Users\\ILIYA 2022\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.AccountAcl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ILIYA 2022\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
+              },
+              "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -2412,6 +2509,9 @@
               },
               "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
                 "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              },
+              "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.AccountAcl\\ShopManagement.Infra.AccountAcl.csproj": {
+                "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.AccountAcl\\ShopManagement.Infra.AccountAcl.csproj"
               },
               "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.EfCore\\ShopManagement.Infra.EfCore.csproj": {
                 "projectPath": "D:\\Project\\Core\\Atriya\\ShopPoroject\\Lampshade\\ShopManagement.Infra.EfCore\\ShopManagement.Infra.EfCore.csproj"
@@ -2587,6 +2687,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
